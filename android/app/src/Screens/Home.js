@@ -1,10 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import Heart from '../assets/icons/Heart'
 
 const Home = () => {
     return (
         <View>
-            <Text>Home Screen</Text>
+            <Text>Home Screens</Text>
+            <Heart fill="green" />
         </View>
     )
 }

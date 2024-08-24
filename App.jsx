@@ -17,7 +17,7 @@ export default function App() {
         <Drawer.Navigator drawerContent={props => <CustomDrawerContent {...props} />}
           screenOptions={{
             drawerStyle: {
-              width: '100%',
+              width: '80%',
             }
           }}
         >

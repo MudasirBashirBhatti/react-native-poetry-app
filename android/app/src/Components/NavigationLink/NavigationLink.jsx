@@ -1,5 +1,5 @@
 import { Pressable, StyleSheet, Text, Touchable, TouchableOpacity, View } from 'react-native'
-import { colors } from '../../utilities/colors'
+import { colors, fonts } from '../../utilities/colors'
 
 const NavigationLink = ({ text, urduText, icon, onPress }) => {
     return (
@@ -10,7 +10,7 @@ const NavigationLink = ({ text, urduText, icon, onPress }) => {
                 {icon}
                 <Text style={styles.text}>{text}</Text>
             </View>
-            <Text style={styles.text}>{urduText}</Text>
+            <Text style={styles.urduText}>{urduText}</Text>
         </Pressable >
 
 
@@ -41,5 +41,9 @@ const styles = StyleSheet.create({
     },
     text: {
         color: colors.secondryClr
+    },
+    urduText: {
+        color: colors.secondryClr,
+        fontFamily: fonts.urdu
     }
 })

@@ -14,17 +14,18 @@ const CustomDrawerContent = (props) => {
     return (
         <View style={styles.container}>
             <View style={styles.drawerHeader}>
-                <Text style={styles.headerText}>Poetry Corner</Text>
+                <Text style={styles.headerText}>Poetry Time</Text>
                 <CrossIcon onPress={() => props.navigation.closeDrawer()} />
             </View>
             <View style={styles.contentContainer}>
                 <View style={styles.whiteContainer}>
                     <ScrollView contentContainerStyle={styles.drawerContent}>
-                        <NavigationLink text={"Poetry Corner"} icon={<HomeIcon />} onPress={() => props.navigation.navigate('Home')} />
-                        <NavigationLink text={"Rate Us"} icon={<StarIcon fill='#FFCC00' />} onPress={() => props.navigation.navigate('Home')} />
-                        <NavigationLink text={"Privacy Policy"} icon={<LockIcon />} onPress={() => props.navigation.navigate('Home')} />
-                        <NavigationLink text={"Categories"} icon={<CategoryIcon />} onPress={() => props.navigation.navigate('Home')} />
-                        <NavigationLink text={"Favourites"} icon={<HeartIcon fill='red' />} onPress={() => props.navigation.navigate('Home')} />
+                        <NavigationLink text={"Poetry Corner"} urduText={'پوئٹری ٹائم'} icon={<HomeIcon />} onPress={() => props.navigation.navigate('Home')} />
+                        <NavigationLink text={"Rate Us"} urduText={"ہماری حوصلہ افزائی کریں"} icon={<StarIcon fill='#FFCC00' />} onPress={() => props.navigation.navigate('Home')} />
+                        <NavigationLink text={"Privacy Policy"} urduText={'قوائد و ضوابط'} icon={<LockIcon />} onPress={() => props.navigation.navigate('Home')} />
+                        <NavigationLink text={"Categories"} urduText={'کیٹیگری سے تلاش کریں'} icon={<CategoryIcon />} onPress={() => props.navigation.navigate('Home')} />
+                        <NavigationLink text={"Favourites"} urduText={'آپ کی پسند'} icon={<HeartIcon fill='red' />} onPress={() => props.navigation.navigate('Home')} />
+                        <NavigationLink text={"Share"} urduText={"دوستوں کو بتائیں"} icon={<ShareIcon />} onPress={() => props.navigation.navigate('Home')} />
                     </ScrollView>
                 </View>
             </View>
@@ -49,7 +50,7 @@ const styles = StyleSheet.create({
     },
     headerText: {
         fontSize: 24,
-        color: colors.primaryClr
+        color: colors.primaryClr,
     },
     contentContainer: {
         height: '100%',

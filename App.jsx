@@ -2,22 +2,22 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { Dimensions } from 'react-native'
 import Home from './android/app/src/Screens/Home';
 import About from './android/app/src/Screens/About';
 import CustomDrawerContent from './android/app/src/Components/Drawer/customDrawerContent';
+import { colors } from './android/app/src/utilities/colors';
 
 const Drawer = createDrawerNavigator()
 
 export default function App() {
-
   return (
     <GestureHandlerRootView>
-      <NavigationContainer>
+      <NavigationContainer >
         <Drawer.Navigator drawerContent={props => <CustomDrawerContent {...props} />}
           screenOptions={{
             drawerStyle: {
-              width: '80%',
+              width: '100%',
+              backgroundColor: colors.primaryClr,
             }
           }}
         >

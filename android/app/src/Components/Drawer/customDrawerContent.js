@@ -1,60 +1,75 @@
-// CustomDrawerContent.js
 import React from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { DrawerContentScrollView, DrawerItem, DrawerItemList } from '@react-navigation/drawer';
+import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import NavigationLink from '../NavigationLink/NavigationLink';
+import ShareIcon from '../../assets/icons/ShareIcon';
+import StarIcon from '../../assets/icons/StarIcon';
+import LockIcon from '../../assets/icons/LockIcon';
+import CategoryIcon from '../../assets/icons/CategoryIcon';
+import HeartIcon from '../../assets/icons/HeartIcon';
+import HomeIcon from '../../assets/icons/HomeIcon';
 import { colors } from '../../utilities/colors';
+import CrossIcon from '../../assets/icons/CrossIcon';
+
 const CustomDrawerContent = (props) => {
     return (
-        <DrawerContentScrollView {...props} style={styles.mainDrawer}>
-            <View style={styles.drawerHeader} ></View>
-            <View style={styles.bottomBlueArea} >
-                <View style={styles.drawerContent}>
-                    {/* <DrawerItemList {...props} /> */}
-                    <TouchableOpacity onPress={() => props.navigation.navigate('Home')}>
-                        <Text>Home</Text>
-                    </TouchableOpacity>
-                </View>
-
+        <View style={styles.container}>
+            <View style={styles.drawerHeader}>
+                <Text style={styles.headerText}>Poetry Corner</Text>
+                <CrossIcon onPress={() => props.navigation.closeDrawer()} />
             </View>
-        </DrawerContentScrollView>
+            <View style={styles.contentContainer}>
+                <View style={styles.whiteContainer}>
+                    <ScrollView contentContainerStyle={styles.drawerContent}>
+                        <NavigationLink text={"Poetry Corner"} icon={<HomeIcon />} onPress={() => props.navigation.navigate('Home')} />
+                        <NavigationLink text={"Rate Us"} icon={<StarIcon fill='#FFCC00' />} onPress={() => props.navigation.navigate('Home')} />
+                        <NavigationLink text={"Privacy Policy"} icon={<LockIcon />} onPress={() => props.navigation.navigate('Home')} />
+                        <NavigationLink text={"Categories"} icon={<CategoryIcon />} onPress={() => props.navigation.navigate('Home')} />
+                        <NavigationLink text={"Favourites"} icon={<HeartIcon fill='red' />} onPress={() => props.navigation.navigate('Home')} />
+                    </ScrollView>
+                </View>
+            </View>
+        </View>
     );
 };
 
 const styles = StyleSheet.create({
-    mainDrawer: {
-        width: '100% !important',
+    container: {
+        flex: 1,
     },
     drawerHeader: {
         backgroundColor: colors.secondryClr,
         height: 124,
         width: '100%',
         borderBottomLeftRadius: 40,
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        paddingHorizontal: 24
     },
-    bottomBlueArea: {
+    headerText: {
+        fontSize: 24,
+        color: colors.primaryClr
+    },
+    contentContainer: {
+        height: '100%',
         backgroundColor: colors.secondryClr,
-        height: 124,
+        position: 'relative',
+        overflow: 'hidden',
+    },
+    whiteContainer: {
+        position: 'absolute',
         width: '100%',
-        position: 'relative'
+        height: '100%',
+        paddingVertical: 52,
+        paddingHorizontal: 24,
+        borderTopRightRadius: 40,
+        backgroundColor: colors.primaryClr,
+        overflow: 'scroll'
     },
     drawerContent: {
-        position: 'absolute',
-        height: 500,
-        width: '100%',
-        borderTopRightRadius: 40,
-        top: 0,
-        left: 0,
-        backgroundColor: colors.primaryClr
-    },
-    logoutButton: {
-        marginTop: 20,
-        padding: 15,
-        backgroundColor: '#ff6f61',
-        alignItems: 'center',
-    },
-    buttonText: {
-        color: '#fff',
-        fontSize: 16,
-    },
+        gap: 20,
+    }
 });
 
 export default CustomDrawerContent;

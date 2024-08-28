@@ -5,6 +5,7 @@ import { colors } from '../../utilities/colors';
 import MenuIcon from '../../assets/icons/MenuIcon';
 import SearchComponent from '../SearchComponent/SearchComponent';
 import FilterIcon from '../../assets/icons/FilterIcon';
+import HeaderTab from '../HeaderTab/HeaderTab';
 
 const ScreenHeader = () => {
     return (
@@ -15,6 +16,10 @@ const ScreenHeader = () => {
                     <SearchComponent />
                     <FilterIcon />
                 </View>
+
+                <HeaderTab />
+
+                <Text style={styles.screenName}>Home Tab</Text>
             </View>
         </View>
     );
@@ -25,12 +30,15 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     drawerHeader: {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
         backgroundColor: colors.secondryClr,
         height: 208,
         width: '100%',
         borderBottomLeftRadius: 80,
-        paddingVertical: 12,
-        paddingHorizontal: 20
+        paddingVertical: 20,
+        paddingHorizontal: 20,
     },
     topBar: {
         display: 'flex',
@@ -38,6 +46,11 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         width: '100%',
         gap: 34
+    },
+    screenName: {
+        color: colors.primaryClr,
+        textAlign: 'center',
+        fontSize: 18
     }
 });
 

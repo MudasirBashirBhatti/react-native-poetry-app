@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, ScrollView } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, Dimensions } from 'react-native';
 import NavigationLink from '../NavigationLink/NavigationLink';
 import ShareIcon from '../../assets/icons/ShareIcon';
 import StarIcon from '../../assets/icons/StarIcon';
@@ -14,8 +14,8 @@ const CustomDrawerContent = (props) => {
     return (
         <View style={styles.container}>
             <View style={styles.drawerHeader}>
+                <View style={styles.crossIcon}><CrossIcon onPress={() => props.navigation.closeDrawer()} /></View>
                 <Text style={styles.headerText}>Poetry Time</Text>
-                <CrossIcon onPress={() => props.navigation.closeDrawer()} />
             </View>
             <View style={styles.contentContainer}>
                 <View style={styles.whiteContainer}>
@@ -42,15 +42,25 @@ const styles = StyleSheet.create({
         height: 124,
         width: '100%',
         borderBottomLeftRadius: 40,
-        display: 'flex',
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        paddingHorizontal: 24
+        paddingHorizontal: 24,
+        paddingVertical: 12,
+        position: 'relative'
+    },
+    crossIcon: {
+        position: 'absolute',
+        right: 12,
+        top: 12,
+        transform: 'scale(.8)'
     },
     headerText: {
         fontSize: 24,
         color: colors.primaryClr,
+        position: 'absolute',
+        left: '50%',
+        top: '50%',
+        transform: [
+            { translateX: -35 }, // Move 50 units to the right
+        ],
     },
     contentContainer: {
         height: '100%',

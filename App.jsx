@@ -11,14 +11,15 @@ const Drawer = createDrawerNavigator()
 
 export default function App() {
   return (
-    <GestureHandlerRootView>
+    <GestureHandlerRootView >
       <NavigationContainer >
         <Drawer.Navigator drawerContent={props => <CustomDrawerContent {...props} />}
           screenOptions={{
             drawerStyle: {
               width: '100%',
               backgroundColor: colors.primaryClr,
-            }
+            },
+            headerShown: false
           }}
         >
           <Drawer.Screen name="Home" component={Home} />

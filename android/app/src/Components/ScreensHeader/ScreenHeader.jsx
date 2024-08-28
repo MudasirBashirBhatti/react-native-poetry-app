@@ -1,15 +1,21 @@
 import React from 'react';
-import { View, Text, StyleSheet, } from 'react-native';
+import { View, Text, StyleSheet, Dimensions, } from 'react-native';
 
 import { colors } from '../../utilities/colors';
+import MenuIcon from '../../assets/icons/MenuIcon';
+import SearchComponent from '../SearchComponent/SearchComponent';
+import FilterIcon from '../../assets/icons/FilterIcon';
 
 const ScreenHeader = () => {
     return (
         <View style={styles.container}>
             <View style={styles.drawerHeader}>
-
+                <View style={styles.topBar}>
+                    <MenuIcon />
+                    <SearchComponent />
+                    <FilterIcon />
+                </View>
             </View>
-
         </View>
     );
 };
@@ -23,10 +29,16 @@ const styles = StyleSheet.create({
         height: 208,
         width: '100%',
         borderBottomLeftRadius: 80,
-        paddingHorizontal: 24,
         paddingVertical: 12,
-        position: 'relative'
+        paddingHorizontal: 20
     },
+    topBar: {
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        width: '100%',
+        gap: 34
+    }
 });
 
 export default ScreenHeader;

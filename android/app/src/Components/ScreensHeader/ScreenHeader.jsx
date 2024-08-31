@@ -6,20 +6,23 @@ import MenuIcon from '../../assets/icons/MenuIcon';
 import SearchComponent from '../SearchComponent/SearchComponent';
 import FilterIcon from '../../assets/icons/FilterIcon';
 import HeaderTab from '../HeaderTab/HeaderTab';
+import { useNavigation } from '@react-navigation/native';
 
-const ScreenHeader = () => {
+const ScreenHeader = ({ title }) => {
+    const navigation = useNavigation()
     return (
         <View style={styles.container}>
             <View style={styles.drawerHeader}>
                 <View style={styles.topBar}>
-                    <MenuIcon />
+
+                    <MenuIcon onPress={() => navigation.openDrawer()} />
                     <SearchComponent />
                     <FilterIcon />
                 </View>
 
                 <HeaderTab />
 
-                <Text style={styles.screenName}>Home Tab</Text>
+                <Text style={styles.screenName}>{title}</Text>
             </View>
         </View>
     );

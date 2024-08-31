@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, ScrollView, Dimensions } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, Dimensions, Alert } from 'react-native';
 import NavigationLink from '../NavigationLink/NavigationLink';
 import ShareIcon from '../../assets/icons/ShareIcon';
 import StarIcon from '../../assets/icons/StarIcon';
@@ -9,8 +9,15 @@ import HeartIcon from '../../assets/icons/HeartIcon';
 import HomeIcon from '../../assets/icons/HomeIcon';
 import { colors } from '../../utilities/colors';
 import CrossIcon from '../../assets/icons/CrossIcon';
+import { useDispatch } from 'react-redux';
+import { setTabIndex } from '../../reduxStore/features/counterSlice';
 
 const CustomDrawerContent = (props) => {
+    const dispatch = useDispatch()
+    const handleOnPress = () => {
+        props.navigation.navigate('Home');
+        dispatch(setTabIndex(0))
+    }
     return (
         <View style={styles.container}>
             <View style={styles.drawerHeader}>
@@ -20,7 +27,9 @@ const CustomDrawerContent = (props) => {
             <View style={styles.contentContainer}>
                 <View style={styles.whiteContainer}>
                     <ScrollView contentContainerStyle={styles.drawerContent}>
-                        <NavigationLink text={"Poetry Corner"} urduText={'پوئٹری ٹائم'} icon={<HomeIcon />} onPress={() => props.navigation.navigate('Home')} />
+                        <NavigationLink text={"Poetry Corner"} urduText={'پوئٹری ٹائم'} icon={<HomeIcon />}
+                            onPress={handleOnPress}
+                        />
                         <NavigationLink text={"Rate Us"} urduText={"ہماری حوصلہ افزائی کریں"} icon={<StarIcon fill='#FFCC00' />} onPress={() => props.navigation.navigate('Home')} />
                         <NavigationLink text={"Privacy Policy"} urduText={'قوائد و ضوابط'} icon={<LockIcon />} onPress={() => props.navigation.navigate('Home')} />
                         <NavigationLink text={"Categories"} urduText={'کیٹیگری سے تلاش کریں'} icon={<CategoryIcon />} onPress={() => props.navigation.navigate('Home')} />

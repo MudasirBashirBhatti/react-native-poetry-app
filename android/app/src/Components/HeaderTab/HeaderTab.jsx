@@ -3,25 +3,39 @@ import CategoryIcon from '../../assets/icons/CategoryIcon'
 import { colors } from '../../utilities/colors'
 import HeartIcon from '../../assets/icons/HeartIcon'
 import CopyIcon from '../../assets/icons/CopyIcon'
-import { useState } from 'react'
+import { useNavigation } from '@react-navigation/native'
+import { useEffect, useState } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
+import { setTabIndex } from '../../reduxStore/features/counterSlice'
 
 const HeaderTab = () => {
-    const [isActive, setisActive] = useState(0)
+
+    const navigation = useNavigation()
+    const myTab = useSelector((state) => state.tab.tabIndex)
+    console.log(myTab)
+    const dispatch = useDispatch()
 
     const tabs = [
         {
-            tabComp: <CategoryIcon fill={colors.primaryClr} />
+            tabComp: <CategoryIcon fill={colors.primaryClr} />,
+            screen: 'Home',
         },
         {
-            tabComp: <HeartIcon fill={colors.primaryClr} />
+            tabComp: <HeartIcon fill={colors.primaryClr} />,
+            screen: 'Favourite',
         },
         {
-            tabComp: <CopyIcon fill={colors.primaryClr} />
+            tabComp: <CopyIcon fill={colors.primaryClr} />,
+            screen: 'CopiedPoetry',
         },
     ]
-    function onPressFunc(index) {
-        setisActive(index)
+
+    const detectTab = (index) => {
+        dispatch(setTabIndex(index))
     }
+    useEffect(() => {
+        navigation.navigate(tabs[myTab].screen)
+    }, [myTab])
     return (
         <View style={styles.tabContainer}>
             {
@@ -30,10 +44,10 @@ const HeaderTab = () => {
                         key={index}
                         style={[
                             styles.categoryIcon,
-                            isActive === index && { backgroundColor: colors.tabSelectedClr }
+                            myTab === index && { backgroundColor: colors.tabSelectedClr }
                         ]
                         }
-                        onPress={() => onPressFunc(index)}
+                        onPress={() => detectTab(index)}
                     >
                         {comp.tabComp}
                     </Pressable>
@@ -61,6 +75,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         paddingVertical: 8,
         paddingHorizontal: 36,
-        borderRadius: 8
+        borderRadius: 8,
     }
 })

@@ -1,10 +1,11 @@
 import * as React from "react"
 import Svg, { Path } from "react-native-svg"
-const MenuIcon = ({ fill }) => (
+const MenuIcon = ({ fill, onPress }) => (
     <Svg
         width={37}
         height={40}
         fill="none"
+        onPress={onPress}
     >
         <Path
             fill={fill || "#FAF9F6"}

@@ -34,3 +34,17 @@ export const homeTab = [
         tabComp: <HeartIcon fill={colors.primaryClr} />,
     },
 ]
+
+export const specificCategory = [
+    {
+        title: 'موضوعات',
+        // icon: <PenIcon />,
+        icon: <WritingPen />,
+        tabComp: <CategoryIcon fill={colors.primaryClr} />,
+    },
+    {
+        title: 'شاعر',
+        icon: <WriterIcon />,
+        tabComp: <HeartIcon fill={colors.primaryClr} />,
+    },
+]

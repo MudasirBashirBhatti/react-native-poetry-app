@@ -1,4 +1,4 @@
-export const poetryCategories = [
+export const poetryArr = [
     {
         id: 0,
         poetry: [
@@ -27,7 +27,7 @@ export const poetryCategories = [
         topic: 'دل'
     },
     {
-        id: 2,
+        id: 3,
         poetry: [
             'وہ تو جاں لے کے بھی ویسا ہی سبک نام رہا',
             'عشق کے باب میں سب جرم ہمارے نکلے'

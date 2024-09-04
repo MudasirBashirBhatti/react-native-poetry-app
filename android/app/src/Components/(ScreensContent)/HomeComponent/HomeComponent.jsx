@@ -4,10 +4,11 @@ import React from 'react'
 import { homeTab } from '../../../utilities/json/tabs'
 import Tab from '../../tab/Tab'
 import { useState } from 'react'
-import Poetry from '../../Poetry/Poetry'
+import PoetryList from '../../PoetryList/PoetryList'
 
 const HomeComponent = () => {
     const [array, setarray] = useState([])
+    const [isListVisible, setisListVisible] = useState(false)
     const getVal = (index) => {
         // console.log('e', index)
         if (index === 0) {
@@ -17,18 +18,26 @@ const HomeComponent = () => {
             console.log('second')
         }
     }
+
+    const onPressNavigate = () => {
+        setisListVisible(true)
+    }
     return (
-        <View style={styles.container}>
-            <View style={styles.tabContainer}>
-                <Tab tabArray={homeTab} changeTabFunc={getVal} />
-            </View>
-            <View style={styles.contentWrapper}>
-                <Category onPress={() => console.log('pressed')} />
-                <Category onPress={() => console.log('pressed')} />
-                <Category onPress={() => console.log('pressed')} />
-                <Category onPress={() => console.log('pressed')} />
-            </View>
-            <Poetry />
+        <View>
+            {
+                !isListVisible ? (
+                    <View style={styles.container}>
+                        <View style={styles.tabContainer}>
+                            <Tab tabArray={homeTab} changeTabFunc={getVal} />
+                        </View>
+                        <View style={styles.contentWrapper}>
+                            <Category onPress={onPressNavigate} />
+                        </View>
+                    </View>
+                ) : (
+                    <PoetryList />
+                )
+            }
 
         </View>
     )

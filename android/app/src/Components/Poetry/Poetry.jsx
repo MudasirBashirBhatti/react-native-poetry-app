@@ -7,11 +7,11 @@ import HeartIcon from '../../assets/icons/HeartIcon'
 import ShareIcon from '../../assets/icons/ShareIcon'
 import PoetryTextWithAuthor from '../(lite)/PoetryTextWithAuthor'
 
-const Poetry = () => {
+const Poetry = ({ poetryTextArr, poet }) => {
     return (
         <View style={styles.mainContainer}>
             <View style={styles.poetryWrapper}>
-                <PoetryTextWithAuthor />
+                <PoetryTextWithAuthor poetryTextArr={poetryTextArr} poet={poet} />
             </View>
             <View style={styles.actionsWrapper}>
                 <IconWithText icon={<CopyIcon fill={colors.secondryClr} />} text={'Copy'} />

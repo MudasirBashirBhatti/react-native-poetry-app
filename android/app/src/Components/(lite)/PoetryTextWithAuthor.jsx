@@ -2,25 +2,16 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { colors, fonts } from '../../utilities/colors'
 
-const PoetryTextWithAuthor = () => {
-    const textArr = {
-        poetry: [
-            'درد ہو دل میں تو دوا کیجیے',
-            'دل ہی جب درد ہو تو کیا کیجیے'
-        ],
-        poet: 'غالب'
-    }
-    if (textArr.length === 0) {
-        return <Text>Loading...</Text>
-    }
+const PoetryTextWithAuthor = ({ poetryTextArr = [], poet }) => {
+
     return (
         <View style={styles.wrapper}>
             {
-                textArr.poetry.map((item) =>
+                poetryTextArr.map((item) =>
                     <Text style={styles.text}>{item || ['poetry line 1', 'poetry line 2']}</Text>
                 )
             }
-            <Text style={styles.poet}>{textArr.poet}</Text>
+            <Text style={styles.poet}>{poet}</Text>
         </View >
     )
 }

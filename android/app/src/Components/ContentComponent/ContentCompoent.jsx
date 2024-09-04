@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import React from 'react'
 import { colors } from '../../utilities/colors'
 import { SafeAreaView } from 'react-native-safe-area-context'
@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
         width: '100%',
         top: 0,
         left: 0,
-        paddingVertical: 52,
+        paddingVertical: 32,
         paddingHorizontal: 24,
         backgroundColor: colors.primaryClr,
         borderTopRightRadius: 80,

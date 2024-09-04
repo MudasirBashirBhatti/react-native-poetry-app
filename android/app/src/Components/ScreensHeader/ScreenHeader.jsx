@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, Dimensions, } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 import { colors } from '../../utilities/colors';
 import MenuIcon from '../../assets/icons/MenuIcon';
@@ -7,6 +7,7 @@ import SearchComponent from '../SearchComponent/SearchComponent';
 import FilterIcon from '../../assets/icons/FilterIcon';
 import HeaderTab from '../HeaderTab/HeaderTab';
 import { useNavigation } from '@react-navigation/native';
+import { headerTabs } from '../../utilities/json/tabs';
 
 const ScreenHeader = ({ title }) => {
     const navigation = useNavigation()
@@ -20,7 +21,7 @@ const ScreenHeader = ({ title }) => {
                     <FilterIcon />
                 </View>
 
-                <HeaderTab />
+                <HeaderTab tabArray={headerTabs} />
 
                 <Text style={styles.screenName}>{title}</Text>
             </View>

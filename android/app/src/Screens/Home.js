@@ -1,13 +1,13 @@
-import { StyleSheet, Text, View, Button } from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import React from 'react'
 import { colors } from '../utilities/colors'
-import NavigationLink from '../Components/NavigationLink/NavigationLink'
 import ContentCompoent from '../Components/ContentComponent/ContentCompoent'
+import HomeComponent from '../Components/(ScreensContent)/HomeComponent/HomeComponent'
 
 const Home = () => {
     return (
         <View style={styles.mainContainer}>
-            <ContentCompoent contentComponent={<Text>Home</Text>} />
+            <ContentCompoent contentComponent={<HomeComponent />} />
         </View>
     )
 }

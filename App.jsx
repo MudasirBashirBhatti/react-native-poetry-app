@@ -30,7 +30,7 @@ export default function App() {
         >
           <Drawer.Screen name="Home" component={Home} />
           <Drawer.Screen name="Favourite" component={Favourite} />
-          <Drawer.Screen name="CopiedPoetry" component={CopiedPoetry} />
+          <Drawer.Screen name="CopiedPoetrys" component={CopiedPoetry} />
 
         </Drawer.Navigator>
 

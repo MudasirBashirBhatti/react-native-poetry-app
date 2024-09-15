@@ -5,9 +5,8 @@ const TabWithBackBtn = ({ title, backBtnFunc }) => {
     return (
         <View style={styles.tabContainer}>
             <Pressable
-                style={[
-                    styles.categoryIcon,
-                ]
+                style={
+                    [styles.categoryIcon]
                 }
                 onPress={backBtnFunc}
             >

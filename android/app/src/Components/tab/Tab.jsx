@@ -1,16 +1,12 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native'
 import { colors, fonts } from '../../utilities/colors'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 const Tab = ({ tabArray, changeTabFunc }) => {
     const [tab, settab] = useState(0)
     const detectTab = (index) => {
         settab(index)
         changeTabFunc(index)
     }
-
-    useEffect(() => {
-
-    }, [])
     return (
         <View style={styles.tabContainer}>
             {

@@ -29,7 +29,6 @@ const Category = ({ title, onPress }) => {
             subscription?.remove();
         };
     }, []);
-
     return (
         <Pressable style={[styles.container, { width: categoryWidth }]} onPress={onPress}>
             <View style={styles.innerContainer}>
@@ -48,7 +47,6 @@ const styles = StyleSheet.create({
         backgroundColor: colors.primaryClr,
         borderRadius: 8,
         elevation: 3,
-        // width will be applied dynamically
     },
     innerContainer: {
         backgroundColor: colors.secondryClr,
@@ -61,7 +59,7 @@ const styles = StyleSheet.create({
     },
     text: {
         paddingVertical: 0,
-        paddingHorizontal: 20,
+        paddingHorizontal: 4,
         color: colors.primaryClr,
         fontSize: 16,
         fontFamily: fonts.urdu,

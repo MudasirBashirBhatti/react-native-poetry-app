@@ -7,13 +7,11 @@ import { useDispatch } from 'react-redux'
 import { setIsBackBtnPressed } from '../../reduxStore/features/tabBackBtnSlice'
 import axios from 'axios'
 import Loader from '../(lite)/Loader'
-const loadingImage = require('../../assets/load-31_128.gif')
 const PoetryList = () => {
     const dispatch = useDispatch()
     const [poetryArr, setPoetryArr] = useState(null);
     const backBtnFunc = () => {
         dispatch(setIsBackBtnPressed(true))
-        console.log('back button pressed')
     }
 
     useEffect(() => {
@@ -21,6 +19,8 @@ const PoetryList = () => {
             try {
                 const response = await axios('https://natural-courage-production.up.railway.app/api/poetry/fetch');
                 setPoetryArr(response.data);
+
+
             } catch (error) {
                 console.error('Error fetching data:', error);
             }

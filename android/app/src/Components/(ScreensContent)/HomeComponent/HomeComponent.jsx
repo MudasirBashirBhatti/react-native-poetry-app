@@ -9,10 +9,11 @@ import { useSelector } from 'react-redux'
 import { setIsBackBtnPressed } from '../../../reduxStore/features/tabBackBtnSlice'
 import { useDispatch } from 'react-redux'
 import axios from 'axios'
+import Loader from '../../(lite)/Loader'
 
 const HomeComponent = () => {
     const dispatch = useDispatch()
-    const [array, setarray] = useState([])
+    const [array, setarray] = useState(0)
     const [data, setData] = useState([])
     const [uniquePoet, setuniquePoet] = useState([])
     const [uniqueCategory, setuniqueCategory] = useState([])
@@ -22,17 +23,17 @@ const HomeComponent = () => {
         const fetchData = async () => {
             const response = await axios.get('https://natural-courage-production.up.railway.app/api/poetry/fetch')
             setData(response.data)
-
-            const poets = data.map((item) => item.poet)
-            const uniquePoet = [... new Set(poets)]
-            setuniquePoet(uniquePoet)
-
-            const category = data.map((item) => item.category);
-            const uniqueCategory = [... new Set(category)]
-            setuniqueCategory(uniqueCategory)
         }
         fetchData()
     }, [])
+
+    useEffect(() => {
+        const poets = data.map((item) => item.poet)
+        const category = data.map((item) => item.category);
+
+        setuniquePoet([... new Set(poets)])
+        setuniqueCategory([... new Set(category)])
+    }, [data])
 
     const getVal = (index) => {
         if (index === 0) {
@@ -52,13 +53,18 @@ const HomeComponent = () => {
                         </View>
                         <View style={styles.contentWrapper}>
                             {
-                                array === 0
-                                    ? uniqueCategory.map((category, index) => (
-                                        <Category key={index} title={category} onPress={() => dispatch(setIsBackBtnPressed(false))} />
-                                    ))
-                                    : uniquePoet.map((poet, index) => (
-                                        <Category key={index} title={poet} onPress={() => dispatch(setIsBackBtnPressed(false))} />
-                                    ))
+                                uniqueCategory.length === 0 || uniquePoet.length === 0 ?
+                                    (<Loader />)
+                                    :
+                                    (
+                                        array === 0
+                                            ? uniqueCategory.map((category, index) => (
+                                                <Category key={index} title={category} onPress={() => dispatch(setIsBackBtnPressed(false))} />
+                                            ))
+                                            : uniquePoet.map((poet, index) => (
+                                                <Category key={index} title={poet} onPress={() => dispatch(setIsBackBtnPressed(false))} />
+                                            ))
+                                    )
                             }
                         </View>
                     </View>

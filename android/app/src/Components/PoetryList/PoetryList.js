@@ -7,7 +7,7 @@ import { useDispatch } from 'react-redux'
 import { setIsBackBtnPressed } from '../../reduxStore/features/tabBackBtnSlice'
 import axios from 'axios'
 import Loader from '../(lite)/Loader'
-const PoetryList = () => {
+const PoetryList = ({ poetryTerm }) => {
     const dispatch = useDispatch()
     const [poetryArr, setPoetryArr] = useState(null);
     const backBtnFunc = () => {
@@ -17,8 +17,9 @@ const PoetryList = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios('https://natural-courage-production.up.railway.app/api/poetry/fetch');
+                const response = await axios(`https://natural-courage-production.up.railway.app/api/poetry/filter?${poetryTerm}`);
                 setPoetryArr(response.data);
+                console.log(`https://natural-courage-production.up.railway.app/api/poetry/filter?${poetryTerm}`)
 
 
             } catch (error) {
@@ -27,6 +28,8 @@ const PoetryList = () => {
         };
         fetchData();
     }, []);
+    console.log(poetryTerm)
+    console.log(poetryArr)
     return (
         <View style={styles.container}>
             {
@@ -35,7 +38,7 @@ const PoetryList = () => {
                 )
                     : (
                         <>
-                            <TabWithBackBtn backBtnFunc={backBtnFunc} />
+                            <TabWithBackBtn backBtnFunc={backBtnFunc} title={`${poetryTerm.split('=')[1]} شاعری`} />
                             <FlatList
                                 data={poetryArr}
                                 keyExtractor={item => item._id}

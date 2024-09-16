@@ -17,6 +17,7 @@ const HomeComponent = () => {
     const [data, setData] = useState([])
     const [uniquePoet, setuniquePoet] = useState([])
     const [uniqueCategory, setuniqueCategory] = useState([])
+    const [poetryTerm, setpoetryTerm] = useState('')
     let isBackBtnPressed = useSelector(state => state.tabBackBtnSlice.isBackBtnPressed);
 
     useEffect(() => {
@@ -35,11 +36,23 @@ const HomeComponent = () => {
         setuniqueCategory([... new Set(category)])
     }, [data])
 
+    // indexing check function for topic + poet tab
     const getVal = (index) => {
         if (index === 0) {
             setarray(0)
+
         } else {
             setarray(1)
+        }
+    }
+
+    // function to show category wise as well as poet wise poetry
+    const specificPoetryFunc = (value, type) => {
+        dispatch(setIsBackBtnPressed(false))
+        if (type === 'category') {
+            setpoetryTerm(`category=${value}`)
+        } else if (type === 'poet') {
+            setpoetryTerm(`poet=${value}`)
         }
     }
 
@@ -59,17 +72,17 @@ const HomeComponent = () => {
                                     (
                                         array === 0
                                             ? uniqueCategory.map((category, index) => (
-                                                <Category key={index} title={category} onPress={() => dispatch(setIsBackBtnPressed(false))} />
+                                                <Category key={index} title={category} onPress={() => specificPoetryFunc(category, 'category')} />
                                             ))
                                             : uniquePoet.map((poet, index) => (
-                                                <Category key={index} title={poet} onPress={() => dispatch(setIsBackBtnPressed(false))} />
+                                                <Category key={index} title={poet} onPress={() => specificPoetryFunc(poet, 'poet')} />
                                             ))
                                     )
                             }
                         </View>
                     </View>
                 ) : (
-                    <PoetryList />
+                    <PoetryList poetryTerm={poetryTerm} />
                 )
             }
 

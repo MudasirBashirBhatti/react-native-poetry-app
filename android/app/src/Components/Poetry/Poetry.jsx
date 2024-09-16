@@ -1,29 +1,38 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import { colors } from '../../utilities/colors'
-import IconWithText from '../(lite)/IconWithText'
-import CopyIcon from '../../assets/icons/CopyIcon'
-import HeartIcon from '../../assets/icons/HeartIcon'
-import ShareIcon from '../../assets/icons/ShareIcon'
-import PoetryTextWithAuthor from '../(lite)/PoetryTextWithAuthor'
+import { Alert, StyleSheet, Text, View } from 'react-native';
+import React, { useState } from 'react';
+import { colors } from '../../utilities/colors';
+import IconWithText from '../(lite)/IconWithText';
+import CopyIcon from '../../assets/icons/CopyIcon';
+import HeartIcon from '../../assets/icons/HeartIcon';
+import ShareIcon from '../../assets/icons/ShareIcon';
+import PoetryTextWithAuthor from '../(lite)/PoetryTextWithAuthor';
+import Clipboard from '@react-native-clipboard/clipboard';
 
 const Poetry = ({ poetryTextArr, poet }) => {
+    const [copiedText, setcopiedText] = useState('');
+
+    const copyToClipboard = async () => {
+        const textToCopy = poetryTextArr.join('\n');
+        Clipboard.setString(textToCopy);
+        const text = await Clipboard.getString();
+        setcopiedText(text);
+        Alert.alert(`سٹیٹس کاپی ہو گیا ہے ✔️`)
+    };
+
     return (
         <View style={styles.mainContainer}>
             <View style={styles.poetryWrapper}>
                 <PoetryTextWithAuthor poetryTextArr={poetryTextArr} poet={poet} />
             </View>
             <View style={styles.actionsWrapper}>
-                <IconWithText icon={<CopyIcon fill={colors.secondryClr} />} text={'Copy'} />
+                <IconWithText icon={<CopyIcon fill={colors.secondryClr} />} text={'Copy'} onPress={copyToClipboard} />
                 <IconWithText icon={<CopyIcon fill={'green'} />} text={'Whatsapp'} />
                 <IconWithText icon={<HeartIcon fill={colors.alert} />} text={'Favourite'} />
-                <IconWithText icon={<ShareIcon fill={colors.secondryClr} />} text={'Copy'} />
+                <IconWithText icon={<ShareIcon fill={colors.secondryClr} />} text={'Share'} />
             </View>
         </View>
-    )
-}
-
-export default Poetry
+    );
+};
 
 const styles = StyleSheet.create({
     mainContainer: {
@@ -49,4 +58,6 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center',
     }
-})
+});
+
+export default Poetry;

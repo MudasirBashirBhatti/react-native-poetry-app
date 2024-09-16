@@ -1,12 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { Pressable, StyleSheet, Text, View } from 'react-native'
 import HeartIcon from '../../assets/icons/HeartIcon'
 
-const IconWithText = ({ icon, text }) => {
+const IconWithText = ({ icon, text, onPress }) => {
     return (
-        <View style={styles.wrapper}>
+        <Pressable style={styles.wrapper} onPress={onPress}>
             {icon || <HeartIcon />}
             <Text>{text || 'text'}</Text>
-        </View>
+        </Pressable>
     )
 }
 

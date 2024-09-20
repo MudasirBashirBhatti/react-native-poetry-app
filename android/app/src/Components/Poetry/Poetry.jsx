@@ -7,6 +7,7 @@ import HeartIcon from '../../assets/icons/HeartIcon';
 import ShareIcon from '../../assets/icons/ShareIcon';
 import PoetryTextWithAuthor from '../(lite)/PoetryTextWithAuthor';
 import Clipboard from '@react-native-clipboard/clipboard';
+import Share from 'react-native-share';
 
 const Poetry = ({ poetryTextArr, poet }) => {
     const [copiedText, setcopiedText] = useState('');
@@ -19,6 +20,20 @@ const Poetry = ({ poetryTextArr, poet }) => {
         Alert.alert(`سٹیٹس کاپی ہو گیا ہے ✔️`)
     };
 
+    const whatsapShare = async () => {
+        const shareOptions = {
+            message: poetryTextArr.join('\n')
+        }
+
+        try {
+            await Share.open(shareOptions)
+        } catch (error) {
+            console.log(`Failed to share error`)
+        }
+    }
+    console.log(poetryTextArr)
+
+
     return (
         <View style={styles.mainContainer}>
             <View style={styles.poetryWrapper}>
@@ -26,7 +41,7 @@ const Poetry = ({ poetryTextArr, poet }) => {
             </View>
             <View style={styles.actionsWrapper}>
                 <IconWithText icon={<CopyIcon fill={colors.secondryClr} />} text={'Copy'} onPress={copyToClipboard} />
-                <IconWithText icon={<CopyIcon fill={'green'} />} text={'Whatsapp'} />
+                <IconWithText icon={<CopyIcon fill={'green'} />} text={'Whatsapp'} onPress={whatsapShare} />
                 <IconWithText icon={<HeartIcon fill={colors.alert} />} text={'Favourite'} />
                 <IconWithText icon={<ShareIcon fill={colors.secondryClr} />} text={'Share'} />
             </View>

@@ -33,6 +33,18 @@ const Poetry = ({ poetryTextArr, poet }) => {
         }
     };
 
+    const shareOthers = async () => {
+        const shareOptions = {
+            message: poetryTextArr.join('\n')
+        }
+
+        try {
+            await Share.open(shareOptions)
+        } catch (error) {
+            console.log(`Failed to share error`)
+        }
+    }
+
     return (
         <View style={styles.mainContainer}>
             <View style={styles.poetryWrapper}>
@@ -42,7 +54,7 @@ const Poetry = ({ poetryTextArr, poet }) => {
                 <IconWithText icon={<CopyIcon fill={colors.secondryClr} />} text={'Copy'} onPress={copyToClipboard} />
                 <IconWithText icon={<WhatsappIcon />} text={'Whatsapp'} onPress={whatsapShare} />
                 <IconWithText icon={<HeartIcon fill={colors.alert} />} text={'Favourite'} />
-                <IconWithText icon={<ShareIcon fill={colors.secondryClr} />} text={'Share'} />
+                <IconWithText icon={<ShareIcon fill={colors.secondryClr} />} text={'Share'} onPress={shareOthers} />
             </View>
         </View>
     );

@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { colors, fonts } from '../../utilities/colors'
+import { colors, fonts } from '../utilities/colors'
 
 const PoetryTextWithAuthor = ({ poetryTextArr = [], poet }) => {
 

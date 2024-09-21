@@ -1,6 +1,6 @@
 import { StyleSheet, View } from 'react-native'
 import React from 'react'
-import { colors } from '../../utilities/colors'
+import { colors } from '../utilities/colors'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
 const ContentCompoent = ({ contentComponent }) => {

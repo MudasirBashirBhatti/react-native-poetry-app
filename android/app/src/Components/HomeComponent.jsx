@@ -1,15 +1,15 @@
 import { StyleSheet, Text, View } from 'react-native'
-import Category from '../../(lite)/Category'
+import Category from './Category'
 import React, { useEffect } from 'react'
-import { homeTab } from '../../../utilities/json/tabs'
-import Tab from '../../tab/Tab'
+import { homeTab } from '../utilities/json/tabs'
+import Tab from './Tab'
 import { useState } from 'react'
-import PoetryList from '../../PoetryList/PoetryList'
+import PoetryList from './PoetryList'
 import { useSelector } from 'react-redux'
-import { setIsBackBtnPressed } from '../../../reduxStore/features/tabBackBtnSlice'
+import { setIsBackBtnPressed } from '../reduxStore/features/tabBackBtnSlice'
 import { useDispatch } from 'react-redux'
 import axios from 'axios'
-import Loader from '../../(lite)/Loader'
+import Loader from './Loader'
 
 const HomeComponent = () => {
     const dispatch = useDispatch()

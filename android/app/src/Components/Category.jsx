@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Dimensions, Pressable, StyleSheet, Text, View } from 'react-native';
-import { colors, fonts } from '../../utilities/colors';
+import { colors, fonts } from '../utilities/colors';
 
 const Category = ({ title, onPress }) => {
     const [categoryWidth, setCategoryWidth] = useState('98');

@@ -1,12 +1,12 @@
 import { StyleSheet, FlatList, Text, View } from 'react-native'
-import Tab from '../tab/Tab'
-import TabWithBackBtn from '../(lite)/TabWithBackBtn'
-import Poetry from '../Poetry/Poetry'
+import Tab from './Tab'
+import TabWithBackBtn from './TabWithBackBtn'
+import Poetry from './Poetry'
 import { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { setIsBackBtnPressed } from '../../reduxStore/features/tabBackBtnSlice'
+import { setIsBackBtnPressed } from '../reduxStore/features/tabBackBtnSlice'
 import axios from 'axios'
-import Loader from '../(lite)/Loader'
+import Loader from './Loader'
 const PoetryList = ({ poetryTerm }) => {
     const dispatch = useDispatch()
     const [poetryArr, setPoetryArr] = useState(null);

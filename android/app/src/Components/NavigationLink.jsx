@@ -1,5 +1,5 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native'
-import { colors, fonts } from '../../utilities/colors'
+import { colors, fonts } from '../utilities/colors'
 
 const NavigationLink = ({ text, urduText, icon, onPress }) => {
     return (

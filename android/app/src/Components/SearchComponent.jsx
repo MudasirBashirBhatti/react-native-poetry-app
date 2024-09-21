@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { TextInput } from 'react-native-gesture-handler'
-import SearchIcon from '../../assets/icons/SearchIcon'
-import { colors } from '../../utilities/colors'
+import SearchIcon from '../assets/icons/SearchIcon'
+import { colors } from '../utilities/colors'
 
 const SearchComponent = ({ placeholder }) => {
     return (

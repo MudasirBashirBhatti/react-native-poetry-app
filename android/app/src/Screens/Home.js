@@ -1,8 +1,8 @@
 import { StyleSheet, View } from 'react-native'
 import React from 'react'
 import { colors } from '../utilities/colors'
-import ContentCompoent from '../Components/ContentComponent/ContentCompoent'
-import HomeComponent from '../Components/(ScreensContent)/HomeComponent/HomeComponent'
+import ContentCompoent from '../Components/ContentCompoent'
+import HomeComponent from '../Components/HomeComponent'
 
 const Home = () => {
     return (

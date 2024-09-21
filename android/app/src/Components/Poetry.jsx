@@ -1,14 +1,14 @@
 import { Alert, StyleSheet, Text, View, Linking } from 'react-native';
 import React, { useState } from 'react';
-import { colors } from '../../utilities/colors';
-import IconWithText from '../(lite)/IconWithText';
-import CopyIcon from '../../assets/icons/CopyIcon';
-import HeartIcon from '../../assets/icons/HeartIcon';
-import ShareIcon from '../../assets/icons/ShareIcon';
-import PoetryTextWithAuthor from '../(lite)/PoetryTextWithAuthor';
+import { colors } from '../utilities/colors';
+import IconWithText from './IconWithText';
+import CopyIcon from '../assets/icons/CopyIcon';
+import HeartIcon from '../assets/icons/HeartIcon';
+import PoetryTextWithAuthor from './PoetryTextWithAuthor';
 import Clipboard from '@react-native-clipboard/clipboard';
 import Share, { Social } from 'react-native-share';
-import WhatsappIcon from '../../assets/icons/WhatsappIcon';
+import WhatsappIcon from '../assets/icons/WhatsappIcon';
+import ShareIcon from '../assets/icons/ShareIcon';
 
 const Poetry = ({ poetryTextArr, poet }) => {
     const [copiedText, setcopiedText] = useState('');

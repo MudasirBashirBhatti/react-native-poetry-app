@@ -1,6 +1,6 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native'
-import { colors, fonts } from '../../utilities/colors'
-import BackArrowIcon from '../../assets/icons/BackArrowIcon'
+import { colors, fonts } from '../utilities/colors'
+import BackArrowIcon from '../assets/icons/BackArrowIcon'
 const TabWithBackBtn = ({ title, backBtnFunc }) => {
     return (
         <View style={styles.tabContainer}>

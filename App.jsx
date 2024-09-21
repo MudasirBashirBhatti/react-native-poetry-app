@@ -3,12 +3,12 @@ import { NavigationContainer } from '@react-navigation/native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import Home from './android/app/src/Screens/Home';
-import CustomDrawerContent from './android/app/src/Components/Drawer/customDrawerContent';
 import { colors } from './android/app/src/utilities/colors';
-import ScreenHeader from './android/app/src/Components/ScreensHeader/ScreenHeader';
 import Favourite from './android/app/src/Screens/Favourite';
 import CopiedPoetry from './android/app/src/Screens/CopiedPoetry';
 import { Text } from 'react-native-svg';
+import CustomDrawerContent from './android/app/src/Components/customDrawerContent';
+import ScreenHeader from './android/app/src/Components/ScreenHeader';
 
 const Drawer = createDrawerNavigator()
 

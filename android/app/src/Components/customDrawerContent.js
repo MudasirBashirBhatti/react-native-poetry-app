@@ -1,16 +1,16 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView, Dimensions, Alert } from 'react-native';
-import NavigationLink from '../NavigationLink/NavigationLink';
-import ShareIcon from '../../assets/icons/ShareIcon';
-import StarIcon from '../../assets/icons/StarIcon';
-import LockIcon from '../../assets/icons/LockIcon';
-import CategoryIcon from '../../assets/icons/CategoryIcon';
-import HeartIcon from '../../assets/icons/HeartIcon';
-import HomeIcon from '../../assets/icons/HomeIcon';
-import { colors } from '../../utilities/colors';
-import CrossIcon from '../../assets/icons/CrossIcon';
+import ShareIcon from '../assets/icons/ShareIcon';
+import StarIcon from '../assets/icons/StarIcon';
+import LockIcon from '../assets/icons/LockIcon';
+import CategoryIcon from '../assets/icons/CategoryIcon';
+import HeartIcon from '../assets/icons/HeartIcon';
+import HomeIcon from '../assets/icons/HomeIcon';
+import { colors } from '../utilities/colors';
+import CrossIcon from '../assets/icons/CrossIcon';
 import { useDispatch } from 'react-redux';
-import { setTabIndex } from '../../reduxStore/features/counterSlice';
+import { setTabIndex } from '../reduxStore/features/counterSlice';
+import NavigationLink from './NavigationLink';
 
 const CustomDrawerContent = (props) => {
     const dispatch = useDispatch()
@@ -32,7 +32,6 @@ const CustomDrawerContent = (props) => {
                         />
                         <NavigationLink text={"Rate Us"} urduText={"ہماری حوصلہ افزائی کریں"} icon={<StarIcon fill='#FFCC00' />} onPress={() => props.navigation.navigate('Home')} />
                         <NavigationLink text={"Privacy Policy"} urduText={'قوائد و ضوابط'} icon={<LockIcon />} onPress={() => props.navigation.navigate('Home')} />
-                        <NavigationLink text={"Categories"} urduText={'کیٹیگری سے تلاش کریں'} icon={<CategoryIcon />} onPress={() => props.navigation.navigate('Home')} />
                         <NavigationLink text={"Favourites"} urduText={'آپ کی پسند'} icon={<HeartIcon fill='red' />} onPress={() => props.navigation.navigate('Home')} />
                         <NavigationLink text={"Share"} urduText={"دوستوں کو بتائیں"} icon={<ShareIcon />} onPress={() => props.navigation.navigate('Home')} />
                     </ScrollView>

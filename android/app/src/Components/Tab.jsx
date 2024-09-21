@@ -1,21 +1,12 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native'
-import { colors } from '../../utilities/colors'
-import { useNavigation } from '@react-navigation/native'
-import { useEffect } from 'react'
-import { useSelector, useDispatch } from 'react-redux'
-import { setTabIndex } from '../../reduxStore/features/counterSlice'
-const HeaderTab = ({ tabArray }) => {
-
-    const navigation = useNavigation()
-    const myTab = useSelector((state) => state.tab.tabIndex)
-    const dispatch = useDispatch()
-
+import { colors, fonts } from '../utilities/colors'
+import { useState } from 'react'
+const Tab = ({ tabArray, changeTabFunc }) => {
+    const [tab, settab] = useState(0)
     const detectTab = (index) => {
-        dispatch(setTabIndex(index))
+        settab(index)
+        changeTabFunc(index)
     }
-    useEffect(() => {
-        navigation.navigate(tabArray[myTab].screen)
-    }, [myTab])
     return (
         <View style={styles.tabContainer}>
             {
@@ -24,12 +15,15 @@ const HeaderTab = ({ tabArray }) => {
                         key={index}
                         style={[
                             styles.categoryIcon,
-                            myTab === index && { backgroundColor: colors.tabSelectedClr }
+                            tab === index && { backgroundColor: colors.tabSelectedClr }
                         ]
                         }
                         onPress={() => detectTab(index)}
                     >
-                        {comp.tabComp}
+                        <View style={styles.titleContainer}>
+                            <Text style={styles.title}>{comp.title}</Text>
+                            {comp.icon}
+                        </View>
                     </Pressable>
                 )
             }
@@ -37,7 +31,7 @@ const HeaderTab = ({ tabArray }) => {
     )
 }
 
-export default HeaderTab
+export default Tab
 
 const styles = StyleSheet.create({
     tabContainer: {
@@ -53,8 +47,18 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        paddingVertical: 8,
-        paddingHorizontal: 36,
+        paddingVertical: 2,
         borderRadius: 8,
+    },
+    titleContainer: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'row',
+        gap: 8
+    },
+    title: {
+        color: colors.primaryClr,
+        fontFamily: fonts.urdu,
+        fontSize: 18,
     }
 })

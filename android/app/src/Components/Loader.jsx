@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Animated, StyleSheet, View } from 'react-native';
-import { colors } from '../../utilities/colors';
+import { colors } from '../utilities/colors';
 
 const Loader = () => {
     // Create an array to hold Animated.Value for each dot

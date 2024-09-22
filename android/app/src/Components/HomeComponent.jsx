@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { Alert, StyleSheet, Text, View } from 'react-native'
 import Category from './Category'
 import React, { useEffect } from 'react'
 import { homeTab } from '../utilities/json/tabs'
@@ -10,6 +10,8 @@ import { setIsBackBtnPressed } from '../reduxStore/features/tabBackBtnSlice'
 import { useDispatch } from 'react-redux'
 import axios from 'axios'
 import Loader from './Loader'
+import AsyncStorage from '@react-native-async-storage/async-storage'
+import { addEventListener } from "@react-native-community/netinfo";
 
 const HomeComponent = () => {
     const dispatch = useDispatch()
@@ -18,15 +20,46 @@ const HomeComponent = () => {
     const [uniquePoet, setuniquePoet] = useState([])
     const [uniqueCategory, setuniqueCategory] = useState([])
     const [poetryTerm, setpoetryTerm] = useState('')
+    const [isConnected, setisConnected] = useState(false);
     let isBackBtnPressed = useSelector(state => state.tabBackBtnSlice.isBackBtnPressed);
 
     useEffect(() => {
+        const unsubscribe = addEventListener(state => {
+            setisConnected(state.isInternetReachable)
+        })
+        // unsubscribe();
         const fetchData = async () => {
-            const response = await axios.get('https://natural-courage-production.up.railway.app/api/poetry/fetch')
-            setData(response.data)
-        }
-        fetchData()
-    }, [])
+            try {
+                if (isConnected) {
+                    const response = await axios.get('https://natural-courage-production.up.railway.app/api/poetry/fetch');
+                    setData(response.data);
+
+                    await AsyncStorage.setItem('poetryData', JSON.stringify(response.data))
+
+                }
+
+                else {
+                    const storedData = await AsyncStorage.getItem('poetryData')
+                    if (storedData) {
+                        setData(JSON.parse(storedData))
+                    } else {
+                        setData([])
+                        Alert.alert('please enable internet')
+                    }
+                }
+
+            } catch (error) {
+                console.log(await AsyncStorage.getItem('poetryData'))
+                setData(await AsyncStorage.getItem('poetryData'))
+                console.error('Error fetching data:', error);
+            }
+        };
+
+        fetchData();
+    }, [isConnected]);
+    console.log(isConnected)
+
+
 
     useEffect(() => {
         const poets = data.map((item) => item.poet)

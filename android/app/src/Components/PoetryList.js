@@ -5,31 +5,60 @@ import Poetry from './Poetry'
 import { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { setIsBackBtnPressed } from '../reduxStore/features/tabBackBtnSlice'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 import axios from 'axios'
 import Loader from './Loader'
+import { addEventListener } from '@react-native-community/netinfo'
+
 const PoetryList = ({ poetryTerm }) => {
     const dispatch = useDispatch()
     const [poetryArr, setPoetryArr] = useState(null);
+    const [isConnected, setisConnected] = useState(false)
+    const [filteredData, setFilteredData] = useState([]);
+
+
     const backBtnFunc = () => {
         dispatch(setIsBackBtnPressed(true))
     }
 
     useEffect(() => {
+        console.log('poetryTerm', poetryTerm)
+
+        const unsubscribe = addEventListener(state => {
+            setisConnected(state.isInternetReachable)
+        })
         const fetchData = async () => {
             try {
-                const response = await axios(`https://natural-courage-production.up.railway.app/api/poetry/filter?${poetryTerm}`);
-                setPoetryArr(response.data);
-                console.log(`https://natural-courage-production.up.railway.app/api/poetry/filter?${poetryTerm}`)
+                if (isConnected) {
+                    const response = await axios(`https://natural-courage-production.up.railway.app/api/poetry/filter?${poetryTerm}`);
+                    setPoetryArr(response.data);
+                }
 
+                else {
+                    const poetryData = await AsyncStorage.getItem('poetryData');
+                    const parsedData = JSON.parse(poetryData)
+                    console.log('parsedData', parsedData)
+
+                    // provide value not key from poetryTerm { poet: '' || category: '' }
+                    const searchedTerm = poetryTerm.split('=')[1]
+
+                    const filterdArray = parsedData.filter(item =>
+                        item.poet === searchedTerm || item.category === searchedTerm
+                    )
+                    setPoetryArr(filterdArray)
+                }
 
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
         };
         fetchData();
-    }, []);
-    console.log(poetryTerm)
-    console.log(poetryArr)
+
+        return () => {
+            unsubscribe();
+        }
+    }, [isConnected]);
+
     return (
         <View style={styles.container}>
             {

@@ -9,13 +9,14 @@ import AsyncStorage from '@react-native-async-storage/async-storage'
 import axios from 'axios'
 import Loader from './Loader'
 import { addEventListener } from '@react-native-community/netinfo'
+import HeartIcon from '../assets/icons/HeartIcon'
+import { colors } from '../utilities/colors'
+import { makeFavouriteFunc } from '../utilities/makeFavouriteFunc'
 
 const PoetryList = ({ poetryTerm }) => {
     const dispatch = useDispatch()
     const [poetryArr, setPoetryArr] = useState(null);
-    const [isConnected, setisConnected] = useState(false)
-    const [filteredData, setFilteredData] = useState([]);
-
+    const [isConnected, setisConnected] = useState(false);
 
     const backBtnFunc = () => {
         dispatch(setIsBackBtnPressed(true))
@@ -71,7 +72,22 @@ const PoetryList = ({ poetryTerm }) => {
                             <FlatList
                                 data={poetryArr}
                                 keyExtractor={item => item._id}
-                                renderItem={({ item }) => <Poetry poetryTextArr={item.poetry} poet={item.poet} />}
+                                renderItem={({ item }) =>
+                                    <Poetry
+                                        poetryId={item._id}
+                                        poetryTextArr={item.poetry}
+                                        poet={item.poet}
+                                        thirdIcon={
+                                            <HeartIcon
+                                                fill={
+                                                    colors.alert
+                                                }
+                                            />
+                                        }
+                                        thirdIconText={'Favourite'}
+                                        onThirdIconPress={() => makeFavouriteFunc(item._id, 'addFavourite')}
+                                    />
+                                }
                                 contentContainerStyle={styles.poetryList}
                                 showsVerticalScrollIndicator={false}
                             />

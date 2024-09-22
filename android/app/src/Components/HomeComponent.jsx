@@ -35,7 +35,6 @@ const HomeComponent = () => {
                     setData(response.data);
 
                     await AsyncStorage.setItem('poetryData', JSON.stringify(response.data))
-
                 }
 
                 else {
@@ -54,12 +53,12 @@ const HomeComponent = () => {
                 console.error('Error fetching data:', error);
             }
         };
-
         fetchData();
+
+        return () => {
+            unsubscribe()
+        }
     }, [isConnected]);
-    console.log(isConnected)
-
-
 
     useEffect(() => {
         const poets = data.map((item) => item.poet)

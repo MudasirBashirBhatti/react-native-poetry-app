@@ -1,16 +1,15 @@
-import { Alert, StyleSheet, Text, View, Linking } from 'react-native';
+import { Alert, StyleSheet, View, Linking } from 'react-native';
 import React, { useState } from 'react';
 import { colors } from '../utilities/colors';
 import IconWithText from './IconWithText';
 import CopyIcon from '../assets/icons/CopyIcon';
-import HeartIcon from '../assets/icons/HeartIcon';
 import PoetryTextWithAuthor from './PoetryTextWithAuthor';
 import Clipboard from '@react-native-clipboard/clipboard';
-import Share, { Social } from 'react-native-share';
+import Share from 'react-native-share';
 import WhatsappIcon from '../assets/icons/WhatsappIcon';
 import ShareIcon from '../assets/icons/ShareIcon';
 
-const Poetry = ({ poetryTextArr, poet }) => {
+const Poetry = ({ poetryTextArr, poet, thirdIcon, thirdIconText, onThirdIconPress }) => {
     const [copiedText, setcopiedText] = useState('');
 
     const copyToClipboard = async () => {
@@ -53,7 +52,7 @@ const Poetry = ({ poetryTextArr, poet }) => {
             <View style={styles.actionsWrapper}>
                 <IconWithText icon={<CopyIcon fill={colors.secondryClr} />} text={'Copy'} onPress={copyToClipboard} />
                 <IconWithText icon={<WhatsappIcon />} text={'Whatsapp'} onPress={whatsapShare} />
-                <IconWithText icon={<HeartIcon fill={colors.alert} />} text={'Favourite'} />
+                <IconWithText icon={thirdIcon} text={thirdIconText} onPress={onThirdIconPress} />
                 <IconWithText icon={<ShareIcon fill={colors.secondryClr} />} text={'Share'} onPress={shareOthers} />
             </View>
         </View>

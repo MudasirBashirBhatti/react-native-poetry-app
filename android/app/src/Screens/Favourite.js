@@ -35,6 +35,7 @@ const Favourite = () => {
                                 thirdIcon={<RemoveFavouriteIcon fill={colors.alert} />}
                                 thirdIconText={'Remove'}
                                 onThirdIconPress={() => makeFavouriteFunc(item._id, 'removeFavourite')}
+                                time={new Date(item.createdAt)}
                             />
                         }
                         contentContainerStyle={styles.poetryList}

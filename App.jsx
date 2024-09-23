@@ -5,7 +5,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import Home from './android/app/src/Screens/Home';
 import { colors } from './android/app/src/utilities/colors';
 import Favourite from './android/app/src/Screens/Favourite';
-import CopiedPoetry from './android/app/src/Screens/CopiedPoetry';
+import TodayPoetry from './android/app/src/Screens/TodayPoetry';
 import { Text } from 'react-native-svg';
 import CustomDrawerContent from './android/app/src/Components/customDrawerContent';
 import ScreenHeader from './android/app/src/Components/ScreenHeader';
@@ -30,7 +30,7 @@ export default function App() {
         >
           <Drawer.Screen name="Home" component={Home} />
           <Drawer.Screen name="Favourite" component={Favourite} />
-          <Drawer.Screen name="CopiedPoetrys" component={CopiedPoetry} />
+          <Drawer.Screen name="TodayPoetry" component={TodayPoetry} />
 
         </Drawer.Navigator>
 
@@ -42,10 +42,10 @@ export default function App() {
 const getTitle = (title) => {
   switch (title) {
     case 'Home':
-      return 'Home'
+      return 'شعری دنیا'
     case 'Favourite':
-      return 'Favourites'
-    case 'CopiedPoetry':
-      return 'Copied Poetry'
+      return 'آپ کی پسند'
+    case 'TodayPoetry':
+      return 'آج کی شاعری'
   }
 }

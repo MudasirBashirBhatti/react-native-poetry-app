@@ -1,9 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { colors, fonts } from '../utilities/colors'
 
-const PoetryTextWithAuthor = ({ poetryTextArr = [], poet }) => {
+const PoetryTextWithAuthor = ({ poetryTextArr = [], poet, time }) => {
 
+    const [updatedTime, setupdatedTime] = useState('')
+    useEffect(() => {
+        const createdAt = new Date(time)
+        setupdatedTime(`${createdAt.getDate()}/${createdAt.getMonth() + 1}/${createdAt.getFullYear()}`)
+    }, [])
     return (
         <View style={styles.wrapper}>
             {
@@ -11,7 +16,10 @@ const PoetryTextWithAuthor = ({ poetryTextArr = [], poet }) => {
                     <Text style={styles.text}>{item || ['poetry line 1', 'poetry line 2']}</Text>
                 )
             }
-            <Text style={styles.poet}>{poet}</Text>
+            <View style={styles.timeContainer}>
+                <Text style={styles.poet}>{poet}</Text>
+                <Text style={styles.time}>{updatedTime || ''}</Text>
+            </View>
         </View >
     )
 }
@@ -33,8 +41,18 @@ const styles = StyleSheet.create({
     poet: {
         color: colors.primaryClr,
         fontFamily: fonts.urdu,
-        fontSize: 20,
+        fontSize: 16,
+        textDecorationLine: 'underline',
         textAlign: 'left',
+    },
+    timeContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center'
+    },
+    time: {
+        fontSize: 10,
+        color: colors.primaryClr
     }
 
 })

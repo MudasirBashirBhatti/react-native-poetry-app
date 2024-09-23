@@ -9,7 +9,7 @@ import Share from 'react-native-share';
 import WhatsappIcon from '../assets/icons/WhatsappIcon';
 import ShareIcon from '../assets/icons/ShareIcon';
 
-const Poetry = ({ poetryTextArr, poet, thirdIcon, thirdIconText, onThirdIconPress }) => {
+const Poetry = ({ poetryTextArr, poet, thirdIcon, thirdIconText, onThirdIconPress, time }) => {
     const [copiedText, setcopiedText] = useState('');
 
     const copyToClipboard = async () => {
@@ -47,7 +47,7 @@ const Poetry = ({ poetryTextArr, poet, thirdIcon, thirdIconText, onThirdIconPres
     return (
         <View style={styles.mainContainer}>
             <View style={styles.poetryWrapper}>
-                <PoetryTextWithAuthor poetryTextArr={poetryTextArr} poet={poet} />
+                <PoetryTextWithAuthor time={time} poetryTextArr={poetryTextArr} poet={poet} />
             </View>
             <View style={styles.actionsWrapper}>
                 <IconWithText icon={<CopyIcon fill={colors.secondryClr} />} text={'Copy'} onPress={copyToClipboard} />

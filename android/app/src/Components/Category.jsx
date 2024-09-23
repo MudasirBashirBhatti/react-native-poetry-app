@@ -32,7 +32,14 @@ const Category = ({ title, onPress }) => {
     return (
         <Pressable style={[styles.container, { width: categoryWidth }]} onPress={onPress}>
             <View style={styles.innerContainer}>
-                <Text style={styles.text}>{title || 'خوشی'}</Text>
+                <Text style={styles.text}>
+                    {
+                        title.length < 10 ? title
+                            :
+                            categoryWidth > 110 ? title : `${title.slice(0, 10)}..`
+                                || 'خوشی'
+                    }
+                </Text>
             </View>
         </Pressable>
     );

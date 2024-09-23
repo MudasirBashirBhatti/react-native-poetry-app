@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-import { colors } from '../utilities/colors';
+import { colors, fonts } from '../utilities/colors';
 import MenuIcon from '../assets/icons/MenuIcon';
 import SearchComponent from './SearchComponent';
 import FilterIcon from '../assets/icons/FilterIcon';
@@ -21,9 +21,13 @@ const ScreenHeader = ({ title }) => {
                     <FilterIcon />
                 </View>
 
-                <HeaderTab tabArray={headerTabs} />
+                <View>
+                    <HeaderTab tabArray={headerTabs} />
+                </View>
 
-                <Text style={styles.screenName}>{title}</Text>
+                <View>
+                    <Text style={styles.screenName}>{title}</Text>
+                </View>
             </View>
         </View>
     );
@@ -52,9 +56,15 @@ const styles = StyleSheet.create({
         gap: 34
     },
     screenName: {
+        width: 100,
+        margin: 'auto',
         color: colors.primaryClr,
+        fontFamily: fonts.urdu,
+        borderBottomColor: colors.primaryClr,
+        borderBottomWidth: 1,
         textAlign: 'center',
-        fontSize: 18
+        fontSize: 24
+
     }
 });
 

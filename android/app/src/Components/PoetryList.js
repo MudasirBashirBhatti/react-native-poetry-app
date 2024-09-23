@@ -38,7 +38,6 @@ const PoetryList = ({ poetryTerm }) => {
                 else {
                     const poetryData = await AsyncStorage.getItem('poetryData');
                     const parsedData = JSON.parse(poetryData)
-                    console.log('parsedData', parsedData)
 
                     // provide value not key from poetryTerm { poet: '' || category: '' }
                     const searchedTerm = poetryTerm.split('=')[1]
@@ -86,6 +85,7 @@ const PoetryList = ({ poetryTerm }) => {
                                         }
                                         thirdIconText={'Favourite'}
                                         onThirdIconPress={() => makeFavouriteFunc(item._id, 'addFavourite')}
+                                        time={new Date(item.createdAt)}
                                     />
                                 }
                                 contentContainerStyle={styles.poetryList}

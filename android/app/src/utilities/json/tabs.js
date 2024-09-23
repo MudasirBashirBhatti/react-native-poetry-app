@@ -5,6 +5,8 @@ import { colors } from '../colors'
 import WriterIcon from '../../assets/icons/WriterIcon'
 import PenIcon from '../../assets/icons/PenIcon'
 import WritingPen from '../../assets/icons/WritingPen'
+import StarIcon from '../../assets/icons/StarIcon'
+import TodayIcon from '../../assets/icons/TodayIcon'
 
 export const headerTabs = [
     {
@@ -16,8 +18,8 @@ export const headerTabs = [
         screen: 'Favourite',
     },
     {
-        tabComp: <CopyIcon fill={colors.primaryClr} />,
-        screen: 'CopiedPoetry',
+        tabComp: <TodayIcon fill={colors.primaryClr} />,
+        screen: 'TodayPoetry',
     },
 ]
 

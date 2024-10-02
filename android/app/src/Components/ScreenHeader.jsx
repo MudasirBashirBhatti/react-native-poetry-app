@@ -17,8 +17,8 @@ const ScreenHeader = ({ title }) => {
                 <View style={styles.topBar}>
 
                     <MenuIcon onPress={() => navigation.openDrawer()} />
-                    <SearchComponent />
-                    <FilterIcon />
+                    {/* <SearchComponent />
+                    <FilterIcon /> */}
                 </View>
 
                 <View>

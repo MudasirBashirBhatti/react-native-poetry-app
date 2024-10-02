@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import Home from './android/app/src/Screens/Home';
+import PrivacyPolicy from './android/app/src/Screens/PrivacyPolicy';
 import { colors } from './android/app/src/utilities/colors';
 import Favourite from './android/app/src/Screens/Favourite';
 import TodayPoetry from './android/app/src/Screens/TodayPoetry';
@@ -31,6 +32,7 @@ export default function App() {
           <Drawer.Screen name="Home" component={Home} />
           <Drawer.Screen name="Favourite" component={Favourite} />
           <Drawer.Screen name="TodayPoetry" component={TodayPoetry} />
+          <Drawer.Screen name='PrivacyPolicy' component={PrivacyPolicy} />
 
         </Drawer.Navigator>
 
@@ -47,5 +49,7 @@ const getTitle = (title) => {
       return 'آپ کی پسند'
     case 'TodayPoetry':
       return 'آج کی شاعری'
+    case 'PrivacyPolicy':
+      return 'قوائد و ضوابط'
   }
 }

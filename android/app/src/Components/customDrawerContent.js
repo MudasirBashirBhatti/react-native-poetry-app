@@ -14,9 +14,18 @@ import NavigationLink from './NavigationLink';
 
 const CustomDrawerContent = (props) => {
     const dispatch = useDispatch()
-    const handleOnPress = () => {
-        props.navigation.navigate('Home');
-        dispatch(setTabIndex(0))
+    const handleOnPress = (type) => {
+        if (type === 'Home') {
+            props.navigation.navigate('Home');
+            dispatch(setTabIndex(0))
+        } else if (type === "Favourite") {
+            props.navigation.navigate('Favourite');
+            dispatch(setTabIndex(1))
+        }
+        else if (type === 'PrivacyPolicy') {
+            props.navigation.navigate('PrivacyPolicy')
+            dispatch(setTabIndex(0))
+        }
     }
     return (
         <View style={styles.container}>
@@ -28,12 +37,12 @@ const CustomDrawerContent = (props) => {
                 <View style={styles.whiteContainer}>
                     <ScrollView contentContainerStyle={styles.drawerContent}>
                         <NavigationLink text={"Poetry Corner"} urduText={'پوئٹری ٹائم'} icon={<HomeIcon />}
-                            onPress={handleOnPress}
+                            onPress={() => handleOnPress('Home')}
                         />
-                        <NavigationLink text={"Rate Us"} urduText={"ہماری حوصلہ افزائی کریں"} icon={<StarIcon fill='#FFCC00' />} onPress={() => props.navigation.navigate('Home')} />
-                        <NavigationLink text={"Privacy Policy"} urduText={'قوائد و ضوابط'} icon={<LockIcon />} onPress={() => props.navigation.navigate('Home')} />
-                        <NavigationLink text={"Favourites"} urduText={'آپ کی پسند'} icon={<HeartIcon fill='red' />} onPress={() => props.navigation.navigate('Home')} />
-                        <NavigationLink text={"Share"} urduText={"دوستوں کو بتائیں"} icon={<ShareIcon />} onPress={() => props.navigation.navigate('Home')} />
+                        {/* <NavigationLink text={"Rate Us"} urduText={"ہماری حوصلہ افزائی کریں"} icon={<StarIcon fill='#FFCC00' />} onPress={() => props.navigation.navigate('Home')} /> */}
+                        <NavigationLink text={"Favourites"} urduText={'آپ کی پسند'} icon={<HeartIcon fill='red' />} onPress={() => handleOnPress('Favourite')} />
+                        <NavigationLink text={"Privacy Policy"} urduText={'قوائد و ضوابط'} icon={<LockIcon />} onPress={() => handleOnPress('PrivacyPolicy')} />
+                        {/* <NavigationLink text={"Share"} urduText={"دوستوں کو بتائیں"} icon={<ShareIcon />} onPress={() => props.navigation.navigate('Home')} /> */}
                     </ScrollView>
                 </View>
             </View>

@@ -10,10 +10,18 @@ import TodayPoetry from './android/app/src/Screens/TodayPoetry';
 import { Text } from 'react-native-svg';
 import CustomDrawerContent from './android/app/src/Components/customDrawerContent';
 import ScreenHeader from './android/app/src/Components/ScreenHeader';
+import SplashScreen from 'react-native-splash-screen';
+import { useEffect } from 'react';
 
 const Drawer = createDrawerNavigator()
 
 export default function App() {
+
+  useEffect(() => {
+    setTimeout(() => {
+      SplashScreen.hide()
+    }, 1000);
+  }, [])
 
   return (
     <GestureHandlerRootView >

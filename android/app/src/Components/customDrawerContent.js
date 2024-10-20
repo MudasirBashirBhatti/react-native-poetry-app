@@ -6,7 +6,7 @@ import LockIcon from '../assets/icons/LockIcon';
 import CategoryIcon from '../assets/icons/CategoryIcon';
 import HeartIcon from '../assets/icons/HeartIcon';
 import HomeIcon from '../assets/icons/HomeIcon';
-import { colors } from '../utilities/colors';
+import { colors, fonts } from '../utilities/colors';
 import CrossIcon from '../assets/icons/CrossIcon';
 import { useDispatch } from 'react-redux';
 import { setTabIndex } from '../reduxStore/features/counterSlice';
@@ -31,7 +31,7 @@ const CustomDrawerContent = (props) => {
         <View style={styles.container}>
             <View style={styles.drawerHeader}>
                 <View style={styles.crossIcon}><CrossIcon onPress={() => props.navigation.closeDrawer()} /></View>
-                <Text style={styles.headerText}>Poetry Time</Text>
+                <Text style={styles.headerText}>روحِ بیاں</Text>
             </View>
             <View style={styles.contentContainer}>
                 <View style={styles.whiteContainer}>
@@ -70,14 +70,11 @@ const styles = StyleSheet.create({
         transform: 'scale(.8)'
     },
     headerText: {
-        fontSize: 24,
+        fontSize: 36,
+        textAlign: 'center',
         color: colors.primaryClr,
-        position: 'absolute',
-        left: '50%',
-        top: '50%',
-        transform: [
-            { translateX: -35 }, // Move 50 units to the right
-        ],
+        top: '20%',
+        fontFamily: fonts.urdu
     },
     contentContainer: {
         height: '100%',

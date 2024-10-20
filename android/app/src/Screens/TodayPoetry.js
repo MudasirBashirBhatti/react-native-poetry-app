@@ -39,8 +39,9 @@ const TodayPoetry = () => {
 
     return (
         <View style={styles.mainContainer}>
-            {poetryData.length > 0 ? (
-                <ContentCompoent contentComponent={
+            <ContentCompoent contentComponent={
+
+                poetryData.length > 0 ? (
                     <FlatList
                         data={poetryData}
                         keyExtractor={item => item._id}
@@ -66,11 +67,14 @@ const TodayPoetry = () => {
                         contentContainerStyle={styles.poetryList}
                         showsVerticalScrollIndicator={false}
                     />
-                }
-                />
-            ) : (
-                <View><Loader /></View>
-            )}
+                ) : (
+                    <View style={styles.empty}>
+                        <Text>Check back later for fresh Poetry!</Text>
+                    </View>
+                )
+
+            }
+            />
         </View>
     );
 };
@@ -89,5 +93,7 @@ const styles = StyleSheet.create({
         paddingVertical: 20,
         paddingHorizontal: 4,
         gap: 20,
-    }
+        borderRadius: 50,
+        backgroundColor: colors.primaryClr
+    },
 });

@@ -19,6 +19,8 @@ const ScreenHeader = ({ title }) => {
                     <MenuIcon onPress={() => navigation.openDrawer()} />
                     {/* <SearchComponent />
                     <FilterIcon /> */}
+                    <Text style={styles.appTitle}>آہنگ شاعری سٹیٹس</Text>
+                    <Text style={styles.appTitle2}></Text>
                 </View>
 
                 <View>
@@ -54,6 +56,17 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         width: '100%',
         gap: 34
+    },
+    appTitle: {
+        color: colors.primaryClr,
+        flex: 1,
+        fontSize: 24,
+        fontFamily: fonts.urdu,
+        textAlign: 'center',
+    },
+    appTitle2: {
+        color: colors.secondryClr,
+        fontSize: 1
     },
     screenName: {
         width: 100,

@@ -8,5 +8,6 @@ export const colors = {
     alert: "#E70000",
 }
 export const fonts = {
-    urdu: 'jameel'
+    urdu: 'jameel',
+    heading: 'alqalam'
 }

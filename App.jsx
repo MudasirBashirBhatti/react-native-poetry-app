@@ -52,7 +52,7 @@ export default function App() {
 const getTitle = (title) => {
   switch (title) {
     case 'Home':
-      return 'شعری دنیا'
+      return "پہلا صفحہ"
     case 'Favourite':
       return 'آپ کی پسند'
     case 'TodayPoetry':

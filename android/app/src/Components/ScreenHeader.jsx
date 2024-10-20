@@ -19,7 +19,7 @@ const ScreenHeader = ({ title }) => {
                     <MenuIcon onPress={() => navigation.openDrawer()} />
                     {/* <SearchComponent />
                     <FilterIcon /> */}
-                    <Text style={styles.appTitle}>آہنگ شاعری سٹیٹس</Text>
+                    <Text style={styles.appTitle}>روحِ بیاں - شاعری سٹیٹس</Text>
                     <Text style={styles.appTitle2}></Text>
                 </View>
 
@@ -55,7 +55,8 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         width: '100%',
-        gap: 34
+        gap: 34,
+        justifyContent: 'center'
     },
     appTitle: {
         color: colors.primaryClr,

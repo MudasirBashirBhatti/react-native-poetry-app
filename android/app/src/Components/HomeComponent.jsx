@@ -1,4 +1,4 @@
-import { Alert, ScrollView, StyleSheet, Text, View } from 'react-native'
+import { Alert, ScrollView, StyleSheet, Text, View, BackHandler } from 'react-native'
 import Category from './Category'
 import React, { useEffect } from 'react'
 import { homeTab } from '../utilities/json/tabs'
@@ -87,6 +87,33 @@ const HomeComponent = () => {
             setpoetryTerm(`poet=${value}`)
         }
     }
+
+
+    // back button functionality
+    useEffect(() => {
+        const backAction = () => {
+            if (!isBackBtnPressed) {
+                dispatch(setIsBackBtnPressed(true))
+            } else {
+                Alert.alert('', 'Are you sure you wanted to close the App?', [
+                    {
+                        text: 'Cancel',
+                        onPress: () => null,
+                        style: 'cancel',
+                    },
+                    { text: 'YES', onPress: () => BackHandler.exitApp() },
+                ]);
+            }
+            return true;
+        };
+
+        const backHandler = BackHandler.addEventListener(
+            'hardwareBackPress',
+            backAction,
+        );
+
+        return () => backHandler.remove();
+    }, [isBackBtnPressed]);
 
     return (
         <View>

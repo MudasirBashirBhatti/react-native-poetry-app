@@ -3,18 +3,22 @@ import { Dimensions, Pressable, StyleSheet, Text, View } from 'react-native';
 import { colors, fonts } from '../utilities/colors';
 
 const Category = ({ title, onPress }) => {
-    const [categoryWidth, setCategoryWidth] = useState('98');
+    // const [categoryWidth, setCategoryWidth] = useState('98');
+    const [categoryWidth, setCategoryWidth] = useState('50%');
 
     useEffect(() => {
         const handleResize = () => {
             const { width } = Dimensions.get('screen');
             if (width < 360) {
-                setCategoryWidth('48%');
+                // setCategoryWidth('48%');
+                setCategoryWidth('50%');
             } else if (width > 360) {
-                setCategoryWidth('31%');
+                // setCategoryWidth('31%');
+                setCategoryWidth('50%');
             } else {
                 // or 98
-                setCategoryWidth('31%')
+                // setCategoryWidth('31%')
+                setCategoryWidth('50%')
             }
         };
 
@@ -30,14 +34,11 @@ const Category = ({ title, onPress }) => {
         };
     }, []);
     return (
-        <Pressable style={[styles.container, { width: categoryWidth }]} onPress={onPress}>
+        <Pressable style={[styles.container, { width: '48%' }]} onPress={onPress}>
             <View style={styles.innerContainer}>
                 <Text style={styles.text}>
                     {
-                        title.length < 10 ? title
-                            :
-                            categoryWidth > 110 ? title : `${title.slice(0, 8)}..`
-                                || 'خوشی'
+                        title || ''
                     }
                 </Text>
             </View>
@@ -49,6 +50,7 @@ export default Category;
 
 const styles = StyleSheet.create({
     container: {
+        width: '48%',
         paddingVertical: 10,
         paddingHorizontal: 10,
         backgroundColor: colors.primaryClr,
@@ -68,7 +70,7 @@ const styles = StyleSheet.create({
         paddingVertical: 0,
         paddingHorizontal: 4,
         color: colors.primaryClr,
-        fontSize: 16,
+        fontSize: 18,
         fontFamily: fonts.urdu,
     }
 });

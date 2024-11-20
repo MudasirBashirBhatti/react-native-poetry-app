@@ -1,10 +1,10 @@
-import {Pressable, StyleSheet, Text, View} from 'react-native';
-import {colors} from '../utilities/colors';
-import {useNavigation} from '@react-navigation/native';
-import {useEffect} from 'react';
-import {useSelector, useDispatch} from 'react-redux';
-import {setTabIndex} from '../reduxStore/features/counterSlice';
-const HeaderTab = ({tabArray}) => {
+import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { colors } from '../utilities/colors';
+import { useNavigation } from '@react-navigation/native';
+import { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { setTabIndex } from '../reduxStore/features/counterSlice';
+const HeaderTab = ({ tabArray }) => {
   const navigation = useNavigation();
   const myTab = useSelector(state => state.tab.tabIndex);
   const dispatch = useDispatch();
@@ -19,10 +19,11 @@ const HeaderTab = ({tabArray}) => {
     <View style={styles.tabContainer}>
       {tabArray.map((comp, index) => (
         <Pressable
+          accessibilityLabel={comp.screen}
           key={index}
           style={[
             styles.categoryIcon,
-            myTab === index && {backgroundColor: colors.tabSelectedClr},
+            myTab === index && { backgroundColor: colors.tabSelectedClr },
           ]}
           onPress={() => detectTab(index)}>
           {comp.tabComp}

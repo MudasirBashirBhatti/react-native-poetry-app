@@ -12,8 +12,8 @@ const PoetryTextWithAuthor = ({ poetryTextArr = [], poet, time }) => {
     return (
         <View style={styles.wrapper}>
             {
-                poetryTextArr.map((item) =>
-                    <Text style={styles.text}>{item || ['poetry line 1', 'poetry line 2']}</Text>
+                poetryTextArr.map((item, index) =>
+                    <Text key={index} style={styles.text}>{item || ['poetry line 1', 'poetry line 2']}</Text>
                 )
             }
             <View style={styles.timeContainer}>

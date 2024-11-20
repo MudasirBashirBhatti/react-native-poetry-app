@@ -36,7 +36,7 @@ const Category = ({ title, onPress }) => {
                     {
                         title.length < 10 ? title
                             :
-                            categoryWidth > 110 ? title : `${title.slice(0, 10)}..`
+                            categoryWidth > 110 ? title : `${title.slice(0, 8)}..`
                                 || 'خوشی'
                     }
                 </Text>

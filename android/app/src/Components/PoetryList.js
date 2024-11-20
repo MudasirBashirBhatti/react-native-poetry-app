@@ -23,7 +23,7 @@ const PoetryList = ({ poetryTerm }) => {
     }
 
     useEffect(() => {
-        console.log('poetryTerm', poetryTerm)
+        // console.log('poetryTerm', poetryTerm)
 
         const unsubscribe = addEventListener(state => {
             setisConnected(state.isInternetReachable)

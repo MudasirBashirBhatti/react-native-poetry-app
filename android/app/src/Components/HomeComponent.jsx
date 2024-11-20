@@ -1,4 +1,4 @@
-import { Alert, StyleSheet, Text, View } from 'react-native'
+import { Alert, ScrollView, StyleSheet, Text, View } from 'react-native'
 import Category from './Category'
 import React, { useEffect } from 'react'
 import { homeTab } from '../utilities/json/tabs'
@@ -48,7 +48,7 @@ const HomeComponent = () => {
                 }
 
             } catch (error) {
-                console.log(await AsyncStorage.getItem('poetryData'))
+                // console.log(await AsyncStorage.getItem('poetryData'))
                 setData(await AsyncStorage.getItem('poetryData'))
                 console.error('Error fetching data:', error);
             }
@@ -96,7 +96,7 @@ const HomeComponent = () => {
                         <View style={styles.tabContainer}>
                             <Tab tabArray={homeTab} changeTabFunc={getVal} />
                         </View>
-                        <View style={styles.contentWrapper}>
+                        <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.contentWrapper}>
                             {
                                 uniqueCategory.length === 0 || uniquePoet.length === 0 ?
                                     (<Loader />)
@@ -111,7 +111,7 @@ const HomeComponent = () => {
                                             ))
                                     )
                             }
-                        </View>
+                        </ScrollView>
                     </View>
                 ) : (
                     <PoetryList poetryTerm={poetryTerm} />
@@ -138,6 +138,7 @@ const styles = StyleSheet.create({
         columnGap: 8,
         rowGap: 12,
         flexWrap: 'wrap',
-        width: '100%'
+        width: '100%',
+        paddingBottom: 200
     }
 })

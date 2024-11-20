@@ -10,12 +10,12 @@ const PrivacyPolicy = () => {
             <ContentCompoent contentComponent={
                 <ScrollView showsVerticalScrollIndicator={false} style={styles.innerContainer}>
                     <View>
-                        <Text style={styles.mainHeading}>Privacy Policy for Poetry Time</Text>
-                        <Text style={styles.mainText}>Welcome to Poetry Time. Your privacy is important to us. This Privacy Policy explains how we handle your information when you use our app.</Text>
+                        <Text style={styles.mainHeading}>Privacy Policy for Urdu Poetry | Rooh-e-byan</Text>
+                        <Text style={styles.mainText}>Welcome to Urdu Poetry | Rooh-e-byan. Your privacy is important to us. This Privacy Policy explains how we handle your information when you use our app.</Text>
                     </View>
                     <View>
                         <Text style={styles.subHeading}>Information Collection</Text>
-                        <Text style={styles.subText}>We want to assure you that our app (Poetry Time) does not collect, store, or share any personal information from users. We do not track your activity or usage patterns within the app.</Text>
+                        <Text style={styles.subText}>We want to assure you that our app (Urdu Poetry | Rooh-e-byan) does not collect, store, or share any personal information from users. We do not track your activity or usage patterns within the app.</Text>
                     </View>
                     <View>
                         <Text style={styles.subHeading}>Use of Poetry</Text>

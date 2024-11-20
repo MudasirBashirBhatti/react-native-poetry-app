@@ -23,8 +23,8 @@ const CustomDrawerContent = (props) => {
             dispatch(setTabIndex(1))
         }
         else if (type === 'PrivacyPolicy') {
+            // dispatch(setTabIndex(0))
             props.navigation.navigate('PrivacyPolicy')
-            dispatch(setTabIndex(0))
         }
     }
     return (
@@ -36,7 +36,7 @@ const CustomDrawerContent = (props) => {
             <View style={styles.contentContainer}>
                 <View style={styles.whiteContainer}>
                     <ScrollView contentContainerStyle={styles.drawerContent}>
-                        <NavigationLink text={"Poetry Corner"} urduText={'پوئٹری ٹائم'} icon={<HomeIcon />}
+                        <NavigationLink text={"Home"} urduText={'پہلا صفحہ'} icon={<HomeIcon />}
                             onPress={() => handleOnPress('Home')}
                         />
                         {/* <NavigationLink text={"Rate Us"} urduText={"ہماری حوصلہ افزائی کریں"} icon={<StarIcon fill='#FFCC00' />} onPress={() => props.navigation.navigate('Home')} /> */}
@@ -67,7 +67,8 @@ const styles = StyleSheet.create({
         position: 'absolute',
         right: 12,
         top: 12,
-        transform: 'scale(.8)'
+        transform: 'scale(.8)',
+        zIndex: 123
     },
     headerText: {
         fontSize: 36,

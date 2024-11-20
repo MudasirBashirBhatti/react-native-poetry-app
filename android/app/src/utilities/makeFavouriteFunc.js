@@ -4,8 +4,6 @@ import { Alert } from "react-native";
 // makeFavouriteFunc
 export const makeFavouriteFunc = async (poetryId, type) => {
 
-    console.log('poetryId', poetryId)
-
     try {
         const getData = await AsyncStorage.getItem('poetryData');
         // await AsyncStorage.removeItem('favouritePoetry')

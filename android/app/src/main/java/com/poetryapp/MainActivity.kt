@@ -1,4 +1,4 @@
-package com.poetryapp
+package com.urdupoetry.roohebyan
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

@@ -11,6 +11,11 @@ import { makeFavouriteFunc } from '../utilities/makeFavouriteFunc';
 const TodayPoetry = () => {
     const [poetryData, setPoetryData] = useState([]);
     useEffect(() => {
+
+        const sortByCreatedAt = (data) => {
+            return [...data].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+        };
+
         const fetchPoetryData = async () => {
             try {
                 const data = await AsyncStorage.getItem('poetryData');
@@ -28,7 +33,7 @@ const TodayPoetry = () => {
                     return createdAt >= startOfToday && createdAt <= endOfToday
                 }
                 )
-                setPoetryData(filteredData)
+                setPoetryData(sortByCreatedAt(filteredData))
             } catch (error) {
                 console.error("Error fetching poetry data:", error);
             }

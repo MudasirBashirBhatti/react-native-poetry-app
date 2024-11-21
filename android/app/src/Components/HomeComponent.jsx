@@ -29,35 +29,43 @@ const HomeComponent = () => {
             setisConnected(state.isInternetReachable)
         })
         // unsubscribe();
+
+        const sortByCreatedAt = (data) => {
+            return [...data].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+        };
+
         const fetchData = async () => {
+
+            let poetryData = []
+
             if (isConnected) {
                 // connected to internet
                 const currentDate = new Date().toISOString().split('T')[0]
                 const lastFetchedDate = await AsyncStorage.getItem('lastFetchedDate')
 
                 // if both dates not matched
-                if (currentDate !== lastFetchedDate) {
+                if (currentDate == lastFetchedDate) {
                     try {
                         const response = await axios.get('https://natural-courage-production.up.railway.app/api/poetry/fetch');
-                        setData(response.data);
-                        await AsyncStorage.setItem('poetryData', JSON.stringify(response.data))
+                        poetryData = response.data;
+                        await AsyncStorage.setItem('poetryData', JSON.stringify(poetryData))
                         await AsyncStorage.setItem('lastFetchedDate', currentDate)
                     } catch (error) {
                         const asyncData = await AsyncStorage.getItem('poetryData')
                         if (asyncData) {
-                            setData(JSON.parse(asyncData))
+                            poetryData = JSON.parse(asyncData)
                         } else {
-                            setData(poetryArr)
+                            poetryData = poetryArr
                         }
                     }
 
                 } else {
                     const asyncData = await AsyncStorage.getItem('poetryData')
                     if (asyncData) {
-                        setData(JSON.parse(asyncData))
+                        poetryData = JSON.parse(asyncData)
                     }
                     else {
-                        setData(poetryArr)
+                        poetryData = poetryArr
                     }
                 }
             }
@@ -66,14 +74,17 @@ const HomeComponent = () => {
                 // not connected to internet
                 const storedData = await AsyncStorage.getItem('poetryData')
                 if (storedData) {
-                    setData(JSON.parse(storedData))
-                    console.log('data from async storage');
+                    poetryData = JSON.parse(storedData)
                 } else {
-                    setData(poetryArr)
+                    poetryData = poetryArr
                 }
             }
+
+            setData(sortByCreatedAt(poetryArr));
+            // setData(poetryArr)
         };
         fetchData();
+
 
         return () => {
             unsubscribe()

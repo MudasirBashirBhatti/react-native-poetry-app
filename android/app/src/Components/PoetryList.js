@@ -12,52 +12,40 @@ import { addEventListener } from '@react-native-community/netinfo'
 import HeartIcon from '../assets/icons/HeartIcon'
 import { colors } from '../utilities/colors'
 import { makeFavouriteFunc } from '../utilities/makeFavouriteFunc'
+import { localPoetryArr } from '../utilities/json/poetoryArr'
 
 const PoetryList = ({ poetryTerm }) => {
     const dispatch = useDispatch()
     const [poetryArr, setPoetryArr] = useState(null);
-    const [isConnected, setisConnected] = useState(false);
-
     const backBtnFunc = () => {
         dispatch(setIsBackBtnPressed(true))
     }
 
     useEffect(() => {
-        // console.log('poetryTerm', poetryTerm)
 
-        const unsubscribe = addEventListener(state => {
-            setisConnected(state.isInternetReachable)
-        })
+        const sortByCreatedAt = (data) => {
+            return [...data].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+        };
+
         const fetchData = async () => {
             try {
-                if (isConnected) {
-                    const response = await axios(`https://natural-courage-production.up.railway.app/api/poetry/filter?${poetryTerm}`);
-                    setPoetryArr(response.data);
-                }
+                const poetryData = await AsyncStorage.getItem('poetryData');
+                const parsedData = JSON.parse(poetryData)
 
-                else {
-                    const poetryData = await AsyncStorage.getItem('poetryData');
-                    const parsedData = JSON.parse(poetryData)
+                // provide value not key from poetryTerm { poet: '' || category: '' }
+                const searchedTerm = poetryTerm.split('=')[1]
 
-                    // provide value not key from poetryTerm { poet: '' || category: '' }
-                    const searchedTerm = poetryTerm.split('=')[1]
-
-                    const filterdArray = parsedData.filter(item =>
-                        item.poet === searchedTerm || item.category === searchedTerm
-                    )
-                    setPoetryArr(filterdArray)
-                }
+                const filterdArray = parsedData.filter(item =>
+                    item.poet === searchedTerm || item.category === searchedTerm
+                )
+                setPoetryArr(sortByCreatedAt(filterdArray))
 
             } catch (error) {
-                console.error('Error fetching data:', error);
+                setPoetryArr(sortByCreatedAt(localPoetryArr))
             }
         };
         fetchData();
-
-        return () => {
-            unsubscribe();
-        }
-    }, [isConnected]);
+    }, [poetryTerm]);
 
     return (
         <View style={styles.container}>

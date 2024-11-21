@@ -28,7 +28,7 @@ const PrivacyPolicy = () => {
                     <View>
                         <Text style={styles.subHeading}>Contact Us</Text>
                         <Text style={styles.subText}>If you have any questions or concerns about this Privacy Policy, or if you have an issue regarding the poetry used, please contact us at:{'\n \n'}
-                            for.all64@gmail.com
+                            xcelentsolutions7@gmail.com
 
                         </Text>
                     </View>

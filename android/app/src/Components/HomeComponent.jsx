@@ -1,4 +1,4 @@
-import { Alert, ScrollView, StyleSheet, Text, View, BackHandler } from 'react-native'
+import { Alert, ScrollView, StyleSheet, Text, View, BackHandler, useWindowDimensions } from 'react-native'
 import Category from './Category'
 import React, { useEffect } from 'react'
 import { homeTab } from '../utilities/json/tabs'
@@ -12,6 +12,7 @@ import axios from 'axios'
 import Loader from './Loader'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { addEventListener } from "@react-native-community/netinfo";
+import { poetryArr } from '../utilities/json/poetoryArr'
 
 const HomeComponent = () => {
     const dispatch = useDispatch()
@@ -29,28 +30,47 @@ const HomeComponent = () => {
         })
         // unsubscribe();
         const fetchData = async () => {
-            try {
-                if (isConnected) {
-                    const response = await axios.get('https://natural-courage-production.up.railway.app/api/poetry/fetch');
-                    setData(response.data);
+            if (isConnected) {
+                // connected to internet
+                const currentDate = new Date().toISOString().split('T')[0]
+                const lastFetchedDate = await AsyncStorage.getItem('lastFetchedDate')
 
-                    await AsyncStorage.setItem('poetryData', JSON.stringify(response.data))
-                }
+                // if both dates not matched
+                if (currentDate !== lastFetchedDate) {
+                    try {
+                        const response = await axios.get('https://natural-courage-production.up.railway.app/api/poetry/fetch');
+                        setData(response.data);
+                        await AsyncStorage.setItem('poetryData', JSON.stringify(response.data))
+                        await AsyncStorage.setItem('lastFetchedDate', currentDate)
+                    } catch (error) {
+                        const asyncData = await AsyncStorage.getItem('poetryData')
+                        if (asyncData) {
+                            setData(JSON.parse(asyncData))
+                        } else {
+                            setData(poetryArr)
+                        }
+                    }
 
-                else {
-                    const storedData = await AsyncStorage.getItem('poetryData')
-                    if (storedData) {
-                        setData(JSON.parse(storedData))
-                    } else {
-                        setData([])
-                        Alert.alert('please enable internet')
+                } else {
+                    const asyncData = await AsyncStorage.getItem('poetryData')
+                    if (asyncData) {
+                        setData(JSON.parse(asyncData))
+                    }
+                    else {
+                        setData(poetryArr)
                     }
                 }
+            }
 
-            } catch (error) {
-                // console.log(await AsyncStorage.getItem('poetryData'))
-                setData(await AsyncStorage.getItem('poetryData'))
-                console.error('Error fetching data:', error);
+            else {
+                // not connected to internet
+                const storedData = await AsyncStorage.getItem('poetryData')
+                if (storedData) {
+                    setData(JSON.parse(storedData))
+                    console.log('data from async storage');
+                } else {
+                    setData(poetryArr)
+                }
             }
         };
         fetchData();

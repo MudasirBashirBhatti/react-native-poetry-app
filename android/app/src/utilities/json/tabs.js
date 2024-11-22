@@ -7,8 +7,13 @@ import PenIcon from '../../assets/icons/PenIcon'
 import WritingPen from '../../assets/icons/WritingPen'
 import StarIcon from '../../assets/icons/StarIcon'
 import TodayIcon from '../../assets/icons/TodayIcon'
+import HomeIcon from '../../assets/icons/HomeIcon'
 
 export const headerTabs = [
+    {
+        tabComp: <HomeIcon fill={colors.primaryClr} />,
+        screen: 'VersesUnfolded',
+    },
     {
         tabComp: <CategoryIcon fill={colors.primaryClr} />,
         screen: 'Home',

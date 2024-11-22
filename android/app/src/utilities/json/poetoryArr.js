@@ -7,9 +7,9 @@ export const poetryArr = [
         ],
         "poet": "میر تقی میر",
         "category": "دل",
-        "__v": 0,
+
         "createdAt": "2024-09-23T05:22:52.771Z",
-        "updatedAt": "2024-09-23T05:22:52.771Z"
+
     },
     {
         "_id": "66da2c33485c554a48740a23",
@@ -19,9 +19,9 @@ export const poetryArr = [
         ],
         "poet": "پروین شاکر",
         "category": "دل",
-        "__v": 0,
+
         "createdAt": "2024-09-23T05:22:52.771Z",
-        "updatedAt": "2024-09-23T05:22:52.771Z"
+
     },
     {
         "_id": "66e5f86acfec703975580def",
@@ -31,9 +31,9 @@ export const poetryArr = [
         ],
         "poet": "جون ایلیا",
         "category": "غم",
-        "__v": 0,
+
         "createdAt": "2024-09-23T05:22:52.771Z",
-        "updatedAt": "2024-09-23T05:22:52.771Z"
+
     },
     {
         "_id": "66ec9e03269676f919aeb886",
@@ -43,9 +43,9 @@ export const poetryArr = [
         ],
         "poet": "گلزار",
         "category": "انتظار",
-        "__v": 0,
+
         "createdAt": "2024-09-23T05:22:52.771Z",
-        "updatedAt": "2024-09-23T05:22:52.771Z"
+
     },
     {
         "_id": "66f0f14f269676f919aeb8f9",
@@ -55,9 +55,9 @@ export const poetryArr = [
         ],
         "poet": "شاکر شجاع آبادی",
         "category": "دل",
-        "__v": 0,
+
         "createdAt": "2024-09-23T05:22:52.771Z",
-        "updatedAt": "2024-09-23T05:22:52.771Z"
+
     },
     {
         "_id": "66f0fb2c472420f24fe65b12",
@@ -68,8 +68,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "منافق",
         "createdAt": "2024-09-23T05:22:52.771Z",
-        "updatedAt": "2024-09-23T05:22:52.771Z",
-        "__v": 0
+
+
     },
     {
         "_id": "66f1c67e279cbf77b473d25f",
@@ -80,8 +80,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "گمشدہ",
         "createdAt": "2024-09-23T19:50:22.151Z",
-        "updatedAt": "2024-09-23T19:50:22.151Z",
-        "__v": 0
+
+
     },
     {
         "_id": "66f3138d6fcef704f8286e85",
@@ -103,8 +103,8 @@ export const poetryArr = [
         "poet": "نامعلوم",
         "category": "شکوہ",
         "createdAt": "2024-09-25T13:31:43.561Z",
-        "updatedAt": "2024-09-25T13:31:43.561Z",
-        "__v": 0
+
+
     },
     {
         "_id": "66f5b1dc279cbf77b473d27a",
@@ -115,8 +115,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "جیت",
         "createdAt": "2024-09-26T19:11:24.523Z",
-        "updatedAt": "2024-09-26T19:11:24.523Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715d3ad279cbf77b473d303",
@@ -127,8 +127,8 @@ export const poetryArr = [
         "poet": "مومن خاں مومن",
         "category": "رات",
         "createdAt": "2024-10-21T04:08:13.202Z",
-        "updatedAt": "2024-10-21T04:08:13.202Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715d6e5279cbf77b473d30a",
@@ -139,8 +139,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "گناہ",
         "createdAt": "2024-10-21T04:21:57.860Z",
-        "updatedAt": "2024-10-21T04:21:57.860Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715dca2279cbf77b473d311",
@@ -151,8 +151,8 @@ export const poetryArr = [
         "poet": "احمد فراز ",
         "category": "دل",
         "createdAt": "2024-10-21T04:46:26.455Z",
-        "updatedAt": "2024-10-21T04:46:26.455Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715dd02279cbf77b473d313",
@@ -163,8 +163,8 @@ export const poetryArr = [
         "poet": "فیض احمد فیض",
         "category": "دل",
         "createdAt": "2024-10-21T04:48:02.017Z",
-        "updatedAt": "2024-10-21T04:48:02.017Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715dd66279cbf77b473d315",
@@ -175,8 +175,8 @@ export const poetryArr = [
         "poet": "فیض احمد فیض",
         "category": "دل",
         "createdAt": "2024-10-21T04:49:42.046Z",
-        "updatedAt": "2024-10-21T04:49:42.046Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715dde1279cbf77b473d317",
@@ -187,8 +187,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-21T04:51:45.233Z",
-        "updatedAt": "2024-10-21T04:51:45.233Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715de7f279cbf77b473d319",
@@ -201,8 +201,8 @@ export const poetryArr = [
         "poet": "بشیر بدر",
         "category": "دل",
         "createdAt": "2024-10-21T04:54:23.648Z",
-        "updatedAt": "2024-10-21T04:54:23.648Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715debe279cbf77b473d31b",
@@ -213,8 +213,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "دل",
         "createdAt": "2024-10-21T04:55:26.028Z",
-        "updatedAt": "2024-10-21T04:55:26.028Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715df61279cbf77b473d323",
@@ -225,8 +225,8 @@ export const poetryArr = [
         "poet": "علامہ اقبال",
         "category": "دل",
         "createdAt": "2024-10-21T04:58:09.201Z",
-        "updatedAt": "2024-10-21T04:58:09.201Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715dfbd279cbf77b473d325",
@@ -239,8 +239,8 @@ export const poetryArr = [
         "poet": "شکیل بدایونی ",
         "category": "دل",
         "createdAt": "2024-10-21T04:59:41.681Z",
-        "updatedAt": "2024-10-21T04:59:41.681Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715dfef279cbf77b473d327",
@@ -251,8 +251,8 @@ export const poetryArr = [
         "poet": "داغ دہلوی",
         "category": "دل",
         "createdAt": "2024-10-21T05:00:31.302Z",
-        "updatedAt": "2024-10-21T05:00:31.302Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e03e279cbf77b473d329",
@@ -263,8 +263,8 @@ export const poetryArr = [
         "poet": "علامہ اقبال",
         "category": "دل",
         "createdAt": "2024-10-21T05:01:50.325Z",
-        "updatedAt": "2024-10-21T05:01:50.325Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e091279cbf77b473d32b",
@@ -275,8 +275,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "دل",
         "createdAt": "2024-10-21T05:03:13.267Z",
-        "updatedAt": "2024-10-21T05:03:13.267Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e10b279cbf77b473d32d",
@@ -287,8 +287,8 @@ export const poetryArr = [
         "poet": "بہادر شاہ ظفر",
         "category": "دل",
         "createdAt": "2024-10-21T05:05:15.156Z",
-        "updatedAt": "2024-10-21T05:05:15.156Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e15b279cbf77b473d32f",
@@ -299,8 +299,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "دل",
         "createdAt": "2024-10-21T05:06:35.227Z",
-        "updatedAt": "2024-10-21T05:06:35.227Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e1a5279cbf77b473d331",
@@ -313,8 +313,8 @@ export const poetryArr = [
         "poet": "مضطر خیرآبادی",
         "category": "دل",
         "createdAt": "2024-10-21T05:07:49.396Z",
-        "updatedAt": "2024-10-21T05:07:49.396Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e1d9279cbf77b473d333",
@@ -325,8 +325,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "شکوہ",
         "createdAt": "2024-10-21T05:08:41.874Z",
-        "updatedAt": "2024-10-21T05:08:41.874Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e214279cbf77b473d335",
@@ -337,8 +337,8 @@ export const poetryArr = [
         "poet": "احمد فراز",
         "category": "دل",
         "createdAt": "2024-10-21T05:09:40.578Z",
-        "updatedAt": "2024-10-21T05:09:40.578Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e277279cbf77b473d337",
@@ -349,8 +349,8 @@ export const poetryArr = [
         "poet": "داغ دہلوی",
         "category": "دل",
         "createdAt": "2024-10-21T05:11:19.337Z",
-        "updatedAt": "2024-10-21T05:11:19.337Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e2b2279cbf77b473d339",
@@ -363,8 +363,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "دل",
         "createdAt": "2024-10-21T05:12:18.844Z",
-        "updatedAt": "2024-10-21T05:12:18.844Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e3b2279cbf77b473d33f",
@@ -375,8 +375,8 @@ export const poetryArr = [
         "poet": "علامہ اقبال",
         "category": "دل",
         "createdAt": "2024-10-21T05:16:34.503Z",
-        "updatedAt": "2024-10-21T05:16:34.503Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e44c279cbf77b473d342",
@@ -387,8 +387,8 @@ export const poetryArr = [
         "poet": "احمد فراز",
         "category": "غم",
         "createdAt": "2024-10-21T05:19:08.110Z",
-        "updatedAt": "2024-10-21T05:19:08.110Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e4c0279cbf77b473d344",
@@ -399,8 +399,8 @@ export const poetryArr = [
         "poet": "احمد فراز",
         "category": "غم",
         "createdAt": "2024-10-21T05:21:04.416Z",
-        "updatedAt": "2024-10-21T05:21:04.416Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e4e9279cbf77b473d346",
@@ -411,8 +411,8 @@ export const poetryArr = [
         "poet": "کیفی اعظمی ",
         "category": "غم",
         "createdAt": "2024-10-21T05:21:45.292Z",
-        "updatedAt": "2024-10-21T05:21:45.292Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e51d279cbf77b473d348",
@@ -423,8 +423,8 @@ export const poetryArr = [
         "poet": "فیض احمد فیض ",
         "category": "غم",
         "createdAt": "2024-10-21T05:22:37.046Z",
-        "updatedAt": "2024-10-21T05:22:37.046Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e57c279cbf77b473d34a",
@@ -434,8 +434,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "غم",
         "createdAt": "2024-10-21T05:24:12.807Z",
-        "updatedAt": "2024-10-21T05:24:12.807Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e5cb279cbf77b473d34c",
@@ -446,8 +446,8 @@ export const poetryArr = [
         "poet": "احمد فراز ",
         "category": "غم",
         "createdAt": "2024-10-21T05:25:31.176Z",
-        "updatedAt": "2024-10-21T05:25:31.176Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e601279cbf77b473d34e",
@@ -458,8 +458,8 @@ export const poetryArr = [
         "poet": "شکیل بدایونی ",
         "category": "غم",
         "createdAt": "2024-10-21T05:26:25.252Z",
-        "updatedAt": "2024-10-21T05:26:25.252Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e653279cbf77b473d350",
@@ -470,8 +470,8 @@ export const poetryArr = [
         "poet": "ساغر صدیقی ",
         "category": "غم",
         "createdAt": "2024-10-21T05:27:47.504Z",
-        "updatedAt": "2024-10-21T05:27:47.504Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e7bb279cbf77b473d352",
@@ -482,8 +482,8 @@ export const poetryArr = [
         "poet": "نوح ناروی",
         "category": "عشق",
         "createdAt": "2024-10-21T05:33:47.477Z",
-        "updatedAt": "2024-10-21T05:33:47.477Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715e816279cbf77b473d354",
@@ -497,8 +497,8 @@ export const poetryArr = [
         "poet": "احمد فراز ",
         "category": "غم",
         "createdAt": "2024-10-21T05:35:18.667Z",
-        "updatedAt": "2024-10-21T05:35:18.667Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715eaa2279cbf77b473d356",
@@ -509,8 +509,8 @@ export const poetryArr = [
         "poet": "احمد فراز",
         "category": "غم",
         "createdAt": "2024-10-21T05:46:10.533Z",
-        "updatedAt": "2024-10-21T05:46:10.533Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715ed8b279cbf77b473d360",
@@ -521,8 +521,8 @@ export const poetryArr = [
         "poet": "داغ دہلوی",
         "category": "غم",
         "createdAt": "2024-10-21T05:58:35.157Z",
-        "updatedAt": "2024-10-21T05:58:35.157Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715ef35279cbf77b473d363",
@@ -533,8 +533,8 @@ export const poetryArr = [
         "poet": "مرزا غالب ",
         "category": "انتظار",
         "createdAt": "2024-10-21T06:05:41.380Z",
-        "updatedAt": "2024-10-21T06:05:41.380Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715ef35279cbf77b473d365",
@@ -545,8 +545,8 @@ export const poetryArr = [
         "poet": "مرزا غالب ",
         "category": "انتظار",
         "createdAt": "2024-10-21T06:05:41.606Z",
-        "updatedAt": "2024-10-21T06:05:41.606Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715efd4279cbf77b473d367",
@@ -559,8 +559,8 @@ export const poetryArr = [
         "poet": "بشیر بدر ",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:08:20.128Z",
-        "updatedAt": "2024-10-21T06:08:20.128Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f00b279cbf77b473d369",
@@ -571,8 +571,8 @@ export const poetryArr = [
         "poet": "اسرار الحق مجاز",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:09:15.221Z",
-        "updatedAt": "2024-10-21T06:09:15.221Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f056279cbf77b473d36b",
@@ -583,8 +583,8 @@ export const poetryArr = [
         "poet": "جون ایلیا ",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:10:30.619Z",
-        "updatedAt": "2024-10-21T06:10:30.619Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f09e279cbf77b473d36d",
@@ -595,8 +595,8 @@ export const poetryArr = [
         "poet": "احمد فراز ",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:11:42.051Z",
-        "updatedAt": "2024-10-21T06:11:42.051Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f0f5279cbf77b473d36f",
@@ -607,8 +607,8 @@ export const poetryArr = [
         "poet": "مجروح سلطانپوری",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:13:09.368Z",
-        "updatedAt": "2024-10-21T06:13:09.368Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f13e279cbf77b473d371",
@@ -619,8 +619,8 @@ export const poetryArr = [
         "poet": "ساحل سحری نینیتالی",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:14:22.041Z",
-        "updatedAt": "2024-10-21T06:14:22.041Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f44f279cbf77b473d374",
@@ -631,8 +631,8 @@ export const poetryArr = [
         "poet": "جون ایلیا ",
         "category": "انتظار",
         "createdAt": "2024-10-21T06:27:27.955Z",
-        "updatedAt": "2024-10-21T06:27:27.955Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f492279cbf77b473d376",
@@ -643,8 +643,8 @@ export const poetryArr = [
         "poet": "فراق گورکھپوری ",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:28:34.381Z",
-        "updatedAt": "2024-10-21T06:28:34.381Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f4cc279cbf77b473d378",
@@ -655,8 +655,8 @@ export const poetryArr = [
         "poet": "فراق گورکھپوری ",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:29:32.264Z",
-        "updatedAt": "2024-10-21T06:29:32.264Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f50d279cbf77b473d37a",
@@ -667,8 +667,8 @@ export const poetryArr = [
         "poet": "راحت اندوری",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:30:37.061Z",
-        "updatedAt": "2024-10-21T06:30:37.061Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f540279cbf77b473d37c",
@@ -679,8 +679,8 @@ export const poetryArr = [
         "poet": "جمیل ملک",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:31:28.070Z",
-        "updatedAt": "2024-10-21T06:31:28.070Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f576279cbf77b473d37e",
@@ -691,8 +691,8 @@ export const poetryArr = [
         "poet": "کیفی اعظمی ",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:32:22.035Z",
-        "updatedAt": "2024-10-21T06:32:22.035Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f5c5279cbf77b473d380",
@@ -703,8 +703,8 @@ export const poetryArr = [
         "poet": "ادا جعفری ",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:33:41.681Z",
-        "updatedAt": "2024-10-21T06:33:41.681Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f61a279cbf77b473d382",
@@ -715,8 +715,8 @@ export const poetryArr = [
         "poet": "حبیب جالب ",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:35:06.176Z",
-        "updatedAt": "2024-10-21T06:35:06.176Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f73e279cbf77b473d387",
@@ -727,8 +727,8 @@ export const poetryArr = [
         "poet": "ادا جعفری",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:39:58.129Z",
-        "updatedAt": "2024-10-21T06:39:58.129Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6715f8a8279cbf77b473d38d",
@@ -739,8 +739,8 @@ export const poetryArr = [
         "poet": "قتیل شفائی",
         "category": "انتظار ",
         "createdAt": "2024-10-21T06:46:00.904Z",
-        "updatedAt": "2024-10-21T06:46:00.904Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6717469b279cbf77b473d3ba",
@@ -751,8 +751,8 @@ export const poetryArr = [
         "poet": "احمد فراز",
         "category": "ہجر",
         "createdAt": "2024-10-22T06:30:51.767Z",
-        "updatedAt": "2024-10-22T06:30:51.767Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67174704279cbf77b473d3bc",
@@ -763,8 +763,8 @@ export const poetryArr = [
         "poet": "علامہ اقبال",
         "category": "خودی",
         "createdAt": "2024-10-22T06:32:36.516Z",
-        "updatedAt": "2024-10-22T06:32:36.516Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671d4130279cbf77b473d49f",
@@ -775,8 +775,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "عشق",
         "createdAt": "2024-10-26T19:21:20.627Z",
-        "updatedAt": "2024-10-26T19:21:20.627Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671d41a3279cbf77b473d4a3",
@@ -787,8 +787,8 @@ export const poetryArr = [
         "poet": "میر تقی میر ",
         "category": "دل",
         "createdAt": "2024-10-26T19:23:15.475Z",
-        "updatedAt": "2024-10-26T19:23:15.475Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671d41dc279cbf77b473d4a6",
@@ -799,8 +799,8 @@ export const poetryArr = [
         "poet": "میر تقی میر ",
         "category": "پیار",
         "createdAt": "2024-10-26T19:24:12.306Z",
-        "updatedAt": "2024-10-26T19:24:12.306Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671d4251279cbf77b473d4a8",
@@ -811,8 +811,8 @@ export const poetryArr = [
         "poet": "احمد فراز ",
         "category": "آنکھ",
         "createdAt": "2024-10-26T19:26:09.776Z",
-        "updatedAt": "2024-10-26T19:26:09.776Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671d4288279cbf77b473d4aa",
@@ -822,8 +822,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "آنکھ",
         "createdAt": "2024-10-26T19:27:04.031Z",
-        "updatedAt": "2024-10-26T19:27:04.031Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671d42cd279cbf77b473d4ae",
@@ -834,8 +834,8 @@ export const poetryArr = [
         "poet": "وسیم بریلوی ",
         "category": "آنکھ",
         "createdAt": "2024-10-26T19:28:13.465Z",
-        "updatedAt": "2024-10-26T19:28:13.465Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671d4408279cbf77b473d4b0",
@@ -848,8 +848,8 @@ export const poetryArr = [
         "poet": "امجد اسلام امجد ",
         "category": "آنکھ",
         "createdAt": "2024-10-26T19:33:28.806Z",
-        "updatedAt": "2024-10-26T19:33:28.806Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671d4438279cbf77b473d4b2",
@@ -860,8 +860,8 @@ export const poetryArr = [
         "poet": "بشیر بدر ",
         "category": "آنسو",
         "createdAt": "2024-10-26T19:34:16.389Z",
-        "updatedAt": "2024-10-26T19:34:16.389Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671d4493279cbf77b473d4b4",
@@ -872,8 +872,8 @@ export const poetryArr = [
         "poet": "جون ایلیا ",
         "category": "وفا",
         "createdAt": "2024-10-26T19:35:47.678Z",
-        "updatedAt": "2024-10-26T19:35:47.678Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671d44d7279cbf77b473d4b6",
@@ -884,8 +884,8 @@ export const poetryArr = [
         "poet": "وسیم بریلوی ",
         "category": "آنسو",
         "createdAt": "2024-10-26T19:36:55.111Z",
-        "updatedAt": "2024-10-26T19:36:55.111Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671dd772279cbf77b473d503",
@@ -898,8 +898,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی ",
         "category": "خودی",
         "createdAt": "2024-10-27T06:02:26.466Z",
-        "updatedAt": "2024-10-27T06:02:26.466Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671dd8a9279cbf77b473d505",
@@ -912,8 +912,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی ",
         "category": "کردار",
         "createdAt": "2024-10-27T06:07:37.977Z",
-        "updatedAt": "2024-10-27T06:07:37.977Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671dda7e279cbf77b473d509",
@@ -926,8 +926,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "خدائی",
         "createdAt": "2024-10-27T06:15:26.751Z",
-        "updatedAt": "2024-10-27T06:15:26.751Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671ddbbb279cbf77b473d50b",
@@ -940,8 +940,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "وفا",
         "createdAt": "2024-10-27T06:20:43.095Z",
-        "updatedAt": "2024-10-27T06:20:43.095Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671ddca8279cbf77b473d50d",
@@ -954,8 +954,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "رحمت",
         "createdAt": "2024-10-27T06:24:40.338Z",
-        "updatedAt": "2024-10-27T06:24:40.338Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671ddd2a279cbf77b473d50f",
@@ -968,8 +968,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "نصیب",
         "createdAt": "2024-10-27T06:26:50.283Z",
-        "updatedAt": "2024-10-27T06:26:50.283Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671dddd8279cbf77b473d511",
@@ -982,8 +982,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "نگاہ",
         "createdAt": "2024-10-27T06:29:44.210Z",
-        "updatedAt": "2024-10-27T06:29:44.210Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671ddf82279cbf77b473d513",
@@ -996,8 +996,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے",
         "createdAt": "2024-10-27T06:36:50.179Z",
-        "updatedAt": "2024-10-27T06:36:50.179Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671ddff3279cbf77b473d515",
@@ -1010,8 +1010,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T06:38:43.525Z",
-        "updatedAt": "2024-10-27T06:38:43.525Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671de04d279cbf77b473d517",
@@ -1024,8 +1024,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T06:40:13.915Z",
-        "updatedAt": "2024-10-27T06:40:13.915Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671de0ca279cbf77b473d519",
@@ -1039,8 +1039,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T06:42:18.231Z",
-        "updatedAt": "2024-10-27T06:42:18.231Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671de124279cbf77b473d51b",
@@ -1053,8 +1053,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T06:43:48.787Z",
-        "updatedAt": "2024-10-27T06:43:48.787Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671de19e279cbf77b473d520",
@@ -1067,8 +1067,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T06:45:50.173Z",
-        "updatedAt": "2024-10-27T06:45:50.173Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671de1f3279cbf77b473d522",
@@ -1081,8 +1081,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T06:47:15.177Z",
-        "updatedAt": "2024-10-27T06:47:15.177Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671de24b279cbf77b473d529",
@@ -1095,8 +1095,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T06:48:43.081Z",
-        "updatedAt": "2024-10-27T06:48:43.081Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671dee06279cbf77b473d52b",
@@ -1109,8 +1109,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے",
         "createdAt": "2024-10-27T07:38:46.149Z",
-        "updatedAt": "2024-10-27T07:38:46.149Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671dee5a279cbf77b473d52d",
@@ -1123,8 +1123,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T07:40:10.109Z",
-        "updatedAt": "2024-10-27T07:40:10.109Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671deedd279cbf77b473d52f",
@@ -1137,8 +1137,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T07:42:21.850Z",
-        "updatedAt": "2024-10-27T07:42:21.850Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671def37279cbf77b473d531",
@@ -1151,8 +1151,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T07:43:51.051Z",
-        "updatedAt": "2024-10-27T07:43:51.051Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671def8f279cbf77b473d533",
@@ -1165,8 +1165,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T07:45:19.064Z",
-        "updatedAt": "2024-10-27T07:45:19.064Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671df057279cbf77b473d535",
@@ -1179,8 +1179,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T07:48:39.054Z",
-        "updatedAt": "2024-10-27T07:48:39.054Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671df0ce279cbf77b473d537",
@@ -1193,8 +1193,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T07:50:38.552Z",
-        "updatedAt": "2024-10-27T07:50:38.552Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671df17d279cbf77b473d539",
@@ -1207,8 +1207,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T07:53:33.772Z",
-        "updatedAt": "2024-10-27T07:53:33.772Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671df208279cbf77b473d53b",
@@ -1221,8 +1221,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T07:55:52.288Z",
-        "updatedAt": "2024-10-27T07:55:52.288Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671df2a8279cbf77b473d53d",
@@ -1235,8 +1235,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T07:58:32.132Z",
-        "updatedAt": "2024-10-27T07:58:32.132Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671df3b0279cbf77b473d53f",
@@ -1249,8 +1249,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T08:02:56.553Z",
-        "updatedAt": "2024-10-27T08:02:56.553Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671df4b2279cbf77b473d541",
@@ -1263,8 +1263,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T08:07:14.826Z",
-        "updatedAt": "2024-10-27T08:07:14.826Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671df7ba279cbf77b473d553",
@@ -1277,8 +1277,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T08:20:10.494Z",
-        "updatedAt": "2024-10-27T08:20:10.494Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671df823279cbf77b473d555",
@@ -1291,8 +1291,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T08:21:55.761Z",
-        "updatedAt": "2024-10-27T08:21:55.761Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671df879279cbf77b473d557",
@@ -1305,8 +1305,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T08:23:21.167Z",
-        "updatedAt": "2024-10-27T08:23:21.167Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671df8c7279cbf77b473d559",
@@ -1319,8 +1319,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے",
         "createdAt": "2024-10-27T08:24:39.378Z",
-        "updatedAt": "2024-10-27T08:24:39.378Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671df96a279cbf77b473d55b",
@@ -1333,8 +1333,8 @@ export const poetryArr = [
         "poet": "شاکر شجاع آبادی",
         "category": "دوہڑے ",
         "createdAt": "2024-10-27T08:27:22.423Z",
-        "updatedAt": "2024-10-27T08:27:22.423Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671f3868279cbf77b473d5be",
@@ -1345,8 +1345,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "خواب",
         "createdAt": "2024-10-28T07:08:24.395Z",
-        "updatedAt": "2024-10-28T07:08:24.395Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671f3902279cbf77b473d5c0",
@@ -1357,8 +1357,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "ایمان",
         "createdAt": "2024-10-28T07:10:58.206Z",
-        "updatedAt": "2024-10-28T07:10:58.206Z",
-        "__v": 0
+
+
     },
     {
         "_id": "671f3978279cbf77b473d5c2",
@@ -1369,8 +1369,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "دعا",
         "createdAt": "2024-10-28T07:12:56.590Z",
-        "updatedAt": "2024-10-28T07:12:56.590Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67208a09279cbf77b473d5fc",
@@ -1381,8 +1381,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "چین",
         "createdAt": "2024-10-29T07:08:57.259Z",
-        "updatedAt": "2024-10-29T07:08:57.259Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67208b1a279cbf77b473d5fe",
@@ -1393,8 +1393,8 @@ export const poetryArr = [
         "poet": "شیخ ابراہیم زوق",
         "category": "چین",
         "createdAt": "2024-10-29T07:13:30.615Z",
-        "updatedAt": "2024-10-29T07:13:30.615Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67208bc2279cbf77b473d602",
@@ -1405,8 +1405,8 @@ export const poetryArr = [
         "poet": "جوش ملیح آبادی",
         "category": "چین",
         "createdAt": "2024-10-29T07:16:18.528Z",
-        "updatedAt": "2024-10-29T07:16:18.528Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672136ed279cbf77b473d634",
@@ -1417,8 +1417,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "عشق",
         "createdAt": "2024-10-29T19:26:37.021Z",
-        "updatedAt": "2024-10-29T19:26:37.021Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213779279cbf77b473d636",
@@ -1429,8 +1429,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "یاد",
         "createdAt": "2024-10-29T19:28:57.060Z",
-        "updatedAt": "2024-10-29T19:28:57.060Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672137b6279cbf77b473d638",
@@ -1441,8 +1441,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "عشق",
         "createdAt": "2024-10-29T19:29:58.314Z",
-        "updatedAt": "2024-10-29T19:29:58.314Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213859279cbf77b473d63a",
@@ -1453,8 +1453,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "دل",
         "createdAt": "2024-10-29T19:32:41.379Z",
-        "updatedAt": "2024-10-29T19:32:41.379Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213896279cbf77b473d63c",
@@ -1465,8 +1465,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "رات",
         "createdAt": "2024-10-29T19:33:42.206Z",
-        "updatedAt": "2024-10-29T19:33:42.206Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672138d5279cbf77b473d63e",
@@ -1477,8 +1477,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "محبت",
         "createdAt": "2024-10-29T19:34:45.275Z",
-        "updatedAt": "2024-10-29T19:34:45.275Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213914279cbf77b473d640",
@@ -1489,8 +1489,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "بے وفائی",
         "createdAt": "2024-10-29T19:35:48.042Z",
-        "updatedAt": "2024-10-29T19:35:48.042Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672139a8279cbf77b473d642",
@@ -1501,8 +1501,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "محبوب",
         "createdAt": "2024-10-29T19:38:16.665Z",
-        "updatedAt": "2024-10-29T19:38:16.665Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672139f5279cbf77b473d644",
@@ -1513,8 +1513,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "انتظار",
         "createdAt": "2024-10-29T19:39:33.293Z",
-        "updatedAt": "2024-10-29T19:39:33.293Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213a2f279cbf77b473d646",
@@ -1525,8 +1525,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "یاد",
         "createdAt": "2024-10-29T19:40:31.372Z",
-        "updatedAt": "2024-10-29T19:40:31.372Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213a6b279cbf77b473d648",
@@ -1537,8 +1537,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "دل",
         "createdAt": "2024-10-29T19:41:31.959Z",
-        "updatedAt": "2024-10-29T19:41:31.959Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213a9d279cbf77b473d64a",
@@ -1549,8 +1549,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "عیب",
         "createdAt": "2024-10-29T19:42:21.922Z",
-        "updatedAt": "2024-10-29T19:42:21.922Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213ae8279cbf77b473d64c",
@@ -1561,8 +1561,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "کام",
         "createdAt": "2024-10-29T19:43:36.427Z",
-        "updatedAt": "2024-10-29T19:43:36.427Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213b1b279cbf77b473d64e",
@@ -1573,8 +1573,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "جدائی",
         "createdAt": "2024-10-29T19:44:27.918Z",
-        "updatedAt": "2024-10-29T19:44:27.918Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213b61279cbf77b473d650",
@@ -1585,8 +1585,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "عشق",
         "createdAt": "2024-10-29T19:45:37.080Z",
-        "updatedAt": "2024-10-29T19:45:37.080Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213bb9279cbf77b473d652",
@@ -1597,8 +1597,8 @@ export const poetryArr = [
         "poet": "میرتقی میر",
         "category": "عشق",
         "createdAt": "2024-10-29T19:47:05.974Z",
-        "updatedAt": "2024-10-29T19:47:05.974Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213c14279cbf77b473d654",
@@ -1609,8 +1609,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "عشق",
         "createdAt": "2024-10-29T19:48:36.566Z",
-        "updatedAt": "2024-10-29T19:48:36.566Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213c78279cbf77b473d657",
@@ -1621,8 +1621,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "آنکھ",
         "createdAt": "2024-10-29T19:50:16.605Z",
-        "updatedAt": "2024-10-29T19:50:16.605Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213d1a279cbf77b473d659",
@@ -1633,8 +1633,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "درد",
         "createdAt": "2024-10-29T19:52:58.620Z",
-        "updatedAt": "2024-10-29T19:52:58.620Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213fb0279cbf77b473d65d",
@@ -1645,8 +1645,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "رونا",
         "createdAt": "2024-10-29T20:04:00.943Z",
-        "updatedAt": "2024-10-29T20:04:00.943Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67213fe8279cbf77b473d65f",
@@ -1657,8 +1657,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "عشق",
         "createdAt": "2024-10-29T20:04:56.616Z",
-        "updatedAt": "2024-10-29T20:04:56.616Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672140d7279cbf77b473d661",
@@ -1669,8 +1669,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "عشق",
         "createdAt": "2024-10-29T20:08:55.588Z",
-        "updatedAt": "2024-10-29T20:08:55.588Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6721411b279cbf77b473d663",
@@ -1681,8 +1681,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "گفتگو",
         "createdAt": "2024-10-29T20:10:03.950Z",
-        "updatedAt": "2024-10-29T20:10:03.950Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6721416e279cbf77b473d665",
@@ -1693,8 +1693,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "درد",
         "createdAt": "2024-10-29T20:11:26.419Z",
-        "updatedAt": "2024-10-29T20:11:26.419Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672141c5279cbf77b473d667",
@@ -1705,8 +1705,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "نصیب",
         "createdAt": "2024-10-29T20:12:53.116Z",
-        "updatedAt": "2024-10-29T20:12:53.116Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6721429a279cbf77b473d669",
@@ -1717,8 +1717,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "عشق",
         "createdAt": "2024-10-29T20:16:26.697Z",
-        "updatedAt": "2024-10-29T20:16:26.697Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67214373279cbf77b473d66b",
@@ -1729,8 +1729,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "غم",
         "createdAt": "2024-10-29T20:20:03.339Z",
-        "updatedAt": "2024-10-29T20:20:03.339Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6721441c279cbf77b473d66d",
@@ -1741,8 +1741,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "سوال",
         "createdAt": "2024-10-29T20:22:52.592Z",
-        "updatedAt": "2024-10-29T20:22:52.592Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67214474279cbf77b473d66f",
@@ -1753,8 +1753,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "دوا",
         "createdAt": "2024-10-29T20:24:20.427Z",
-        "updatedAt": "2024-10-29T20:24:20.427Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672144af279cbf77b473d671",
@@ -1765,8 +1765,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "عشق",
         "createdAt": "2024-10-29T20:25:19.083Z",
-        "updatedAt": "2024-10-29T20:25:19.083Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672144e2279cbf77b473d673",
@@ -1777,8 +1777,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "دل",
         "createdAt": "2024-10-29T20:26:10.095Z",
-        "updatedAt": "2024-10-29T20:26:10.095Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67214528279cbf77b473d675",
@@ -1789,8 +1789,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "دل",
         "createdAt": "2024-10-29T20:27:20.590Z",
-        "updatedAt": "2024-10-29T20:27:20.590Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67214568279cbf77b473d677",
@@ -1801,8 +1801,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "آنکھ",
         "createdAt": "2024-10-29T20:28:24.324Z",
-        "updatedAt": "2024-10-29T20:28:24.324Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672145a9279cbf77b473d679",
@@ -1813,8 +1813,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "عشق",
         "createdAt": "2024-10-29T20:29:29.412Z",
-        "updatedAt": "2024-10-29T20:29:29.412Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67214602279cbf77b473d67b",
@@ -1825,8 +1825,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "وفا",
         "createdAt": "2024-10-29T20:30:58.864Z",
-        "updatedAt": "2024-10-29T20:30:58.864Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67214648279cbf77b473d67d",
@@ -1837,8 +1837,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "گل",
         "createdAt": "2024-10-29T20:32:08.964Z",
-        "updatedAt": "2024-10-29T20:32:08.964Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672146d9279cbf77b473d67f",
@@ -1849,8 +1849,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "عشق",
         "createdAt": "2024-10-29T20:34:33.068Z",
-        "updatedAt": "2024-10-29T20:34:33.068Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67214730279cbf77b473d681",
@@ -1861,8 +1861,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "پیار",
         "createdAt": "2024-10-29T20:36:00.420Z",
-        "updatedAt": "2024-10-29T20:36:00.420Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672147b5279cbf77b473d683",
@@ -1873,8 +1873,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "جنون",
         "createdAt": "2024-10-29T20:38:13.314Z",
-        "updatedAt": "2024-10-29T20:38:13.314Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672148b5279cbf77b473d686",
@@ -1885,8 +1885,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "ساقی",
         "createdAt": "2024-10-29T20:42:29.229Z",
-        "updatedAt": "2024-10-29T20:42:29.229Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672148ee279cbf77b473d688",
@@ -1897,8 +1897,8 @@ export const poetryArr = [
         "poet": "میر تقی میر",
         "category": "محبت",
         "createdAt": "2024-10-29T20:43:26.625Z",
-        "updatedAt": "2024-10-29T20:43:26.625Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672312cb279cbf77b473d6e4",
@@ -1909,8 +1909,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "عشق",
         "createdAt": "2024-10-31T05:16:59.244Z",
-        "updatedAt": "2024-10-31T05:16:59.244Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231307279cbf77b473d6e6",
@@ -1921,8 +1921,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "حیرت",
         "createdAt": "2024-10-31T05:17:59.659Z",
-        "updatedAt": "2024-10-31T05:17:59.659Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231342279cbf77b473d6e8",
@@ -1933,8 +1933,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "یاد",
         "createdAt": "2024-10-31T05:18:58.548Z",
-        "updatedAt": "2024-10-31T05:18:58.548Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723137b279cbf77b473d6ea",
@@ -1945,8 +1945,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "زخم",
         "createdAt": "2024-10-31T05:19:55.063Z",
-        "updatedAt": "2024-10-31T05:19:55.063Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672313d6279cbf77b473d6ec",
@@ -1957,8 +1957,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "پھول",
         "createdAt": "2024-10-31T05:21:26.886Z",
-        "updatedAt": "2024-10-31T05:21:26.886Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231430279cbf77b473d6ee",
@@ -1969,8 +1969,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "اداسی",
         "createdAt": "2024-10-31T05:22:56.209Z",
-        "updatedAt": "2024-10-31T05:22:56.209Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231478279cbf77b473d6f0",
@@ -1981,8 +1981,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "رسوائی",
         "createdAt": "2024-10-31T05:24:08.761Z",
-        "updatedAt": "2024-10-31T05:24:08.761Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672314c8279cbf77b473d6f2",
@@ -1993,8 +1993,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "زخم",
         "createdAt": "2024-10-31T05:25:28.125Z",
-        "updatedAt": "2024-10-31T05:25:28.125Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672314f6279cbf77b473d6f4",
@@ -2005,8 +2005,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "دشمن",
         "createdAt": "2024-10-31T05:26:14.454Z",
-        "updatedAt": "2024-10-31T05:26:14.454Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231526279cbf77b473d6f6",
@@ -2017,8 +2017,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "صبر",
         "createdAt": "2024-10-31T05:27:02.683Z",
-        "updatedAt": "2024-10-31T05:27:02.683Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723155d279cbf77b473d6f8",
@@ -2029,8 +2029,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "برسات",
         "createdAt": "2024-10-31T05:27:57.991Z",
-        "updatedAt": "2024-10-31T05:27:57.991Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723160f279cbf77b473d6fc",
@@ -2041,8 +2041,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "رونا",
         "createdAt": "2024-10-31T05:30:55.899Z",
-        "updatedAt": "2024-10-31T05:30:55.899Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231650279cbf77b473d6fe",
@@ -2053,8 +2053,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "جدائی",
         "createdAt": "2024-10-31T05:32:00.405Z",
-        "updatedAt": "2024-10-31T05:32:00.405Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672316b3279cbf77b473d700",
@@ -2065,8 +2065,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "پھول",
         "createdAt": "2024-10-31T05:33:39.510Z",
-        "updatedAt": "2024-10-31T05:33:39.510Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672316f0279cbf77b473d702",
@@ -2077,8 +2077,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "خواب",
         "createdAt": "2024-10-31T05:34:40.963Z",
-        "updatedAt": "2024-10-31T05:34:40.963Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231721279cbf77b473d704",
@@ -2089,8 +2089,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "انا",
         "createdAt": "2024-10-31T05:35:29.319Z",
-        "updatedAt": "2024-10-31T05:35:29.319Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231764279cbf77b473d706",
@@ -2101,8 +2101,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "تنہائی",
         "createdAt": "2024-10-31T05:36:36.408Z",
-        "updatedAt": "2024-10-31T05:36:36.408Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672317ba279cbf77b473d708",
@@ -2113,8 +2113,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "عشق",
         "createdAt": "2024-10-31T05:38:02.125Z",
-        "updatedAt": "2024-10-31T05:38:02.125Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672317f4279cbf77b473d70a",
@@ -2125,8 +2125,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "رات",
         "createdAt": "2024-10-31T05:39:00.541Z",
-        "updatedAt": "2024-10-31T05:39:00.541Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231825279cbf77b473d70c",
@@ -2137,8 +2137,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "مہمان",
         "createdAt": "2024-10-31T05:39:49.118Z",
-        "updatedAt": "2024-10-31T05:39:49.118Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231858279cbf77b473d70e",
@@ -2149,8 +2149,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "سالگرہ",
         "createdAt": "2024-10-31T05:40:40.110Z",
-        "updatedAt": "2024-10-31T05:40:40.110Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672318ad279cbf77b473d710",
@@ -2161,8 +2161,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "جدائی ",
         "createdAt": "2024-10-31T05:42:05.856Z",
-        "updatedAt": "2024-10-31T05:42:05.856Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231914279cbf77b473d712",
@@ -2173,8 +2173,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "بے وفائی",
         "createdAt": "2024-10-31T05:43:48.254Z",
-        "updatedAt": "2024-10-31T05:43:48.254Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231944279cbf77b473d714",
@@ -2185,8 +2185,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "انتظار",
         "createdAt": "2024-10-31T05:44:36.731Z",
-        "updatedAt": "2024-10-31T05:44:36.731Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723197d279cbf77b473d716",
@@ -2197,8 +2197,8 @@ export const poetryArr = [
         "poet": "عشق",
         "category": "عشق",
         "createdAt": "2024-10-31T05:45:33.287Z",
-        "updatedAt": "2024-10-31T05:45:33.287Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672319ae279cbf77b473d718",
@@ -2209,8 +2209,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "عشق",
         "createdAt": "2024-10-31T05:46:22.089Z",
-        "updatedAt": "2024-10-31T05:46:22.089Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672319ee279cbf77b473d71a",
@@ -2221,8 +2221,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "رسوائی",
         "createdAt": "2024-10-31T05:47:26.207Z",
-        "updatedAt": "2024-10-31T05:47:26.207Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231a4d279cbf77b473d71c",
@@ -2233,8 +2233,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "خوشبو",
         "createdAt": "2024-10-31T05:49:01.181Z",
-        "updatedAt": "2024-10-31T05:49:01.181Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231a7c279cbf77b473d71e",
@@ -2245,8 +2245,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "فیصلہ",
         "createdAt": "2024-10-31T05:49:48.843Z",
-        "updatedAt": "2024-10-31T05:49:48.843Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231aab279cbf77b473d720",
@@ -2257,8 +2257,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "دل",
         "createdAt": "2024-10-31T05:50:35.678Z",
-        "updatedAt": "2024-10-31T05:50:35.678Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231ae9279cbf77b473d722",
@@ -2270,8 +2270,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "چاہت",
         "createdAt": "2024-10-31T05:51:37.780Z",
-        "updatedAt": "2024-10-31T05:51:37.780Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231b16279cbf77b473d724",
@@ -2282,8 +2282,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "ہجر",
         "createdAt": "2024-10-31T05:52:22.725Z",
-        "updatedAt": "2024-10-31T05:52:22.725Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231b54279cbf77b473d726",
@@ -2294,8 +2294,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "حاجت",
         "createdAt": "2024-10-31T05:53:24.670Z",
-        "updatedAt": "2024-10-31T05:53:24.670Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231b7e279cbf77b473d728",
@@ -2306,8 +2306,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "انا",
         "createdAt": "2024-10-31T05:54:06.094Z",
-        "updatedAt": "2024-10-31T05:54:06.094Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231c69279cbf77b473d72a",
@@ -2318,8 +2318,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "قتل",
         "createdAt": "2024-10-31T05:58:01.148Z",
-        "updatedAt": "2024-10-31T05:58:01.148Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231cba279cbf77b473d72c",
@@ -2330,8 +2330,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "ہجر",
         "createdAt": "2024-10-31T05:59:22.601Z",
-        "updatedAt": "2024-10-31T05:59:22.601Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231d27279cbf77b473d72f",
@@ -2342,8 +2342,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "کانٹے",
         "createdAt": "2024-10-31T06:01:11.735Z",
-        "updatedAt": "2024-10-31T06:01:11.735Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231d57279cbf77b473d731",
@@ -2354,8 +2354,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "حیرت",
         "createdAt": "2024-10-31T06:01:59.571Z",
-        "updatedAt": "2024-10-31T06:01:59.571Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231da3279cbf77b473d733",
@@ -2366,8 +2366,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "ملاقات",
         "createdAt": "2024-10-31T06:03:15.338Z",
-        "updatedAt": "2024-10-31T06:03:15.338Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231ddb279cbf77b473d735",
@@ -2378,8 +2378,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "روح",
         "createdAt": "2024-10-31T06:04:11.973Z",
-        "updatedAt": "2024-10-31T06:04:11.973Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231e0b279cbf77b473d737",
@@ -2390,8 +2390,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "درد",
         "createdAt": "2024-10-31T06:04:59.636Z",
-        "updatedAt": "2024-10-31T06:04:59.636Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231e4f279cbf77b473d739",
@@ -2402,8 +2402,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "سفر",
         "createdAt": "2024-10-31T06:06:07.441Z",
-        "updatedAt": "2024-10-31T06:06:07.441Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231e88279cbf77b473d73b",
@@ -2414,8 +2414,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "آنکھ",
         "createdAt": "2024-10-31T06:07:04.494Z",
-        "updatedAt": "2024-10-31T06:07:04.494Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231f68279cbf77b473d73d",
@@ -2426,8 +2426,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "پرکھنا",
         "createdAt": "2024-10-31T06:10:48.847Z",
-        "updatedAt": "2024-10-31T06:10:48.847Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231fac279cbf77b473d73f",
@@ -2438,8 +2438,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "پیار",
         "createdAt": "2024-10-31T06:11:56.247Z",
-        "updatedAt": "2024-10-31T06:11:56.247Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67231fe6279cbf77b473d741",
@@ -2450,8 +2450,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "دستک",
         "createdAt": "2024-10-31T06:12:54.897Z",
-        "updatedAt": "2024-10-31T06:12:54.897Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232026279cbf77b473d743",
@@ -2462,8 +2462,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "اداسی",
         "createdAt": "2024-10-31T06:13:58.178Z",
-        "updatedAt": "2024-10-31T06:13:58.178Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232055279cbf77b473d745",
@@ -2474,8 +2474,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "آنکھ",
         "createdAt": "2024-10-31T06:14:45.007Z",
-        "updatedAt": "2024-10-31T06:14:45.007Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232087279cbf77b473d747",
@@ -2486,8 +2486,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "خوشبو",
         "createdAt": "2024-10-31T06:15:35.955Z",
-        "updatedAt": "2024-10-31T06:15:35.955Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672320c1279cbf77b473d749",
@@ -2498,8 +2498,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "معیار",
         "createdAt": "2024-10-31T06:16:33.627Z",
-        "updatedAt": "2024-10-31T06:16:33.627Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672320ee279cbf77b473d74b",
@@ -2510,8 +2510,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "دل",
         "createdAt": "2024-10-31T06:17:18.164Z",
-        "updatedAt": "2024-10-31T06:17:18.164Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232120279cbf77b473d74d",
@@ -2522,8 +2522,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "دعا",
         "createdAt": "2024-10-31T06:18:08.462Z",
-        "updatedAt": "2024-10-31T06:18:08.462Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723216e279cbf77b473d74f",
@@ -2534,8 +2534,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "ہوا",
         "createdAt": "2024-10-31T06:19:26.153Z",
-        "updatedAt": "2024-10-31T06:19:26.153Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672321a7279cbf77b473d751",
@@ -2546,8 +2546,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "دل",
         "createdAt": "2024-10-31T06:20:23.152Z",
-        "updatedAt": "2024-10-31T06:20:23.152Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672321d5279cbf77b473d753",
@@ -2558,8 +2558,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "ظلم",
         "createdAt": "2024-10-31T06:21:09.916Z",
-        "updatedAt": "2024-10-31T06:21:09.916Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723221a279cbf77b473d755",
@@ -2570,8 +2570,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "دل",
         "createdAt": "2024-10-31T06:22:18.204Z",
-        "updatedAt": "2024-10-31T06:22:18.204Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232341279cbf77b473d757",
@@ -2582,8 +2582,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "تڑپ",
         "createdAt": "2024-10-31T06:27:13.428Z",
-        "updatedAt": "2024-10-31T06:27:13.428Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723236c279cbf77b473d759",
@@ -2594,8 +2594,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "دعا",
         "createdAt": "2024-10-31T06:27:56.116Z",
-        "updatedAt": "2024-10-31T06:27:56.116Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723239f279cbf77b473d75b",
@@ -2606,8 +2606,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "شرط",
         "createdAt": "2024-10-31T06:28:47.974Z",
-        "updatedAt": "2024-10-31T06:28:47.974Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232411279cbf77b473d75f",
@@ -2618,8 +2618,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "استقبال",
         "createdAt": "2024-10-31T06:30:41.671Z",
-        "updatedAt": "2024-10-31T06:30:41.671Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232456279cbf77b473d761",
@@ -2630,8 +2630,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "الوداع ",
         "createdAt": "2024-10-31T06:31:50.731Z",
-        "updatedAt": "2024-10-31T06:31:50.731Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672324da279cbf77b473d763",
@@ -2642,8 +2642,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "زخم",
         "createdAt": "2024-10-31T06:34:02.654Z",
-        "updatedAt": "2024-10-31T06:34:02.654Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232579279cbf77b473d766",
@@ -2654,8 +2654,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "زخم",
         "createdAt": "2024-10-31T06:36:41.349Z",
-        "updatedAt": "2024-10-31T06:36:41.349Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672325bd279cbf77b473d768",
@@ -2666,8 +2666,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "وقت",
         "createdAt": "2024-10-31T06:37:49.049Z",
-        "updatedAt": "2024-10-31T06:37:49.049Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672325f4279cbf77b473d76a",
@@ -2678,8 +2678,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "استقبال",
         "createdAt": "2024-10-31T06:38:44.932Z",
-        "updatedAt": "2024-10-31T06:38:44.932Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232649279cbf77b473d76c",
@@ -2690,8 +2690,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "تحفہ",
         "createdAt": "2024-10-31T06:40:09.805Z",
-        "updatedAt": "2024-10-31T06:40:09.805Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232682279cbf77b473d76e",
@@ -2702,8 +2702,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "تنہائی",
         "createdAt": "2024-10-31T06:41:06.622Z",
-        "updatedAt": "2024-10-31T06:41:06.622Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672326c8279cbf77b473d770",
@@ -2714,8 +2714,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "ہجر",
         "createdAt": "2024-10-31T06:42:16.798Z",
-        "updatedAt": "2024-10-31T06:42:16.798Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672326f7279cbf77b473d772",
@@ -2726,8 +2726,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "الوداع",
         "createdAt": "2024-10-31T06:43:03.906Z",
-        "updatedAt": "2024-10-31T06:43:03.906Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232732279cbf77b473d774",
@@ -2738,8 +2738,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "آواز",
         "createdAt": "2024-10-31T06:44:02.695Z",
-        "updatedAt": "2024-10-31T06:44:02.695Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723275e279cbf77b473d776",
@@ -2750,8 +2750,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "یاد",
         "createdAt": "2024-10-31T06:44:46.069Z",
-        "updatedAt": "2024-10-31T06:44:46.069Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672327b6279cbf77b473d778",
@@ -2762,8 +2762,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "شرارت",
         "createdAt": "2024-10-31T06:46:14.875Z",
-        "updatedAt": "2024-10-31T06:46:14.875Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672327ea279cbf77b473d77a",
@@ -2774,8 +2774,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "آسمان",
         "createdAt": "2024-10-31T06:47:06.117Z",
-        "updatedAt": "2024-10-31T06:47:06.117Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232829279cbf77b473d77c",
@@ -2786,8 +2786,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "اعتبار",
         "createdAt": "2024-10-31T06:48:09.458Z",
-        "updatedAt": "2024-10-31T06:48:09.458Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232853279cbf77b473d77e",
@@ -2798,8 +2798,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "چاہت",
         "createdAt": "2024-10-31T06:48:51.598Z",
-        "updatedAt": "2024-10-31T06:48:51.598Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232887279cbf77b473d780",
@@ -2810,8 +2810,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "دل",
         "createdAt": "2024-10-31T06:49:43.373Z",
-        "updatedAt": "2024-10-31T06:49:43.373Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672328b2279cbf77b473d782",
@@ -2822,8 +2822,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "یاد",
         "createdAt": "2024-10-31T06:50:26.284Z",
-        "updatedAt": "2024-10-31T06:50:26.284Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672328db279cbf77b473d784",
@@ -2834,8 +2834,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "سفر",
         "createdAt": "2024-10-31T06:51:07.802Z",
-        "updatedAt": "2024-10-31T06:51:07.802Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232934279cbf77b473d786",
@@ -2846,8 +2846,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "نصیب",
         "createdAt": "2024-10-31T06:52:36.107Z",
-        "updatedAt": "2024-10-31T06:52:36.107Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723296d279cbf77b473d788",
@@ -2858,8 +2858,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "خواب",
         "createdAt": "2024-10-31T06:53:33.442Z",
-        "updatedAt": "2024-10-31T06:53:33.442Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672329eb279cbf77b473d78a",
@@ -2870,8 +2870,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "محبت",
         "createdAt": "2024-10-31T06:55:39.493Z",
-        "updatedAt": "2024-10-31T06:55:39.493Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232a49279cbf77b473d78c",
@@ -2882,8 +2882,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "تنہائی",
         "createdAt": "2024-10-31T06:57:13.727Z",
-        "updatedAt": "2024-10-31T06:57:13.727Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232aa2279cbf77b473d78e",
@@ -2894,8 +2894,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "آرام",
         "createdAt": "2024-10-31T06:58:42.396Z",
-        "updatedAt": "2024-10-31T06:58:42.396Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232ad1279cbf77b473d790",
@@ -2906,8 +2906,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "دل",
         "createdAt": "2024-10-31T06:59:29.409Z",
-        "updatedAt": "2024-10-31T06:59:29.409Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232b1a279cbf77b473d792",
@@ -2918,8 +2918,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "زخم",
         "createdAt": "2024-10-31T07:00:42.270Z",
-        "updatedAt": "2024-10-31T07:00:42.270Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232b4e279cbf77b473d794",
@@ -2930,8 +2930,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "یاد",
         "createdAt": "2024-10-31T07:01:34.956Z",
-        "updatedAt": "2024-10-31T07:01:34.956Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232b78279cbf77b473d796",
@@ -2942,8 +2942,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "دل",
         "createdAt": "2024-10-31T07:02:16.366Z",
-        "updatedAt": "2024-10-31T07:02:16.366Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67232ba8279cbf77b473d798",
@@ -2954,8 +2954,8 @@ export const poetryArr = [
         "poet": "پروین شاکر",
         "category": "چاہت",
         "createdAt": "2024-10-31T07:03:04.158Z",
-        "updatedAt": "2024-10-31T07:03:04.158Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723cfb6279cbf77b473d7b5",
@@ -2966,8 +2966,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T18:43:02.094Z",
-        "updatedAt": "2024-10-31T18:43:02.094Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723cff8279cbf77b473d7b7",
@@ -2978,8 +2978,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "عشق",
         "createdAt": "2024-10-31T18:44:08.943Z",
-        "updatedAt": "2024-10-31T18:44:08.943Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723d57e279cbf77b473d7b9",
@@ -2990,8 +2990,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "سادگی",
         "createdAt": "2024-10-31T19:07:42.948Z",
-        "updatedAt": "2024-10-31T19:07:42.948Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723d5ec279cbf77b473d7bb",
@@ -3002,8 +3002,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "آرزو",
         "createdAt": "2024-10-31T19:09:32.970Z",
-        "updatedAt": "2024-10-31T19:09:32.970Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723d62d279cbf77b473d7bd",
@@ -3014,8 +3014,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "حال",
         "createdAt": "2024-10-31T19:10:37.167Z",
-        "updatedAt": "2024-10-31T19:10:37.167Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723d65b279cbf77b473d7c1",
@@ -3026,8 +3026,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "انتظار",
         "createdAt": "2024-10-31T19:11:23.648Z",
-        "updatedAt": "2024-10-31T19:11:23.648Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723d687279cbf77b473d7c3",
@@ -3038,8 +3038,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "عشق",
         "createdAt": "2024-10-31T19:12:07.494Z",
-        "updatedAt": "2024-10-31T19:12:07.494Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723d727279cbf77b473d7c8",
@@ -3050,8 +3050,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "درد",
         "createdAt": "2024-10-31T19:14:47.669Z",
-        "updatedAt": "2024-10-31T19:14:47.669Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723d7c4279cbf77b473d7cb",
@@ -3062,8 +3062,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "استقبال",
         "createdAt": "2024-10-31T19:17:24.092Z",
-        "updatedAt": "2024-10-31T19:17:24.092Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723d7f9279cbf77b473d7cd",
@@ -3074,8 +3074,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "آرزو",
         "createdAt": "2024-10-31T19:18:17.687Z",
-        "updatedAt": "2024-10-31T19:18:17.687Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723d821279cbf77b473d7cf",
@@ -3086,8 +3086,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "وفا",
         "createdAt": "2024-10-31T19:18:57.266Z",
-        "updatedAt": "2024-10-31T19:18:57.266Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723d855279cbf77b473d7d1",
@@ -3099,8 +3099,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "بے خودی",
         "createdAt": "2024-10-31T19:19:49.098Z",
-        "updatedAt": "2024-10-31T19:19:49.098Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723d996279cbf77b473d7d3",
@@ -3111,8 +3111,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "رنجش",
         "createdAt": "2024-10-31T19:25:10.030Z",
-        "updatedAt": "2024-10-31T19:25:10.030Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723d9be279cbf77b473d7d5",
@@ -3123,8 +3123,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "درد",
         "createdAt": "2024-10-31T19:25:50.069Z",
-        "updatedAt": "2024-10-31T19:25:50.069Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723da43279cbf77b473d7d7",
@@ -3135,8 +3135,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "آئینہ",
         "createdAt": "2024-10-31T19:28:03.183Z",
-        "updatedAt": "2024-10-31T19:28:03.183Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723dab3279cbf77b473d7d9",
@@ -3147,8 +3147,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "نیند",
         "createdAt": "2024-10-31T19:29:55.828Z",
-        "updatedAt": "2024-10-31T19:29:55.828Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723dafc279cbf77b473d7db",
@@ -3159,8 +3159,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "کام",
         "createdAt": "2024-10-31T19:31:08.515Z",
-        "updatedAt": "2024-10-31T19:31:08.515Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723db37279cbf77b473d7dd",
@@ -3171,8 +3171,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "خاک",
         "createdAt": "2024-10-31T19:32:07.390Z",
-        "updatedAt": "2024-10-31T19:32:07.390Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723dbb2279cbf77b473d7df",
@@ -3183,8 +3183,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دوستی",
         "createdAt": "2024-10-31T19:34:10.735Z",
-        "updatedAt": "2024-10-31T19:34:10.735Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723de48279cbf77b473d7e1",
@@ -3195,8 +3195,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T19:45:12.885Z",
-        "updatedAt": "2024-10-31T19:45:12.885Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723de7d279cbf77b473d7e3",
@@ -3207,8 +3207,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T19:46:05.371Z",
-        "updatedAt": "2024-10-31T19:46:05.371Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723dea7279cbf77b473d7e5",
@@ -3219,8 +3219,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شرم",
         "createdAt": "2024-10-31T19:46:47.720Z",
-        "updatedAt": "2024-10-31T19:46:47.720Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723def8279cbf77b473d7e7",
@@ -3231,8 +3231,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "ہنسی",
         "createdAt": "2024-10-31T19:48:08.881Z",
-        "updatedAt": "2024-10-31T19:48:08.881Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723df77279cbf77b473d7e9",
@@ -3243,8 +3243,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "فرصت",
         "createdAt": "2024-10-31T19:50:15.031Z",
-        "updatedAt": "2024-10-31T19:50:15.031Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723dfa4279cbf77b473d7eb",
@@ -3255,8 +3255,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "نگاہ",
         "createdAt": "2024-10-31T19:51:00.184Z",
-        "updatedAt": "2024-10-31T19:51:00.184Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723dff4279cbf77b473d7ed",
@@ -3267,8 +3267,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "خبر",
         "createdAt": "2024-10-31T19:52:20.416Z",
-        "updatedAt": "2024-10-31T19:52:20.416Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e08a279cbf77b473d7f0",
@@ -3279,8 +3279,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "آرزو",
         "createdAt": "2024-10-31T19:54:50.918Z",
-        "updatedAt": "2024-10-31T19:54:50.918Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e0b4279cbf77b473d7f2",
@@ -3291,8 +3291,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T19:55:32.438Z",
-        "updatedAt": "2024-10-31T19:55:32.438Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e0e3279cbf77b473d7f4",
@@ -3303,8 +3303,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T19:56:19.540Z",
-        "updatedAt": "2024-10-31T19:56:19.540Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e10a279cbf77b473d7f6",
@@ -3315,8 +3315,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "درد",
         "createdAt": "2024-10-31T19:56:58.970Z",
-        "updatedAt": "2024-10-31T19:56:58.970Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e16a279cbf77b473d7f8",
@@ -3327,8 +3327,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "زندگی",
         "createdAt": "2024-10-31T19:58:34.715Z",
-        "updatedAt": "2024-10-31T19:58:34.715Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e195279cbf77b473d7fa",
@@ -3339,8 +3339,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "امید",
         "createdAt": "2024-10-31T19:59:17.101Z",
-        "updatedAt": "2024-10-31T19:59:17.101Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e1c4279cbf77b473d7fc",
@@ -3351,8 +3351,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "قتل",
         "createdAt": "2024-10-31T20:00:04.992Z",
-        "updatedAt": "2024-10-31T20:00:04.992Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e45e279cbf77b473d7fe",
@@ -3363,8 +3363,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T20:11:10.685Z",
-        "updatedAt": "2024-10-31T20:11:10.685Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e4b4279cbf77b473d800",
@@ -3375,8 +3375,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "سالگرہ",
         "createdAt": "2024-10-31T20:12:36.728Z",
-        "updatedAt": "2024-10-31T20:12:36.728Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e563279cbf77b473d802",
@@ -3387,8 +3387,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "سچ",
         "createdAt": "2024-10-31T20:15:31.054Z",
-        "updatedAt": "2024-10-31T20:15:31.054Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e774279cbf77b473d804",
@@ -3399,8 +3399,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "لب",
         "createdAt": "2024-10-31T20:24:20.137Z",
-        "updatedAt": "2024-10-31T20:24:20.137Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e7c0279cbf77b473d806",
@@ -3411,8 +3411,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "تماشا",
         "createdAt": "2024-10-31T20:25:36.434Z",
-        "updatedAt": "2024-10-31T20:25:36.434Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e7f8279cbf77b473d808",
@@ -3423,8 +3423,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T20:26:32.673Z",
-        "updatedAt": "2024-10-31T20:26:32.673Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e8d1279cbf77b473d80b",
@@ -3435,8 +3435,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "زلف",
         "createdAt": "2024-10-31T20:30:09.056Z",
-        "updatedAt": "2024-10-31T20:30:09.056Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e92e279cbf77b473d80d",
@@ -3447,8 +3447,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "اعتبار",
         "createdAt": "2024-10-31T20:31:42.013Z",
-        "updatedAt": "2024-10-31T20:31:42.013Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e9a7279cbf77b473d80f",
@@ -3459,8 +3459,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "عشق",
         "createdAt": "2024-10-31T20:33:43.958Z",
-        "updatedAt": "2024-10-31T20:33:43.958Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723e9dc279cbf77b473d811",
@@ -3471,8 +3471,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T20:34:36.904Z",
-        "updatedAt": "2024-10-31T20:34:36.904Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ea18279cbf77b473d813",
@@ -3483,8 +3483,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "نفرت",
         "createdAt": "2024-10-31T20:35:36.736Z",
-        "updatedAt": "2024-10-31T20:35:36.736Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ea44279cbf77b473d815",
@@ -3495,8 +3495,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "رسوائی",
         "createdAt": "2024-10-31T20:36:20.874Z",
-        "updatedAt": "2024-10-31T20:36:20.874Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ea76279cbf77b473d817",
@@ -3507,8 +3507,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "یاد",
         "createdAt": "2024-10-31T20:37:10.239Z",
-        "updatedAt": "2024-10-31T20:37:10.239Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723eaa3279cbf77b473d819",
@@ -3519,8 +3519,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "عشق",
         "createdAt": "2024-10-31T20:37:55.905Z",
-        "updatedAt": "2024-10-31T20:37:55.905Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ead7279cbf77b473d81b",
@@ -3531,8 +3531,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "وقت",
         "createdAt": "2024-10-31T20:38:47.708Z",
-        "updatedAt": "2024-10-31T20:38:47.708Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723eb02279cbf77b473d81d",
@@ -3543,8 +3543,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T20:39:30.177Z",
-        "updatedAt": "2024-10-31T20:39:30.177Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723eb31279cbf77b473d81f",
@@ -3555,8 +3555,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T20:40:17.671Z",
-        "updatedAt": "2024-10-31T20:40:17.671Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723eb71279cbf77b473d821",
@@ -3567,8 +3567,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T20:41:21.349Z",
-        "updatedAt": "2024-10-31T20:41:21.349Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ebab279cbf77b473d823",
@@ -3579,8 +3579,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "گھر",
         "createdAt": "2024-10-31T20:42:19.196Z",
-        "updatedAt": "2024-10-31T20:42:19.196Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ebe1279cbf77b473d825",
@@ -3591,8 +3591,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "خط",
         "createdAt": "2024-10-31T20:43:13.307Z",
-        "updatedAt": "2024-10-31T20:43:13.307Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ec12279cbf77b473d827",
@@ -3603,8 +3603,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دعا",
         "createdAt": "2024-10-31T20:44:02.023Z",
-        "updatedAt": "2024-10-31T20:44:02.023Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ec93279cbf77b473d829",
@@ -3615,8 +3615,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "الوداع",
         "createdAt": "2024-10-31T20:46:11.655Z",
-        "updatedAt": "2024-10-31T20:46:11.655Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ecf2279cbf77b473d82b",
@@ -3627,8 +3627,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "الوداع",
         "createdAt": "2024-10-31T20:47:46.317Z",
-        "updatedAt": "2024-10-31T20:47:46.317Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ed42279cbf77b473d82d",
@@ -3639,8 +3639,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T20:49:06.577Z",
-        "updatedAt": "2024-10-31T20:49:06.577Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723edc1279cbf77b473d82f",
@@ -3651,8 +3651,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T20:51:13.030Z",
-        "updatedAt": "2024-10-31T20:51:13.030Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ee2d279cbf77b473d831",
@@ -3663,8 +3663,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "انداز بیاں",
         "createdAt": "2024-10-31T20:53:01.844Z",
-        "updatedAt": "2024-10-31T20:53:01.844Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ee62279cbf77b473d833",
@@ -3675,8 +3675,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T20:53:54.758Z",
-        "updatedAt": "2024-10-31T20:53:54.758Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ee9c279cbf77b473d835",
@@ -3687,8 +3687,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "کشمکش",
         "createdAt": "2024-10-31T20:54:52.353Z",
-        "updatedAt": "2024-10-31T20:54:52.353Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723eec8279cbf77b473d837",
@@ -3699,8 +3699,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T20:55:36.651Z",
-        "updatedAt": "2024-10-31T20:55:36.651Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723eef9279cbf77b473d839",
@@ -3711,8 +3711,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "عشق",
         "createdAt": "2024-10-31T20:56:25.241Z",
-        "updatedAt": "2024-10-31T20:56:25.241Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ef47279cbf77b473d83b",
@@ -3723,8 +3723,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T20:57:43.847Z",
-        "updatedAt": "2024-10-31T20:57:43.847Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ef8c279cbf77b473d83d",
@@ -3735,8 +3735,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "رسوائی",
         "createdAt": "2024-10-31T20:58:52.419Z",
-        "updatedAt": "2024-10-31T20:58:52.419Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723efc7279cbf77b473d83f",
@@ -3747,8 +3747,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T20:59:51.317Z",
-        "updatedAt": "2024-10-31T20:59:51.317Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f012279cbf77b473d841",
@@ -3759,8 +3759,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "آرزو",
         "createdAt": "2024-10-31T21:01:06.796Z",
-        "updatedAt": "2024-10-31T21:01:06.796Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f050279cbf77b473d843",
@@ -3771,8 +3771,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "عشق",
         "createdAt": "2024-10-31T21:02:08.396Z",
-        "updatedAt": "2024-10-31T21:02:08.396Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f087279cbf77b473d845",
@@ -3783,8 +3783,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "بے نیازی",
         "createdAt": "2024-10-31T21:03:03.439Z",
-        "updatedAt": "2024-10-31T21:03:03.439Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f0b1279cbf77b473d847",
@@ -3795,8 +3795,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "حسن",
         "createdAt": "2024-10-31T21:03:45.021Z",
-        "updatedAt": "2024-10-31T21:03:45.021Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f101279cbf77b473d849",
@@ -3807,8 +3807,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "قتل",
         "createdAt": "2024-10-31T21:05:05.220Z",
-        "updatedAt": "2024-10-31T21:05:05.220Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f19a279cbf77b473d84b",
@@ -3819,8 +3819,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "عشق",
         "createdAt": "2024-10-31T21:07:38.721Z",
-        "updatedAt": "2024-10-31T21:07:38.721Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f221279cbf77b473d84d",
@@ -3831,8 +3831,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "آبرو",
         "createdAt": "2024-10-31T21:09:53.514Z",
-        "updatedAt": "2024-10-31T21:09:53.514Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f25c279cbf77b473d84f",
@@ -3843,8 +3843,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T21:10:52.908Z",
-        "updatedAt": "2024-10-31T21:10:52.908Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f355279cbf77b473d851",
@@ -3855,8 +3855,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "حکمت",
         "createdAt": "2024-10-31T21:15:01.939Z",
-        "updatedAt": "2024-10-31T21:15:01.939Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f39a279cbf77b473d853",
@@ -3867,8 +3867,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "انتظار",
         "createdAt": "2024-10-31T21:16:10.637Z",
-        "updatedAt": "2024-10-31T21:16:10.637Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f42d279cbf77b473d855",
@@ -3879,8 +3879,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T21:18:37.055Z",
-        "updatedAt": "2024-10-31T21:18:37.055Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f47c279cbf77b473d857",
@@ -3891,8 +3891,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دشمن",
         "createdAt": "2024-10-31T21:19:56.689Z",
-        "updatedAt": "2024-10-31T21:19:56.689Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f4be279cbf77b473d859",
@@ -3903,8 +3903,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T21:21:02.037Z",
-        "updatedAt": "2024-10-31T21:21:02.037Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f4f3279cbf77b473d85b",
@@ -3915,8 +3915,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دوا",
         "createdAt": "2024-10-31T21:21:55.306Z",
-        "updatedAt": "2024-10-31T21:21:55.306Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f570279cbf77b473d85d",
@@ -3927,8 +3927,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دستک",
         "createdAt": "2024-10-31T21:24:00.980Z",
-        "updatedAt": "2024-10-31T21:24:00.980Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f59f279cbf77b473d85f",
@@ -3939,8 +3939,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "خط",
         "createdAt": "2024-10-31T21:24:47.887Z",
-        "updatedAt": "2024-10-31T21:24:47.887Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f5fe279cbf77b473d861",
@@ -3951,8 +3951,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "بے وفائی",
         "createdAt": "2024-10-31T21:26:22.595Z",
-        "updatedAt": "2024-10-31T21:26:22.595Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f65e279cbf77b473d863",
@@ -3963,8 +3963,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "امید",
         "createdAt": "2024-10-31T21:27:58.108Z",
-        "updatedAt": "2024-10-31T21:27:58.108Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f692279cbf77b473d865",
@@ -3975,8 +3975,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "غم",
         "createdAt": "2024-10-31T21:28:50.470Z",
-        "updatedAt": "2024-10-31T21:28:50.470Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f6f8279cbf77b473d868",
@@ -3987,8 +3987,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "حاجت",
         "createdAt": "2024-10-31T21:30:32.226Z",
-        "updatedAt": "2024-10-31T21:30:32.226Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f81c279cbf77b473d86a",
@@ -3999,8 +3999,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T21:35:24.918Z",
-        "updatedAt": "2024-10-31T21:35:24.918Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723f8f8279cbf77b473d86d",
@@ -4011,8 +4011,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T21:39:04.773Z",
-        "updatedAt": "2024-10-31T21:39:04.773Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723fb4a279cbf77b473d870",
@@ -4023,8 +4023,8 @@ export const poetryArr = [
         "poet": "مرزا  غالب",
         "category": "زندگی",
         "createdAt": "2024-10-31T21:48:58.876Z",
-        "updatedAt": "2024-10-31T21:48:58.876Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723fc4c279cbf77b473d872",
@@ -4035,8 +4035,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "زندگی",
         "createdAt": "2024-10-31T21:53:16.967Z",
-        "updatedAt": "2024-10-31T21:53:16.967Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723fd04279cbf77b473d875",
@@ -4047,8 +4047,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "گھر",
         "createdAt": "2024-10-31T21:56:20.270Z",
-        "updatedAt": "2024-10-31T21:56:20.270Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723fd1f279cbf77b473d877",
@@ -4059,8 +4059,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "ہجر",
         "createdAt": "2024-10-31T21:56:47.517Z",
-        "updatedAt": "2024-10-31T21:56:47.517Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723fd51279cbf77b473d879",
@@ -4071,8 +4071,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "یاد",
         "createdAt": "2024-10-31T21:57:37.891Z",
-        "updatedAt": "2024-10-31T21:57:37.891Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723fdba279cbf77b473d87b",
@@ -4083,8 +4083,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "غم",
         "createdAt": "2024-10-31T21:59:22.822Z",
-        "updatedAt": "2024-10-31T21:59:22.822Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723fe31279cbf77b473d87d",
@@ -4095,8 +4095,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "زخم",
         "createdAt": "2024-10-31T22:01:21.440Z",
-        "updatedAt": "2024-10-31T22:01:21.440Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723fe5a279cbf77b473d87f",
@@ -4107,8 +4107,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دوستی",
         "createdAt": "2024-10-31T22:02:02.761Z",
-        "updatedAt": "2024-10-31T22:02:02.761Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723fe99279cbf77b473d881",
@@ -4119,8 +4119,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "عشق",
         "createdAt": "2024-10-31T22:03:05.167Z",
-        "updatedAt": "2024-10-31T22:03:05.167Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723fee0279cbf77b473d883",
@@ -4131,8 +4131,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "بے نیازی",
         "createdAt": "2024-10-31T22:04:16.540Z",
-        "updatedAt": "2024-10-31T22:04:16.540Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ff19279cbf77b473d885",
@@ -4143,8 +4143,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T22:05:13.954Z",
-        "updatedAt": "2024-10-31T22:05:13.954Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ff78279cbf77b473d887",
@@ -4155,8 +4155,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T22:06:48.702Z",
-        "updatedAt": "2024-10-31T22:06:48.702Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6723ffa6279cbf77b473d889",
@@ -4167,8 +4167,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "عشق",
         "createdAt": "2024-10-31T22:07:34.594Z",
-        "updatedAt": "2024-10-31T22:07:34.594Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672400a8279cbf77b473d88c",
@@ -4179,8 +4179,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T22:11:52.179Z",
-        "updatedAt": "2024-10-31T22:11:52.179Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672400ec279cbf77b473d88e",
@@ -4191,8 +4191,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T22:13:00.276Z",
-        "updatedAt": "2024-10-31T22:13:00.276Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6724014e279cbf77b473d890",
@@ -4203,8 +4203,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T22:14:38.852Z",
-        "updatedAt": "2024-10-31T22:14:38.852Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6724017d279cbf77b473d892",
@@ -4215,8 +4215,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "خط",
         "createdAt": "2024-10-31T22:15:25.066Z",
-        "updatedAt": "2024-10-31T22:15:25.066Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672401e1279cbf77b473d894",
@@ -4227,8 +4227,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "درد",
         "createdAt": "2024-10-31T22:17:05.865Z",
-        "updatedAt": "2024-10-31T22:17:05.865Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672402a7279cbf77b473d896",
@@ -4239,8 +4239,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "دل",
         "createdAt": "2024-10-31T22:20:23.848Z",
-        "updatedAt": "2024-10-31T22:20:23.848Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67240311279cbf77b473d898",
@@ -4251,8 +4251,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T22:22:09.369Z",
-        "updatedAt": "2024-10-31T22:22:09.369Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6724033e279cbf77b473d89a",
@@ -4263,8 +4263,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "وعدہ",
         "createdAt": "2024-10-31T22:22:54.599Z",
-        "updatedAt": "2024-10-31T22:22:54.599Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67240385279cbf77b473d89c",
@@ -4275,8 +4275,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "آرزو",
         "createdAt": "2024-10-31T22:24:05.859Z",
-        "updatedAt": "2024-10-31T22:24:05.859Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67240420279cbf77b473d89e",
@@ -4287,8 +4287,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "زندگی",
         "createdAt": "2024-10-31T22:26:40.037Z",
-        "updatedAt": "2024-10-31T22:26:40.037Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672404dc279cbf77b473d8a0",
@@ -4299,8 +4299,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "شکوہ",
         "createdAt": "2024-10-31T22:29:48.617Z",
-        "updatedAt": "2024-10-31T22:29:48.617Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67240562279cbf77b473d8a2",
@@ -4311,8 +4311,8 @@ export const poetryArr = [
         "poet": "مرزا غالب",
         "category": "جنون",
         "createdAt": "2024-10-31T22:32:02.719Z",
-        "updatedAt": "2024-10-31T22:32:02.719Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a3e8279cbf77b473d8c7",
@@ -4323,8 +4323,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "رنج",
         "createdAt": "2024-11-02T04:00:40.718Z",
-        "updatedAt": "2024-11-02T04:00:40.718Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a428279cbf77b473d8c9",
@@ -4335,8 +4335,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "محبت",
         "createdAt": "2024-11-02T04:01:44.093Z",
-        "updatedAt": "2024-11-02T04:01:44.093Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a4a4279cbf77b473d8cb",
@@ -4347,8 +4347,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "یاد",
         "createdAt": "2024-11-02T04:03:48.683Z",
-        "updatedAt": "2024-11-02T04:03:48.683Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a4fb279cbf77b473d8cf",
@@ -4359,8 +4359,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "یاد",
         "createdAt": "2024-11-02T04:05:15.601Z",
-        "updatedAt": "2024-11-02T04:05:15.601Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a528279cbf77b473d8d1",
@@ -4371,8 +4371,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "آرزو",
         "createdAt": "2024-11-02T04:06:00.367Z",
-        "updatedAt": "2024-11-02T04:06:00.367Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a557279cbf77b473d8d3",
@@ -4383,8 +4383,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "وعدہ",
         "createdAt": "2024-11-02T04:06:47.681Z",
-        "updatedAt": "2024-11-02T04:06:47.681Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a59b279cbf77b473d8d5",
@@ -4395,8 +4395,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "ہجر",
         "createdAt": "2024-11-02T04:07:55.894Z",
-        "updatedAt": "2024-11-02T04:07:55.894Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a5c5279cbf77b473d8d7",
@@ -4407,8 +4407,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "آرزو",
         "createdAt": "2024-11-02T04:08:37.134Z",
-        "updatedAt": "2024-11-02T04:08:37.134Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a606279cbf77b473d8d9",
@@ -4419,8 +4419,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "یاد",
         "createdAt": "2024-11-02T04:09:42.703Z",
-        "updatedAt": "2024-11-02T04:09:42.703Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a66d279cbf77b473d8db",
@@ -4431,8 +4431,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "الوداع",
         "createdAt": "2024-11-02T04:11:25.275Z",
-        "updatedAt": "2024-11-02T04:11:25.275Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a6a4279cbf77b473d8dd",
@@ -4443,8 +4443,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "ہجر",
         "createdAt": "2024-11-02T04:12:20.184Z",
-        "updatedAt": "2024-11-02T04:12:20.184Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a6d3279cbf77b473d8df",
@@ -4455,8 +4455,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "اداسی",
         "createdAt": "2024-11-02T04:13:07.532Z",
-        "updatedAt": "2024-11-02T04:13:07.532Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a6fe279cbf77b473d8e1",
@@ -4467,8 +4467,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "اداسی",
         "createdAt": "2024-11-02T04:13:50.991Z",
-        "updatedAt": "2024-11-02T04:13:50.991Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a72e279cbf77b473d8e3",
@@ -4479,8 +4479,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "شکوہ",
         "createdAt": "2024-11-02T04:14:38.812Z",
-        "updatedAt": "2024-11-02T04:14:38.812Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a75c279cbf77b473d8e5",
@@ -4491,8 +4491,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "امید",
         "createdAt": "2024-11-02T04:15:24.145Z",
-        "updatedAt": "2024-11-02T04:15:24.145Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a78b279cbf77b473d8e7",
@@ -4503,8 +4503,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "یاد",
         "createdAt": "2024-11-02T04:16:11.187Z",
-        "updatedAt": "2024-11-02T04:16:11.187Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a7bf279cbf77b473d8e9",
@@ -4515,8 +4515,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "بارش",
         "createdAt": "2024-11-02T04:17:03.733Z",
-        "updatedAt": "2024-11-02T04:17:03.733Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a81f279cbf77b473d8eb",
@@ -4527,8 +4527,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "الوداع",
         "createdAt": "2024-11-02T04:18:39.757Z",
-        "updatedAt": "2024-11-02T04:18:39.757Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a84b279cbf77b473d8ed",
@@ -4539,8 +4539,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "اداسی",
         "createdAt": "2024-11-02T04:19:23.792Z",
-        "updatedAt": "2024-11-02T04:19:23.792Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a87f279cbf77b473d8ef",
@@ -4551,8 +4551,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "یاد",
         "createdAt": "2024-11-02T04:20:15.091Z",
-        "updatedAt": "2024-11-02T04:20:15.091Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a8ad279cbf77b473d8f1",
@@ -4563,8 +4563,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "اداسی",
         "createdAt": "2024-11-02T04:21:01.448Z",
-        "updatedAt": "2024-11-02T04:21:01.448Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a925279cbf77b473d8f3",
@@ -4575,8 +4575,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "بے خودی",
         "createdAt": "2024-11-02T04:23:01.212Z",
-        "updatedAt": "2024-11-02T04:23:01.212Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a950279cbf77b473d8f5",
@@ -4587,8 +4587,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "شکوہ",
         "createdAt": "2024-11-02T04:23:44.295Z",
-        "updatedAt": "2024-11-02T04:23:44.295Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a97e279cbf77b473d8f7",
@@ -4599,8 +4599,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "وعدہ",
         "createdAt": "2024-11-02T04:24:30.245Z",
-        "updatedAt": "2024-11-02T04:24:30.245Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725a9b2279cbf77b473d8f9",
@@ -4611,8 +4611,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "اداسی",
         "createdAt": "2024-11-02T04:25:22.400Z",
-        "updatedAt": "2024-11-02T04:25:22.400Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725aa5c279cbf77b473d8fb",
@@ -4623,8 +4623,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "خاموشی",
         "createdAt": "2024-11-02T04:28:12.978Z",
-        "updatedAt": "2024-11-02T04:28:12.978Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725aa8e279cbf77b473d8fd",
@@ -4635,8 +4635,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "دل",
         "createdAt": "2024-11-02T04:29:02.155Z",
-        "updatedAt": "2024-11-02T04:29:02.155Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725aabf279cbf77b473d8ff",
@@ -4647,8 +4647,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "ہجر",
         "createdAt": "2024-11-02T04:29:51.108Z",
-        "updatedAt": "2024-11-02T04:29:51.108Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725aae8279cbf77b473d901",
@@ -4659,8 +4659,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "خط",
         "createdAt": "2024-11-02T04:30:32.873Z",
-        "updatedAt": "2024-11-02T04:30:32.873Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725ab15279cbf77b473d903",
@@ -4671,8 +4671,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "منزل",
         "createdAt": "2024-11-02T04:31:17.663Z",
-        "updatedAt": "2024-11-02T04:31:17.663Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725abb1279cbf77b473d905",
@@ -4683,8 +4683,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "الوداع",
         "createdAt": "2024-11-02T04:33:53.052Z",
-        "updatedAt": "2024-11-02T04:33:53.052Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725ac33279cbf77b473d907",
@@ -4695,8 +4695,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "ہجر",
         "createdAt": "2024-11-02T04:36:03.911Z",
-        "updatedAt": "2024-11-02T04:36:03.911Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725ac5f279cbf77b473d909",
@@ -4707,8 +4707,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "دل",
         "createdAt": "2024-11-02T04:36:47.141Z",
-        "updatedAt": "2024-11-02T04:36:47.141Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725ac8a279cbf77b473d90b",
@@ -4719,8 +4719,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "شکوہ",
         "createdAt": "2024-11-02T04:37:30.913Z",
-        "updatedAt": "2024-11-02T04:37:30.913Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725acb7279cbf77b473d90d",
@@ -4731,8 +4731,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "یاد",
         "createdAt": "2024-11-02T04:38:15.105Z",
-        "updatedAt": "2024-11-02T04:38:15.105Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725acfa279cbf77b473d90f",
@@ -4743,8 +4743,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "حسن",
         "createdAt": "2024-11-02T04:39:22.882Z",
-        "updatedAt": "2024-11-02T04:39:22.882Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725ad2d279cbf77b473d911",
@@ -4755,8 +4755,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "گھر",
         "createdAt": "2024-11-02T04:40:13.598Z",
-        "updatedAt": "2024-11-02T04:40:13.598Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725ad54279cbf77b473d913",
@@ -4767,8 +4767,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "انتظار",
         "createdAt": "2024-11-02T04:40:52.530Z",
-        "updatedAt": "2024-11-02T04:40:52.530Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725ad98279cbf77b473d915",
@@ -4779,8 +4779,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "اداسی",
         "createdAt": "2024-11-02T04:42:00.597Z",
-        "updatedAt": "2024-11-02T04:42:00.597Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725adc0279cbf77b473d917",
@@ -4791,8 +4791,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "ہجر",
         "createdAt": "2024-11-02T04:42:40.637Z",
-        "updatedAt": "2024-11-02T04:42:40.637Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725adf0279cbf77b473d919",
@@ -4803,8 +4803,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "دل",
         "createdAt": "2024-11-02T04:43:28.623Z",
-        "updatedAt": "2024-11-02T04:43:28.623Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725ae20279cbf77b473d91b",
@@ -4815,8 +4815,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "ہجر",
         "createdAt": "2024-11-02T04:44:16.903Z",
-        "updatedAt": "2024-11-02T04:44:16.903Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725ae52279cbf77b473d91d",
@@ -4827,8 +4827,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "شکر",
         "createdAt": "2024-11-02T04:45:06.233Z",
-        "updatedAt": "2024-11-02T04:45:06.233Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725ae8d279cbf77b473d91f",
@@ -4839,8 +4839,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "اجنبی",
         "createdAt": "2024-11-02T04:46:05.167Z",
-        "updatedAt": "2024-11-02T04:46:05.167Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725aec7279cbf77b473d921",
@@ -4851,8 +4851,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "تنہائی",
         "createdAt": "2024-11-02T04:47:03.283Z",
-        "updatedAt": "2024-11-02T04:47:03.283Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725aeed279cbf77b473d923",
@@ -4863,8 +4863,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "عشق",
         "createdAt": "2024-11-02T04:47:41.198Z",
-        "updatedAt": "2024-11-02T04:47:41.198Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725af23279cbf77b473d925",
@@ -4875,8 +4875,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "دل",
         "createdAt": "2024-11-02T04:48:35.751Z",
-        "updatedAt": "2024-11-02T04:48:35.751Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725af5a279cbf77b473d927",
@@ -4887,8 +4887,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "اداسی",
         "createdAt": "2024-11-02T04:49:30.037Z",
-        "updatedAt": "2024-11-02T04:49:30.037Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725afe1279cbf77b473d929",
@@ -4899,8 +4899,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "مسافر",
         "createdAt": "2024-11-02T04:51:45.609Z",
-        "updatedAt": "2024-11-02T04:51:45.609Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b007279cbf77b473d92b",
@@ -4911,8 +4911,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "یاد",
         "createdAt": "2024-11-02T04:52:23.487Z",
-        "updatedAt": "2024-11-02T04:52:23.487Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b069279cbf77b473d92d",
@@ -4923,8 +4923,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "ہجر",
         "createdAt": "2024-11-02T04:54:01.376Z",
-        "updatedAt": "2024-11-02T04:54:01.376Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b08e279cbf77b473d92f",
@@ -4935,8 +4935,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "امید",
         "createdAt": "2024-11-02T04:54:38.872Z",
-        "updatedAt": "2024-11-02T04:54:38.872Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b0bb279cbf77b473d931",
@@ -4947,8 +4947,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "امید",
         "createdAt": "2024-11-02T04:55:23.184Z",
-        "updatedAt": "2024-11-02T04:55:23.184Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b0f3279cbf77b473d933",
@@ -4959,8 +4959,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "اداسی",
         "createdAt": "2024-11-02T04:56:19.947Z",
-        "updatedAt": "2024-11-02T04:56:19.947Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b121279cbf77b473d935",
@@ -4971,8 +4971,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "دل",
         "createdAt": "2024-11-02T04:57:05.040Z",
-        "updatedAt": "2024-11-02T04:57:05.040Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b14c279cbf77b473d937",
@@ -4983,8 +4983,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "زلف",
         "createdAt": "2024-11-02T04:57:48.031Z",
-        "updatedAt": "2024-11-02T04:57:48.031Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b17d279cbf77b473d939",
@@ -4995,8 +4995,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "الوداع",
         "createdAt": "2024-11-02T04:58:37.259Z",
-        "updatedAt": "2024-11-02T04:58:37.259Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b1c0279cbf77b473d93b",
@@ -5007,8 +5007,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "صبر",
         "createdAt": "2024-11-02T04:59:44.270Z",
-        "updatedAt": "2024-11-02T04:59:44.270Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b201279cbf77b473d93d",
@@ -5019,8 +5019,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "ہجر",
         "createdAt": "2024-11-02T05:00:49.123Z",
-        "updatedAt": "2024-11-02T05:00:49.123Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b258279cbf77b473d93f",
@@ -5031,8 +5031,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "ہجر",
         "createdAt": "2024-11-02T05:02:16.556Z",
-        "updatedAt": "2024-11-02T05:02:16.556Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b2a1279cbf77b473d941",
@@ -5043,8 +5043,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "یاد",
         "createdAt": "2024-11-02T05:03:29.793Z",
-        "updatedAt": "2024-11-02T05:03:29.793Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b2f7279cbf77b473d943",
@@ -5055,8 +5055,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "آندھی",
         "createdAt": "2024-11-02T05:04:55.542Z",
-        "updatedAt": "2024-11-02T05:04:55.542Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b347279cbf77b473d945",
@@ -5067,8 +5067,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "یاد",
         "createdAt": "2024-11-02T05:06:15.940Z",
-        "updatedAt": "2024-11-02T05:06:15.940Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b377279cbf77b473d954",
@@ -5079,8 +5079,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "ہجر",
         "createdAt": "2024-11-02T05:07:03.728Z",
-        "updatedAt": "2024-11-02T05:07:03.728Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6725b3b3279cbf77b473d956",
@@ -5091,8 +5091,8 @@ export const poetryArr = [
         "poet": "ناصر کاظمی",
         "category": "آرزو",
         "createdAt": "2024-11-02T05:08:03.729Z",
-        "updatedAt": "2024-11-02T05:08:03.729Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271081279cbf77b473d97c",
@@ -5103,8 +5103,8 @@ export const poetryArr = [
         "poet": "آغا اکبر آبادی",
         "category": "محبت",
         "createdAt": "2024-11-03T05:56:17.662Z",
-        "updatedAt": "2024-11-03T05:56:17.662Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672710c3279cbf77b473d97e",
@@ -5115,8 +5115,8 @@ export const poetryArr = [
         "poet": "آغا اکبر آبادی",
         "category": "دعا",
         "createdAt": "2024-11-03T05:57:23.610Z",
-        "updatedAt": "2024-11-03T05:57:23.610Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271108279cbf77b473d980",
@@ -5127,8 +5127,8 @@ export const poetryArr = [
         "poet": "آغا اکبر آبادی",
         "category": "رقیب",
         "createdAt": "2024-11-03T05:58:32.296Z",
-        "updatedAt": "2024-11-03T05:58:32.296Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271137279cbf77b473d982",
@@ -5139,8 +5139,8 @@ export const poetryArr = [
         "poet": "آغا اکبر آبادی",
         "category": "زلف",
         "createdAt": "2024-11-03T05:59:19.704Z",
-        "updatedAt": "2024-11-03T05:59:19.704Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271192279cbf77b473d984",
@@ -5151,8 +5151,8 @@ export const poetryArr = [
         "poet": "آغا اکبر آبادی",
         "category": "مےخانہ",
         "createdAt": "2024-11-03T06:00:50.736Z",
-        "updatedAt": "2024-11-03T06:00:50.736Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672711cc279cbf77b473d986",
@@ -5163,8 +5163,8 @@ export const poetryArr = [
         "poet": "آغا اکبر آبادی",
         "category": "عشق",
         "createdAt": "2024-11-03T06:01:48.287Z",
-        "updatedAt": "2024-11-03T06:01:48.287Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271238279cbf77b473d988",
@@ -5175,8 +5175,8 @@ export const poetryArr = [
         "poet": "آغا اکبر آبادی",
         "category": "نشہ",
         "createdAt": "2024-11-03T06:03:36.557Z",
-        "updatedAt": "2024-11-03T06:03:36.557Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271340279cbf77b473d98a",
@@ -5187,8 +5187,8 @@ export const poetryArr = [
         "poet": "آغا اکبر آبادی",
         "category": "آنکھ",
         "createdAt": "2024-11-03T06:08:00.442Z",
-        "updatedAt": "2024-11-03T06:08:00.442Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672713c9279cbf77b473d98c",
@@ -5199,8 +5199,8 @@ export const poetryArr = [
         "poet": "آغا نثار",
         "category": "آنکھ",
         "createdAt": "2024-11-03T06:10:17.022Z",
-        "updatedAt": "2024-11-03T06:10:17.022Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271a56279cbf77b473d995",
@@ -5211,8 +5211,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "زندگی",
         "createdAt": "2024-11-03T06:38:14.957Z",
-        "updatedAt": "2024-11-03T06:38:14.957Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271ae0279cbf77b473d997",
@@ -5223,8 +5223,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "درد",
         "createdAt": "2024-11-03T06:40:32.197Z",
-        "updatedAt": "2024-11-03T06:40:32.197Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271b35279cbf77b473d99a",
@@ -5235,8 +5235,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "جدائی",
         "createdAt": "2024-11-03T06:41:57.719Z",
-        "updatedAt": "2024-11-03T06:41:57.719Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271b61279cbf77b473d99c",
@@ -5247,8 +5247,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "دل",
         "createdAt": "2024-11-03T06:42:41.522Z",
-        "updatedAt": "2024-11-03T06:42:41.522Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271bbb279cbf77b473d99e",
@@ -5259,8 +5259,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "حسن",
         "createdAt": "2024-11-03T06:44:11.123Z",
-        "updatedAt": "2024-11-03T06:44:11.123Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271bfa279cbf77b473d9a0",
@@ -5271,8 +5271,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "یاد",
         "createdAt": "2024-11-03T06:45:14.434Z",
-        "updatedAt": "2024-11-03T06:45:14.434Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271c25279cbf77b473d9a2",
@@ -5283,8 +5283,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "شکوہ",
         "createdAt": "2024-11-03T06:45:57.453Z",
-        "updatedAt": "2024-11-03T06:45:57.453Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271c84279cbf77b473d9a4",
@@ -5295,8 +5295,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "خاموشی",
         "createdAt": "2024-11-03T06:47:32.558Z",
-        "updatedAt": "2024-11-03T06:47:32.558Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271cb0279cbf77b473d9a6",
@@ -5307,8 +5307,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "محبت",
         "createdAt": "2024-11-03T06:48:16.349Z",
-        "updatedAt": "2024-11-03T06:48:16.349Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271d14279cbf77b473d9a8",
@@ -5319,8 +5319,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "عشق",
         "createdAt": "2024-11-03T06:49:56.682Z",
-        "updatedAt": "2024-11-03T06:49:56.682Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271d64279cbf77b473d9aa",
@@ -5331,8 +5331,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "دوستی",
         "createdAt": "2024-11-03T06:51:16.838Z",
-        "updatedAt": "2024-11-03T06:51:16.838Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271d91279cbf77b473d9ac",
@@ -5343,8 +5343,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "الوداع",
         "createdAt": "2024-11-03T06:52:01.838Z",
-        "updatedAt": "2024-11-03T06:52:01.838Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271dc3279cbf77b473d9ae",
@@ -5355,8 +5355,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "شکوہ",
         "createdAt": "2024-11-03T06:52:51.448Z",
-        "updatedAt": "2024-11-03T06:52:51.448Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271df3279cbf77b473d9b0",
@@ -5367,8 +5367,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "عشق",
         "createdAt": "2024-11-03T06:53:39.535Z",
-        "updatedAt": "2024-11-03T06:53:39.535Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271e23279cbf77b473d9b2",
@@ -5379,8 +5379,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "جدائی",
         "createdAt": "2024-11-03T06:54:27.245Z",
-        "updatedAt": "2024-11-03T06:54:27.245Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271e4c279cbf77b473d9b4",
@@ -5391,8 +5391,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "خواب",
         "createdAt": "2024-11-03T06:55:08.942Z",
-        "updatedAt": "2024-11-03T06:55:08.942Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271e71279cbf77b473d9b6",
@@ -5403,8 +5403,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "ہجر",
         "createdAt": "2024-11-03T06:55:45.092Z",
-        "updatedAt": "2024-11-03T06:55:45.092Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271eb3279cbf77b473d9b8",
@@ -5415,8 +5415,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "یاد",
         "createdAt": "2024-11-03T06:56:51.237Z",
-        "updatedAt": "2024-11-03T06:56:51.237Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271f82279cbf77b473d9ba",
@@ -5427,8 +5427,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "رومان",
         "createdAt": "2024-11-03T07:00:18.966Z",
-        "updatedAt": "2024-11-03T07:00:18.966Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271fbc279cbf77b473d9bc",
@@ -5439,8 +5439,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "شکوہ",
         "createdAt": "2024-11-03T07:01:16.339Z",
-        "updatedAt": "2024-11-03T07:01:16.339Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67271ff7279cbf77b473d9be",
@@ -5451,8 +5451,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "رومان",
         "createdAt": "2024-11-03T07:02:15.948Z",
-        "updatedAt": "2024-11-03T07:02:15.948Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67272023279cbf77b473d9c0",
@@ -5463,8 +5463,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "یاد",
         "createdAt": "2024-11-03T07:02:59.754Z",
-        "updatedAt": "2024-11-03T07:02:59.754Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6727204c279cbf77b473d9c2",
@@ -5475,8 +5475,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "زندگی",
         "createdAt": "2024-11-03T07:03:40.711Z",
-        "updatedAt": "2024-11-03T07:03:40.711Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6727207e279cbf77b473d9c4",
@@ -5487,8 +5487,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "رنجش",
         "createdAt": "2024-11-03T07:04:30.786Z",
-        "updatedAt": "2024-11-03T07:04:30.786Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672720b0279cbf77b473d9c6",
@@ -5499,8 +5499,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "جدائی",
         "createdAt": "2024-11-03T07:05:20.562Z",
-        "updatedAt": "2024-11-03T07:05:20.562Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672720d9279cbf77b473d9c8",
@@ -5511,8 +5511,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "یاد",
         "createdAt": "2024-11-03T07:06:01.729Z",
-        "updatedAt": "2024-11-03T07:06:01.729Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67272107279cbf77b473d9ca",
@@ -5523,8 +5523,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "آسمان",
         "createdAt": "2024-11-03T07:06:47.366Z",
-        "updatedAt": "2024-11-03T07:06:47.366Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67272164279cbf77b473d9cc",
@@ -5535,8 +5535,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "بات",
         "createdAt": "2024-11-03T07:08:20.748Z",
-        "updatedAt": "2024-11-03T07:08:20.748Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672721ef279cbf77b473d9cf",
@@ -5547,8 +5547,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "جستجو",
         "createdAt": "2024-11-03T07:10:39.878Z",
-        "updatedAt": "2024-11-03T07:10:39.878Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67272212279cbf77b473d9d1",
@@ -5559,8 +5559,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "حسد",
         "createdAt": "2024-11-03T07:11:14.759Z",
-        "updatedAt": "2024-11-03T07:11:14.759Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67272292279cbf77b473d9d3",
@@ -5571,8 +5571,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "انتظار",
         "createdAt": "2024-11-03T07:13:22.592Z",
-        "updatedAt": "2024-11-03T07:13:22.592Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67272375279cbf77b473d9d5",
@@ -5583,8 +5583,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "ناراض",
         "createdAt": "2024-11-03T07:17:09.524Z",
-        "updatedAt": "2024-11-03T07:17:09.524Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672723a0279cbf77b473d9d7",
@@ -5595,8 +5595,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "یاد",
         "createdAt": "2024-11-03T07:17:52.283Z",
-        "updatedAt": "2024-11-03T07:17:52.283Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672723dd279cbf77b473d9d9",
@@ -5607,8 +5607,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "بے وفائی",
         "createdAt": "2024-11-03T07:18:53.127Z",
-        "updatedAt": "2024-11-03T07:18:53.127Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67272402279cbf77b473d9db",
@@ -5619,8 +5619,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "شکوہ",
         "createdAt": "2024-11-03T07:19:30.577Z",
-        "updatedAt": "2024-11-03T07:19:30.577Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67272430279cbf77b473d9dd",
@@ -5631,8 +5631,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "ایٹی ٹیوڈ",
         "createdAt": "2024-11-03T07:20:16.547Z",
-        "updatedAt": "2024-11-03T07:20:16.547Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6727245b279cbf77b473d9df",
@@ -5643,8 +5643,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "آسمان",
         "createdAt": "2024-11-03T07:20:59.766Z",
-        "updatedAt": "2024-11-03T07:20:59.766Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672724a4279cbf77b473d9e1",
@@ -5655,8 +5655,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "انا",
         "createdAt": "2024-11-03T07:22:12.967Z",
-        "updatedAt": "2024-11-03T07:22:12.967Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672724d7279cbf77b473d9e3",
@@ -5667,8 +5667,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "ایٹی ٹیوڈ",
         "createdAt": "2024-11-03T07:23:03.330Z",
-        "updatedAt": "2024-11-03T07:23:03.330Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67272508279cbf77b473d9e5",
@@ -5679,8 +5679,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "بات",
         "createdAt": "2024-11-03T07:23:52.424Z",
-        "updatedAt": "2024-11-03T07:23:52.424Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67272542279cbf77b473d9e7",
@@ -5691,8 +5691,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "درد",
         "createdAt": "2024-11-03T07:24:50.376Z",
-        "updatedAt": "2024-11-03T07:24:50.376Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67272570279cbf77b473d9e9",
@@ -5703,8 +5703,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "اداسی",
         "createdAt": "2024-11-03T07:25:36.230Z",
-        "updatedAt": "2024-11-03T07:25:36.230Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672725a5279cbf77b473d9eb",
@@ -5715,8 +5715,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "شکوہ",
         "createdAt": "2024-11-03T07:26:29.002Z",
-        "updatedAt": "2024-11-03T07:26:29.002Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672725ed279cbf77b473d9ed",
@@ -5727,8 +5727,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "یاد",
         "createdAt": "2024-11-03T07:27:41.285Z",
-        "updatedAt": "2024-11-03T07:27:41.285Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67272624279cbf77b473d9ef",
@@ -5739,8 +5739,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "یاد",
         "createdAt": "2024-11-03T07:28:36.382Z",
-        "updatedAt": "2024-11-03T07:28:36.382Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6728842c279cbf77b473da06",
@@ -5751,8 +5751,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "تمنا",
         "createdAt": "2024-11-04T08:22:04.226Z",
-        "updatedAt": "2024-11-04T08:22:04.226Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67288485279cbf77b473da09",
@@ -5763,8 +5763,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "ہونٹ",
         "createdAt": "2024-11-04T08:23:33.481Z",
-        "updatedAt": "2024-11-04T08:23:33.481Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672884a9279cbf77b473da0b",
@@ -5775,8 +5775,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "زندگی",
         "createdAt": "2024-11-04T08:24:09.660Z",
-        "updatedAt": "2024-11-04T08:24:09.660Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672884e2279cbf77b473da0d",
@@ -5787,8 +5787,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "شراب",
         "createdAt": "2024-11-04T08:25:06.283Z",
-        "updatedAt": "2024-11-04T08:25:06.283Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67288509279cbf77b473da0f",
@@ -5799,8 +5799,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "غم",
         "createdAt": "2024-11-04T08:25:45.113Z",
-        "updatedAt": "2024-11-04T08:25:45.113Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67288534279cbf77b473da11",
@@ -5811,8 +5811,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "شکوہ",
         "createdAt": "2024-11-04T08:26:28.523Z",
-        "updatedAt": "2024-11-04T08:26:28.523Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672885b2279cbf77b473da13",
@@ -5823,8 +5823,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "شکوہ",
         "createdAt": "2024-11-04T08:28:34.145Z",
-        "updatedAt": "2024-11-04T08:28:34.145Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672885d6279cbf77b473da15",
@@ -5835,8 +5835,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "زلف",
         "createdAt": "2024-11-04T08:29:10.699Z",
-        "updatedAt": "2024-11-04T08:29:10.699Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6728861a279cbf77b473da17",
@@ -5847,8 +5847,8 @@ export const poetryArr = [
         "poet": "جون ایلیا ",
         "category": "رونا",
         "createdAt": "2024-11-04T08:30:18.915Z",
-        "updatedAt": "2024-11-04T08:30:18.915Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67288653279cbf77b473da19",
@@ -5859,8 +5859,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "لب",
         "createdAt": "2024-11-04T08:31:15.271Z",
-        "updatedAt": "2024-11-04T08:31:15.271Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672aaa83279cbf77b473da43",
@@ -5871,8 +5871,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "تمنا",
         "createdAt": "2024-11-05T23:30:11.483Z",
-        "updatedAt": "2024-11-05T23:30:11.483Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672aaab7279cbf77b473da45",
@@ -5883,8 +5883,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "ہجر",
         "createdAt": "2024-11-05T23:31:03.550Z",
-        "updatedAt": "2024-11-05T23:31:03.550Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672aaaef279cbf77b473da47",
@@ -5895,8 +5895,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "دکھی",
         "createdAt": "2024-11-05T23:31:59.683Z",
-        "updatedAt": "2024-11-05T23:31:59.683Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672aab3f279cbf77b473da4a",
@@ -5907,8 +5907,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "دشمن",
         "createdAt": "2024-11-05T23:33:19.978Z",
-        "updatedAt": "2024-11-05T23:33:19.978Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672aab80279cbf77b473da4c",
@@ -5919,8 +5919,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "ملاقات",
         "createdAt": "2024-11-05T23:34:24.082Z",
-        "updatedAt": "2024-11-05T23:34:24.082Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672aaba7279cbf77b473da4e",
@@ -5931,8 +5931,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "شکوہ",
         "createdAt": "2024-11-05T23:35:03.198Z",
-        "updatedAt": "2024-11-05T23:35:03.198Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672aabdd279cbf77b473da50",
@@ -5943,8 +5943,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "خدا",
         "createdAt": "2024-11-05T23:35:57.768Z",
-        "updatedAt": "2024-11-05T23:35:57.768Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672aac15279cbf77b473da52",
@@ -5955,8 +5955,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "دکھی",
         "createdAt": "2024-11-05T23:36:53.174Z",
-        "updatedAt": "2024-11-05T23:36:53.174Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672aac58279cbf77b473da54",
@@ -5967,8 +5967,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "قتل",
         "createdAt": "2024-11-05T23:38:00.348Z",
-        "updatedAt": "2024-11-05T23:38:00.348Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672aac88279cbf77b473da56",
@@ -5979,8 +5979,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "خاموشی",
         "createdAt": "2024-11-05T23:38:48.492Z",
-        "updatedAt": "2024-11-05T23:38:48.492Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672d9ca5279cbf77b473da90",
@@ -5991,8 +5991,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "جدائی",
         "createdAt": "2024-11-08T05:07:49.374Z",
-        "updatedAt": "2024-11-08T05:07:49.374Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672d9d35279cbf77b473da93",
@@ -6003,8 +6003,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "دکھی",
         "createdAt": "2024-11-08T05:10:13.065Z",
-        "updatedAt": "2024-11-08T05:10:13.065Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672d9d6c279cbf77b473da95",
@@ -6015,8 +6015,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "زخم",
         "createdAt": "2024-11-08T05:11:08.500Z",
-        "updatedAt": "2024-11-08T05:11:08.500Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672d9da4279cbf77b473da97",
@@ -6027,8 +6027,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "الوداع",
         "createdAt": "2024-11-08T05:12:04.982Z",
-        "updatedAt": "2024-11-08T05:12:04.982Z",
-        "__v": 0
+
+
     },
     {
         "_id": "672d9dde279cbf77b473da99",
@@ -6039,8 +6039,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "شکر گزاری",
         "createdAt": "2024-11-08T05:13:02.811Z",
-        "updatedAt": "2024-11-08T05:13:02.811Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673306d4279cbf77b473dab5",
@@ -6051,8 +6051,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "الوداع",
         "createdAt": "2024-11-12T07:42:12.346Z",
-        "updatedAt": "2024-11-12T07:42:12.346Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67330787279cbf77b473dab8",
@@ -6063,8 +6063,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "دکھی",
         "createdAt": "2024-11-12T07:45:11.284Z",
-        "updatedAt": "2024-11-12T07:45:11.284Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67330859279cbf77b473daba",
@@ -6075,8 +6075,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "الوداع",
         "createdAt": "2024-11-12T07:48:41.616Z",
-        "updatedAt": "2024-11-12T07:48:41.616Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6733089a279cbf77b473dabc",
@@ -6087,8 +6087,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "آئینہ",
         "createdAt": "2024-11-12T07:49:46.498Z",
-        "updatedAt": "2024-11-12T07:49:46.498Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673308e5279cbf77b473dabe",
@@ -6099,8 +6099,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "محبت",
         "createdAt": "2024-11-12T07:51:01.572Z",
-        "updatedAt": "2024-11-12T07:51:01.572Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6733091f279cbf77b473dac0",
@@ -6111,8 +6111,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "دل",
         "createdAt": "2024-11-12T07:51:59.898Z",
-        "updatedAt": "2024-11-12T07:51:59.898Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67330973279cbf77b473dac2",
@@ -6123,8 +6123,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "رنجش",
         "createdAt": "2024-11-12T07:53:23.536Z",
-        "updatedAt": "2024-11-12T07:53:23.536Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673309b6279cbf77b473dac4",
@@ -6135,8 +6135,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "استقبال",
         "createdAt": "2024-11-12T07:54:30.254Z",
-        "updatedAt": "2024-11-12T07:54:30.254Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673309e0279cbf77b473dac6",
@@ -6147,8 +6147,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "دکھی",
         "createdAt": "2024-11-12T07:55:12.187Z",
-        "updatedAt": "2024-11-12T07:55:12.187Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67330a0d279cbf77b473dac8",
@@ -6159,8 +6159,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "زخم",
         "createdAt": "2024-11-12T07:55:57.298Z",
-        "updatedAt": "2024-11-12T07:55:57.298Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673697a4279cbf77b473dade",
@@ -6171,8 +6171,8 @@ export const poetryArr = [
         "poet": "یاد",
         "category": "جون ایلیا",
         "createdAt": "2024-11-15T00:36:52.954Z",
-        "updatedAt": "2024-11-15T00:36:52.954Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6736981b279cbf77b473dae0",
@@ -6183,8 +6183,8 @@ export const poetryArr = [
         "poet": "عشق",
         "category": "جون ایلیا",
         "createdAt": "2024-11-15T00:38:51.360Z",
-        "updatedAt": "2024-11-15T00:38:51.360Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673698a7279cbf77b473dae2",
@@ -6195,8 +6195,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "الوداع",
         "createdAt": "2024-11-15T00:41:11.441Z",
-        "updatedAt": "2024-11-15T00:41:11.441Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67369924279cbf77b473dae4",
@@ -6207,8 +6207,8 @@ export const poetryArr = [
         "poet": "محبت",
         "category": "جون ایلیا",
         "createdAt": "2024-11-15T00:43:16.422Z",
-        "updatedAt": "2024-11-15T00:43:16.422Z",
-        "__v": 0
+
+
     },
     {
         "_id": "6736995d279cbf77b473dae6",
@@ -6219,8 +6219,8 @@ export const poetryArr = [
         "poet": "دل",
         "category": "جون ایلیا",
         "createdAt": "2024-11-15T00:44:13.805Z",
-        "updatedAt": "2024-11-15T00:44:13.805Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673699ab279cbf77b473dae8",
@@ -6231,8 +6231,8 @@ export const poetryArr = [
         "poet": "شکوہ",
         "category": "جون ایلیا",
         "createdAt": "2024-11-15T00:45:31.581Z",
-        "updatedAt": "2024-11-15T00:45:31.581Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67369a00279cbf77b473daea",
@@ -6243,8 +6243,8 @@ export const poetryArr = [
         "poet": "شکوہ",
         "category": "جون ایلیا",
         "createdAt": "2024-11-15T00:46:56.515Z",
-        "updatedAt": "2024-11-15T00:46:56.515Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67369a51279cbf77b473daec",
@@ -6255,8 +6255,8 @@ export const poetryArr = [
         "poet": "حسن",
         "category": "جون ایلیا",
         "createdAt": "2024-11-15T00:48:17.552Z",
-        "updatedAt": "2024-11-15T00:48:17.552Z",
-        "__v": 0
+
+
     },
     {
         "_id": "67369ab4279cbf77b473daee",
@@ -6267,8 +6267,8 @@ export const poetryArr = [
         "poet": "جون ایلیا",
         "category": "وفا",
         "createdAt": "2024-11-15T00:49:56.790Z",
-        "updatedAt": "2024-11-15T00:49:56.790Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673bc3c1279cbf77b473db0f",
@@ -6279,8 +6279,8 @@ export const poetryArr = [
         "poet": "فرحت احساس",
         "category": "انتظار",
         "createdAt": "2024-11-18T22:46:25.188Z",
-        "updatedAt": "2024-11-18T22:46:25.188Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673bc411279cbf77b473db11",
@@ -6291,8 +6291,8 @@ export const poetryArr = [
         "poet": "فرحت احساس",
         "category": "استقبال",
         "createdAt": "2024-11-18T22:47:45.327Z",
-        "updatedAt": "2024-11-18T22:47:45.327Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673bc46f279cbf77b473db13",
@@ -6303,8 +6303,8 @@ export const poetryArr = [
         "poet": "فرحت احساس",
         "category": "نیند",
         "createdAt": "2024-11-18T22:49:19.974Z",
-        "updatedAt": "2024-11-18T22:49:19.974Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673bc4aa279cbf77b473db15",
@@ -6315,8 +6315,8 @@ export const poetryArr = [
         "poet": "فرحت احساس",
         "category": "حسن",
         "createdAt": "2024-11-18T22:50:18.352Z",
-        "updatedAt": "2024-11-18T22:50:18.352Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673bc4f1279cbf77b473db17",
@@ -6327,8 +6327,8 @@ export const poetryArr = [
         "poet": "فرحت احساس",
         "category": "رومان",
         "createdAt": "2024-11-18T22:51:29.917Z",
-        "updatedAt": "2024-11-18T22:51:29.917Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673bc5a5279cbf77b473db19",
@@ -6339,8 +6339,8 @@ export const poetryArr = [
         "poet": "فرحت احساس",
         "category": "رونا",
         "createdAt": "2024-11-18T22:54:29.726Z",
-        "updatedAt": "2024-11-18T22:54:29.726Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673bc5d0279cbf77b473db1b",
@@ -6351,8 +6351,8 @@ export const poetryArr = [
         "poet": "فرحت احساس",
         "category": "رومان",
         "createdAt": "2024-11-18T22:55:12.489Z",
-        "updatedAt": "2024-11-18T22:55:12.489Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673bc664279cbf77b473db1d",
@@ -6363,8 +6363,8 @@ export const poetryArr = [
         "poet": "فرحت احساس",
         "category": "شکوہ",
         "createdAt": "2024-11-18T22:57:40.129Z",
-        "updatedAt": "2024-11-18T22:57:40.129Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673bc6a2279cbf77b473db1f",
@@ -6375,8 +6375,8 @@ export const poetryArr = [
         "poet": "فرحت احساس",
         "category": "زلف",
         "createdAt": "2024-11-18T22:58:42.749Z",
-        "updatedAt": "2024-11-18T22:58:42.749Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673bc708279cbf77b473db21",
@@ -6387,8 +6387,8 @@ export const poetryArr = [
         "poet": "فرحت احساس",
         "category": "حسن",
         "createdAt": "2024-11-18T23:00:24.431Z",
-        "updatedAt": "2024-11-18T23:00:24.431Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673bc760279cbf77b473db23",
@@ -6399,8 +6399,8 @@ export const poetryArr = [
         "poet": "فرحت احساس",
         "category": "دل",
         "createdAt": "2024-11-18T23:01:52.669Z",
-        "updatedAt": "2024-11-18T23:01:52.669Z",
-        "__v": 0
+
+
     },
     {
         "_id": "673bc852279cbf77b473db25",
@@ -6411,7 +6411,5 @@ export const poetryArr = [
         "poet": "فرحت احساس",
         "category": "یاد",
         "createdAt": "2024-11-18T23:05:54.914Z",
-        "updatedAt": "2024-11-18T23:05:54.914Z",
-        "__v": 0
     }
 ]

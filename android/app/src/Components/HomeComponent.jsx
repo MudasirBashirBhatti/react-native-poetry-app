@@ -44,7 +44,7 @@ const HomeComponent = () => {
                 const lastFetchedDate = await AsyncStorage.getItem('lastFetchedDate')
 
                 // if both dates not matched
-                if (currentDate == lastFetchedDate) {
+                if (currentDate !== lastFetchedDate) {
                     try {
                         const response = await axios.get('https://natural-courage-production.up.railway.app/api/poetry/fetch');
                         poetryData = response.data;

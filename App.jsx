@@ -12,6 +12,7 @@ import CustomDrawerContent from './android/app/src/Components/customDrawerConten
 import ScreenHeader from './android/app/src/Components/ScreenHeader';
 import SplashScreen from 'react-native-splash-screen';
 import { useEffect } from 'react';
+import VersesUnfolded from './android/app/src/Screens/VersesUnfolded';
 
 const Drawer = createDrawerNavigator()
 
@@ -41,6 +42,7 @@ export default function App() {
           <Drawer.Screen name="Favourite" component={Favourite} />
           <Drawer.Screen name="TodayPoetry" component={TodayPoetry} />
           <Drawer.Screen name='PrivacyPolicy' component={PrivacyPolicy} />
+          <Drawer.Screen name='VersesUnfolded' component={VersesUnfolded} />
 
         </Drawer.Navigator>
 
@@ -52,12 +54,14 @@ export default function App() {
 const getTitle = (title) => {
   switch (title) {
     case 'Home':
-      return "پہلا صفحہ"
+      return 'کیٹیگریز'
     case 'Favourite':
       return 'آپ کی پسند'
     case 'TodayPoetry':
       return 'آج کی شاعری'
     case 'PrivacyPolicy':
       return 'قوائد و ضوابط'
+    case 'VersesUnfolded':
+      return 'پہلا صفحہ'
   }
 }

@@ -57,6 +57,10 @@ const PoetryList = ({ poetryTerm }) => {
                         <>
                             <TabWithBackBtn backBtnFunc={backBtnFunc} title={`${poetryTerm.split('=')[1]} شاعری`} />
                             <FlatList
+                                initialNumToRender={14}
+                                maxToRenderPerBatch={10}
+                                windowSize={5}
+                                onEndReachedThreshold={0.5}
                                 data={poetryArr}
                                 keyExtractor={item => item._id}
                                 renderItem={({ item }) =>

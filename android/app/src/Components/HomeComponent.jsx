@@ -56,6 +56,7 @@ const HomeComponent = () => {
                             poetryData = JSON.parse(asyncData)
                         } else {
                             poetryData = poetryArr
+                            await AsyncStorage.setItem('poetryData', JSON.stringify(poetryArr))
                         }
                     }
 
@@ -66,6 +67,7 @@ const HomeComponent = () => {
                     }
                     else {
                         poetryData = poetryArr
+                        await AsyncStorage.setItem('poetryData', JSON.stringify(poetryArr))
                     }
                 }
             }
@@ -77,6 +79,7 @@ const HomeComponent = () => {
                     poetryData = JSON.parse(storedData)
                 } else {
                     poetryData = poetryArr
+                    await AsyncStorage.setItem('poetryData', JSON.stringify(poetryArr))
                 }
             }
 

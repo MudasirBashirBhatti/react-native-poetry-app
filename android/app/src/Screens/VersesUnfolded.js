@@ -25,7 +25,6 @@ const VersesUnfolded = () => {
                 setPoetryData(sortByCreatedAt(parsedData))
             } catch (error) {
                 setPoetryData(sortByCreatedAt(poetryArr))
-                console.error("Error fetching poetry data:", error);
             }
         };
 

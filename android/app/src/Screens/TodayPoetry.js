@@ -35,7 +35,7 @@ const TodayPoetry = () => {
                 )
                 setPoetryData(sortByCreatedAt(filteredData))
             } catch (error) {
-                console.error("Error fetching poetry data:", error);
+                setPoetryData([])
             }
         };
 

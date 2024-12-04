@@ -23,25 +23,31 @@ const Favourite = () => {
         <View style={styles.mainContainer}>
             <ContentCompoent
                 contentComponent={
-                    <FlatList
-                        data={poetryData}
-                        keyExtractor={item => item._id}
-                        renderItem={({ item }) =>
-                            <Poetry
-                                poetryId={item._id}
-                                poetryTextArr={item.poetry}
-                                poet={item.poet}
+                    poetryData && poetryData.length > 0 ? (
+                        <FlatList
+                            data={poetryData}
+                            keyExtractor={item => item._id}
+                            renderItem={({ item }) =>
+                                <Poetry
+                                    poetryId={item._id}
+                                    poetryTextArr={item.poetry}
+                                    poet={item.poet}
 
-                                thirdIcon={<RemoveFavouriteIcon fill={colors.alert} />}
-                                thirdIconText={'Remove'}
-                                onThirdIconPress={() => makeFavouriteFunc(item._id, 'removeFavourite')}
-                                time={new Date(item.createdAt)}
-                            />
-                        }
-                        contentContainerStyle={styles.poetryList}
-                        showsVerticalScrollIndicator={false}
-                    />
-                } />
+                                    thirdIcon={<RemoveFavouriteIcon fill={colors.alert} />}
+                                    thirdIconText={'Remove'}
+                                    onThirdIconPress={() => makeFavouriteFunc(item._id, 'removeFavourite')}
+                                    time={new Date(item.createdAt)}
+                                />
+                            }
+                            contentContainerStyle={styles.poetryList}
+                            showsVerticalScrollIndicator={false}
+                        />
+                    ) :
+                        (
+                            <Text>Looks there is no poetry in favourite</Text>
+                        )
+                }
+            />
         </View>
     )
 }
